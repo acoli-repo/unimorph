@@ -1,6 +1,0 @@
-[submodule "kat"]
-	path = kat
-	url = https://github.com/unimorph/kat
-[submodule "eus"]
-	path = eus
-	url = https://github.com/unimorph/eus
