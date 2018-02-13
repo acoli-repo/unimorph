@@ -1,0 +1,788 @@
+feature	pos	interpretation	comment
+ACC	ADJ	Case	
+ACC	ADJD	Case	
+ACC	ADJE	Case	
+ACC	ADJN	Case	
+ACC	ADJO	Case	
+ACC	ADJON	Case	
+ACC	ADJOS	Case	
+ACC	ADJS	Case	
+ACC	CARD	Case	
+ACC	CARDS	Case	
+ACC	DD	Case	
+ACC	DDA	Case	
+ACC	DDN	Case	
+ACC	DDREL	Case	
+ACC	DDS	Case	
+ACC	DDSREL	Case	
+ACC	DI	Case	
+ACC	DIA	Case	
+ACC	DIN	Case	
+ACC	DIS	Case	
+ACC	DPOS	Case	
+ACC	DPOSN	Case	
+ACC	DPOSS	Case	
+ACC	DWS	Case	
+ACC	NA	Case	
+ACC	NE	Case	
+ACC	NEO	Case	
+ACC	PI	Case	
+ACC	PINEG	Case	
+ACC	PPER	Case	
+ACC	PRF	Case	
+ACC	PW	Case	
+ACC	PWG	Case	
+ACC	PWREL	Case	
+ACC	VVPP	Case	
+ACC	VVPPA	Case	
+ACC	VVPPD	Case	
+ACC	VVPPN	Case	
+ACC	VVPPS	Case	
+ACC	VVPS	Case	
+ACC	VVPSA	Case	
+ACC	VVPSD	Case	
+ACC	VVPSN	Case	
+ACC	VVPSS	Case	
+DAT	ADJ	Case	
+DAT	ADJD	Case	
+DAT	ADJE	Case	
+DAT	ADJN	Case	
+DAT	ADJO	Case	
+DAT	ADJOS	Case	
+DAT	ADJS	Case	
+DAT	CARD	Case	
+DAT	CARDS	Case	
+DAT	DD	Case	
+DAT	DDA	Case	
+DAT	DDN	Case	
+DAT	DDS	Case	
+DAT	DDSREL	Case	
+DAT	DI	Case	
+DAT	DIA	Case	
+DAT	DIN	Case	
+DAT	DINEG	Case	
+DAT	DIS	Case	
+DAT	DPOS	Case	
+DAT	DPOSN	Case	
+DAT	DPOSS	Case	
+DAT	DW	Case	
+DAT	NA	Case	
+DAT	NE	Case	
+DAT	NEO	Case	
+DAT	PI	Case	
+DAT	PINEG	Case	
+DAT	PPER	Case	
+DAT	PRF	Case	
+DAT	PW	Case	
+DAT	VAINFS	Case	
+DAT	VVINFS	Case	
+DAT	VVPP	Case	
+DAT	VVPPA	Case	
+DAT	VVPPN	Case	
+DAT	VVPPS	Case	
+DAT	VVPS	Case	
+DAT	VVPSA	Case	
+DAT	VVPSN	Case	
+DAT	VVPSS	Case	
+GEN	ADJ	Case	
+GEN	ADJD	Case	
+GEN	ADJE	Case	
+GEN	ADJN	Case	
+GEN	ADJO	Case	
+GEN	ADJS	Case	
+GEN	CARD	Case	
+GEN	CARDN	Case	
+GEN	CARDS	Case	
+GEN	DD	Case	
+GEN	DDA	Case	
+GEN	DDS	Case	
+GEN	DDSREL	Case	
+GEN	DI	Case	
+GEN	DIA	Case	
+GEN	DIN	Case	
+GEN	DIS	Case	
+GEN	DPOS	Case	
+GEN	DPOSN	Case	
+GEN	DPOSS	Case	
+GEN	DW	Case	
+GEN	DWS	Case	
+GEN	DWSREL	Case	
+GEN	NA	Case	
+GEN	NE	Case	
+GEN	NEO	Case	
+GEN	PPER	Case	
+GEN	PPER,DPOS	Case	
+GEN	PRF	Case	
+GEN	PW	Case	
+GEN	VAINFS	Case	
+GEN	VVINFS	Case	
+GEN	VVPP	Case	
+GEN	VVPPA	Case	
+GEN	VVPPN	Case	
+GEN	VVPPS	Case	
+GEN	VVPS	Case	
+GEN	VVPSA	Case	
+GEN	VVPSN	Case	
+GEN	VVPSS	Case	
+INS	ADJ	Case	
+INS	ADJE	Case	
+INS	ADJS	Case	
+INS	DD	Case	
+INS	DDA	Case	
+INS	DDS	Case	
+INS	DI	Case	
+INS	DINEG	Case	
+INS	DIS	Case	
+INS	DPOS	Case	
+INS	DPOSS	Case	
+INS	NA	Case	
+INS	NE	Case	
+INS	PW	Case	
+NOM	ADJ	Case	
+NOM	ADJD	Case	
+NOM	ADJE	Case	
+NOM	ADJN	Case	
+NOM	ADJO	Case	
+NOM	ADJON	Case	
+NOM	ADJOS	Case	
+NOM	ADJOS#	Case	
+NOM	ADJS	Case	
+NOM	CARD	Case	
+NOM	CARDN	Case	
+NOM	CARDS	Case	
+NOM	DD	Case	
+NOM	DDA	Case	
+NOM	DDN	Case	
+NOM	DDS	Case	
+NOM	DDSREL	Case	
+NOM	DI	Case	
+NOM	DIA	Case	
+NOM	DINEG	Case	
+NOM	DIS	Case	
+NOM	DPOS	Case	
+NOM	DPOSN	Case	
+NOM	DW	Case	
+NOM	DWREL	Case	
+NOM	DWS	Case	
+NOM	NA	Case	
+NOM	NE	Case	
+NOM	NEO	Case	
+NOM	PI	Case	
+NOM	PINEG	Case	
+NOM	PPER	Case	
+NOM	PRF	Case	
+NOM	PW	Case	
+NOM	PWG	Case	
+NOM	VAPS	Case	
+NOM	VAPSD	Case	
+NOM	VMPS	Case	
+NOM	VVPP	Case	
+NOM	VVPPA	Case	
+NOM	VVPPD	Case	
+NOM	VVPPN	Case	
+NOM	VVPPS	Case	
+NOM	VVPS	Case	
+NOM	VVPSA	Case	
+NOM	VVPSD	Case	
+NOM	VVPSN	Case	
+NOM	VVPSS	Case	
+NOM,ACC	NA	Case	
+NOM,GEN,DAT,ACC	NA	Case	
+COMP	ADJ	Degree	
+COMP	ADJD	Degree	
+COMP	ADJN	Degree	
+COMP	ADJS	Degree	
+COMP	ADV	Degree	
+COMP	VVPS	Degree	
+POS	ADJ	Degree	
+POS	ADJD	Degree	
+POS	ADJE	Degree	
+POS	ADJN	Degree	
+POS	ADJO	Degree	
+POS	ADJON	Degree	
+POS	ADJOS	Degree	
+POS	ADJOS#	Degree	
+POS	ADJS	Degree	
+POS	DD	Degree	
+POS	DI	Degree	
+POS	DIN	Degree	
+POS	DIS	Degree	
+POS	VAPS	Degree	
+POS	VAPSD	Degree	
+POS	VMPS	Degree	
+POS	VVPP	Degree	
+POS	VVPPA	Degree	
+POS	VVPPD	Degree	
+POS	VVPPN	Degree	
+POS	VVPPS	Degree	
+POS	VVPS	Degree	
+POS	VVPSA	Degree	
+POS	VVPSADV	Degree	
+POS	VVPSD	Degree	
+POS	VVPSN	Degree	
+POS	VVPSS	Degree	
+SUP	ADJ	Degree	
+SUP	ADJN	Degree	
+SUP	ADJS	Degree	
+SUP	ADV	Degree	
+FEM	ADJ	Gender	
+FEM	ADJD	Gender	
+FEM	ADJN	Gender	
+FEM	ADJO	Gender	
+FEM	ADJON	Gender	
+FEM	ADJOS	Gender	
+FEM	ADJS	Gender	
+FEM	CARD	Gender	
+FEM	CARDN	Gender	
+FEM	CARDS	Gender	
+FEM	DD	Gender	
+FEM	DDA	Gender	
+FEM	DDN	Gender	
+FEM	DDS	Gender	
+FEM	DDSREL	Gender	
+FEM	DI	Gender	
+FEM	DIA	Gender	
+FEM	DIN	Gender	
+FEM	DINEG	Gender	
+FEM	DIS	Gender	
+FEM	DPOS	Gender	
+FEM	DPOSN	Gender	
+FEM	DPOSS	Gender	
+FEM	DW	Gender	
+FEM	DWS	Gender	
+FEM	PPER	Gender	
+FEM	PRF	Gender	
+FEM	VMPS	Gender	
+FEM	VVPP	Gender	
+FEM	VVPPA	Gender	
+FEM	VVPPD	Gender	
+FEM	VVPPN	Gender	
+FEM	VVPPS	Gender	
+FEM	VVPS	Gender	
+FEM	VVPSA	Gender	
+FEM	VVPSD	Gender	
+FEM	VVPSN	Gender	
+FEM	VVPSS	Gender	
+FEM,MASC,NEUT	ADJ	Gender	
+FEM,MASC,NEUT	DDA	Gender	
+FEM,MASC,NEUT	DI	Gender	
+FEM,MASC,NEUT	DPOS	Gender	
+FEM,NEUT	DI	Gender	
+FEM,NEUT	DPOS	Gender	
+MASC	ADJ	Gender	
+MASC	ADJD	Gender	
+MASC	ADJE	Gender	
+MASC	ADJN	Gender	
+MASC	ADJO	Gender	
+MASC	ADJON	Gender	
+MASC	ADJOS	Gender	
+MASC	ADJS	Gender	
+MASC	CARD	Gender	
+MASC	CARDS	Gender	
+MASC	DD	Gender	
+MASC	DDA	Gender	
+MASC	DDN	Gender	
+MASC	DDS	Gender	
+MASC	DDSREL	Gender	
+MASC	DI	Gender	
+MASC	DIA	Gender	
+MASC	DIN	Gender	
+MASC	DINEG	Gender	
+MASC	DIS	Gender	
+MASC	DPOS	Gender	
+MASC	DPOSN	Gender	
+MASC	DPOSS	Gender	
+MASC	DW	Gender	
+MASC	DWREL	Gender	
+MASC	DWS	Gender	
+MASC	DWSREL	Gender	
+MASC	PI	Gender	
+MASC	PINEG	Gender	
+MASC	PPER	Gender	
+MASC	PPER,DPOS	Gender	
+MASC	PRF	Gender	
+MASC	PW	Gender	
+MASC	PWG	Gender	
+MASC	VAPS	Gender	
+MASC	VAPSD	Gender	
+MASC	VVPP	Gender	
+MASC	VVPPA	Gender	
+MASC	VVPPD	Gender	
+MASC	VVPPN	Gender	
+MASC	VVPPS	Gender	
+MASC	VVPS	Gender	
+MASC	VVPSA	Gender	
+MASC	VVPSD	Gender	
+MASC	VVPSN	Gender	
+MASC	VVPSS	Gender	
+MASC,FEM	ADJ	Gender	
+MASC,FEM	DD	Gender	
+MASC,NEUT	ADJ	Gender	
+MASC,NEUT	ADJN	Gender	
+MASC,NEUT	ADJS	Gender	
+MASC,NEUT	DD	Gender	
+MASC,NEUT	DDA	Gender	
+MASC,NEUT	DI	Gender	
+MASC,NEUT	DIS	Gender	
+MASC,NEUT	DPOS	Gender	
+MASC,NEUT	DPOSN	Gender	
+MASC,NEUT	PPER	Gender	
+NEUT	VVPPA	Gender	
+NEUT	ADJ	Gender	
+NEUT	ADJD	Gender	
+NEUT	ADJE	Gender	
+NEUT	ADJN	Gender	
+NEUT	ADJO	Gender	
+NEUT	ADJOS	Gender	
+NEUT	ADJOS#	Gender	
+NEUT	ADJS	Gender	
+NEUT	CARD	Gender	
+NEUT	CARDN	Gender	
+NEUT	CARDS	Gender	
+NEUT	DD	Gender	
+NEUT	DDA	Gender	
+NEUT	DDN	Gender	
+NEUT	DDREL	Gender	
+NEUT	DDS	Gender	
+NEUT	DDSREL	Gender	
+NEUT	DI	Gender	
+NEUT	DIA	Gender	
+NEUT	DIN	Gender	
+NEUT	DINEG	Gender	
+NEUT	DIS	Gender	
+NEUT	DPOS	Gender	
+NEUT	DPOSN	Gender	
+NEUT	DPOSS	Gender	
+NEUT	DW	Gender	
+NEUT	DWS	Gender	
+NEUT	PI	Gender	
+NEUT	PINEG	Gender	
+NEUT	PPER	Gender	
+NEUT	PRF	Gender	
+NEUT	PW	Gender	
+NEUT	PWG	Gender	
+NEUT	PWREL	Gender	
+NEUT	VVPP	Gender	
+NEUT	VVPPA	Gender	
+NEUT	VVPPD	Gender	
+NEUT	VVPPN	Gender	
+NEUT	VVPPS	Gender	
+NEUT	VVPS	Gender	
+NEUT	VVPSA	Gender	
+NEUT	VVPSD	Gender	
+NEUT	VVPSN	Gender	
+NEUT	VVPSS	Gender	
+A,O	VVPP	Inflection	
+A,O	VVPPA	Inflection	
+A,O	VVPPN	Inflection	
+A,O	VVPPS	Inflection	
+JA,JO	VVPPN	Inflection	
+JA,JO	VVPS	Inflection	
+JA,JO	VVPSA	Inflection	
+JA,JO	VVPSD	Inflection	
+N	VVPPA	Inflection	
+N	VVPPN	Inflection	
+N	VVPPS	Inflection	
+N	VVPS	Inflection	
+N	VVPSA	Inflection	
+N	VVPSD	Inflection	
+N	VVPSN	Inflection	
+N	VVPSS	Inflection	
+P	ADJ	Inflection	
+P	VAPS	Inflection	
+P	VAPSD	Inflection	
+P	VMPS	Inflection	
+P	VVPP	Inflection	
+P	VVPPA	Inflection	
+P	VVPPD	Inflection	
+P	VVPPN	Inflection	
+P	VVPPS	Inflection	
+P	VVPS	Inflection	
+P	VVPSA	Inflection	
+P	VVPSD	Inflection	
+P	VVPSN	Inflection	
+P	VVPSS	Inflection	
+ST	ADJ	Inflection	
+ST	ADJD	Inflection	
+ST	ADJE	Inflection	
+ST	ADJN	Inflection	
+ST	ADJO	Inflection	
+ST	ADJOS	Inflection	
+ST	ADJS	Inflection	
+ST	CARD	Inflection	
+ST	CARDN	Inflection	
+ST	CARDS	Inflection	
+ST	DD	Inflection	
+ST	DDN	Inflection	
+ST	DDS	Inflection	
+ST	DI	Inflection	
+ST	DIA	Inflection	
+ST	DIN	Inflection	
+ST	DINEG	Inflection	
+ST	DIS	Inflection	
+ST	DPOS	Inflection	
+ST	DPOSN	Inflection	
+ST	DPOSS	Inflection	
+ST	DW	Inflection	
+ST	DWS	Inflection	
+ST	DWSREL	Inflection	
+ST	PW	Inflection	
+ST	VAPS	Inflection	
+ST	VAPSD	Inflection	
+ST	VMPS	Inflection	
+ST	VVPP	Inflection	
+ST	VVPPA	Inflection	
+ST	VVPPD	Inflection	
+ST	VVPPN	Inflection	
+ST	VVPPS	Inflection	
+ST	VVPS	Inflection	
+ST	VVPSA	Inflection	
+ST	VVPSD	Inflection	
+ST	VVPSN	Inflection	
+ST	VVPSS	Inflection	
+WK	ADJ	Inflection	
+WK	ADJD	Inflection	
+WK	ADJE	Inflection	
+WK	ADJN	Inflection	
+WK	ADJO	Inflection	
+WK	ADJON	Inflection	
+WK	ADJOS	Inflection	
+WK	ADJOS#	Inflection	
+WK	ADJS	Inflection	
+WK	CARD	Inflection	
+WK	DD	Inflection	
+WK	DDN	Inflection	
+WK	DDS	Inflection	
+WK	DI	Inflection	
+WK	DIA	Inflection	
+WK	DIS	Inflection	
+WK	DPOS	Inflection	
+WK	VVPPA	Inflection	
+WK	VVPPN	Inflection	
+WK	VVPPS	Inflection	
+WK	VVPS	Inflection	
+WK	VVPSA	Inflection	
+WK	VVPSD	Inflection	
+WK	VVPSN	Inflection	
+WK	VVPSS	Inflection	
+0	ADJ	Inflection	?
+0	ADJD	Inflection	?
+0	ADJE	Inflection	?
+0	ADJN	Inflection	?
+0	ADJOS	Inflection	?
+0	ADJS	Inflection	?
+0	CARD	Inflection	?
+0	CARDS	Inflection	?
+0	DD	Inflection	?
+0	DDS	Inflection	?
+0	DI	Inflection	?
+0	DIA	Inflection	?
+0	DINEG	Inflection	?
+0	DIS	Inflection	?
+0	DPOS	Inflection	?
+0	DPOSN	Inflection	?
+0	DW	Inflection	?
+0	DWREL	Inflection	?
+0	DWS	Inflection	?
+0	PW	Inflection	?
+0	VVPP	Inflection	?
+0	VVPPA	Inflection	?
+0	VVPPN	Inflection	?
+0	VVPPS	Inflection	?
+0	VVPS	Inflection	?
+0	VVPSA	Inflection	?
+0	VVPSD	Inflection	?
+PL	ADJ	Number	
+PL	ADJD	Number	
+PL	ADJN	Number	
+PL	ADJO	Number	
+PL	ADJOS	Number	
+PL	ADJS	Number	
+PL	CARD	Number	
+PL	CARDN	Number	
+PL	CARDS	Number	
+PL	DD	Number	
+PL	DDA	Number	
+PL	DDN	Number	
+PL	DDREL	Number	
+PL	DDS	Number	
+PL	DDSREL	Number	
+PL	DI	Number	
+PL	DIA	Number	
+PL	DIN	Number	
+PL	DIS	Number	
+PL	DPOS	Number	
+PL	DPOSN	Number	
+PL	DPOSS	Number	
+PL	DW	Number	
+PL	DWS	Number	
+PL	NA	Number	
+PL	NE	Number	
+PL	NEO	Number	
+PL	PPER	Number	
+PL	PPER,DPOS	Number	
+PL	PRF	Number	
+PL	PW	Number	
+PL	VAFIN	Number	
+PL	VAPS	Number	
+PL	VAPSD	Number	
+PL	VMFIN	Number	
+PL	VVFIN	Number	
+PL	VVIMP	Number	
+PL	VVPP	Number	
+PL	VVPPA	Number	
+PL	VVPPD	Number	
+PL	VVPPN	Number	
+PL	VVPPS	Number	
+PL	VVPS	Number	
+PL	VVPSA	Number	
+PL	VVPSD	Number	
+PL	VVPSN	Number	
+PL	VVPSS	Number	
+PL	VVVFIN	Number	
+SG	ADJ	Number	
+SG	ADJD	Number	
+SG	ADJE	Number	
+SG	ADJN	Number	
+SG	ADJO	Number	
+SG	ADJON	Number	
+SG	ADJOS	Number	
+SG	ADJOS#	Number	
+SG	ADJS	Number	
+SG	CARD	Number	
+SG	CARDN	Number	
+SG	CARDS	Number	
+SG	DD	Number	
+SG	DDA	Number	
+SG	DDN	Number	
+SG	DDS	Number	
+SG	DDSREL	Number	
+SG	DI	Number	
+SG	DIA	Number	
+SG	DIN	Number	
+SG	DINEG	Number	
+SG	DIS	Number	
+SG	DPOS	Number	
+SG	DPOSN	Number	
+SG	DPOSS	Number	
+SG	DW	Number	
+SG	DWREL	Number	
+SG	DWS	Number	
+SG	DWSREL	Number	
+SG	NA	Number	
+SG	NE	Number	
+SG	NEO	Number	
+SG	PI	Number	
+SG	PINEG	Number	
+SG	PPER	Number	
+SG	PRF	Number	
+SG	PW	Number	
+SG	PWG	Number	
+SG	PWREL	Number	
+SG	VAFIN	Number	
+SG	VAIMP	Number	
+SG	VAINFS	Number	
+SG	VMFIN	Number	
+SG	VMFUB	Number	
+SG	VMPS	Number	
+SG	VVFIN	Number	
+SG	VVIMP	Number	
+SG	VVINFS	Number	
+SG	VVPP	Number	
+SG	VVPPA	Number	
+SG	VVPPD	Number	
+SG	VVPPN	Number	
+SG	VVPPS	Number	
+SG	VVPS	Number	
+SG	VVPSA	Number	
+SG	VVPSD	Number	
+SG	VVPSN	Number	
+SG	VVPSS	Number	
+1	PPER	Person	
+1	PRF	Person	
+1	VAFIN	Person	
+1	VMFIN	Person	
+1	VVFIN	Person	
+1	VVIMP	Person	
+1	VVVFIN	Person	
+1,3	VVFIN	Person	
+2	PPER	Person	
+2	PRF	Person	
+2	VAFIN	Person	
+2	VAIMP	Person	
+2	VMFIN	Person	
+2	VVFIN	Person	
+2	VVIMP	Person	
+3	DPOS	Person	
+3	DPOSN	Person	
+3	DPOSS	Person	
+3	PPER	Person	
+3	PPER,DPOS	Person	
+3	PRF	Person	
+3	VAFIN	Person	
+3	VMFIN	Person	
+3	VMFUB	Person	
+3	VVFIN	Person	
+PAST	VAFIN	Tense	
+PAST	VMFIN	Tense	
+PAST	VVFIN	Tense	
+PRES	VAFIN	Tense	
+PRES	VAIMP	Tense	
+PRES	VMFIN	Tense	
+PRES	VMFUB	Tense	
+PRES	VVFIN	Tense	
+PRES	VVIMP	Tense	
+PRES	VVVFIN	Tense	
+IMP	VAIMP	VerbForm	
+IMP	VVFIN	VerbForm	
+IMP	VVIMP	VerbForm	
+IND	VAFIN	VerbForm	
+IND	VMFIN	VerbForm	
+IND	VMFUB	VerbForm	
+IND	VVFIN	VerbForm	
+IND	VVIMP	VerbForm	
+IND	VVVFIN	VerbForm	
+SUBJ	VAFIN	VerbForm	
+SUBJ	VMFIN	VerbForm	
+SUBJ	VVFIN	VerbForm	
+
+
+Unimorph interpretation
+
+DDD	Unimorph
+:ADJ 	um:ADJ
+:ADJD 	um:ADJ
+:ADJDE 	um:ADJ
+:ADJE 	um:ADJ
+:ADJN 	um:ADJ
+:ADJNE 	um:ADJ
+:ADJO 	um:ADJ
+:ADJON 	um:ADJ
+:ADJOS 	um:ADJ
+:ADJOS_ 	um:ADJ
+:ADJS 	um:ADJ
+:ADV 	um:ADV
+:ADVM 	um:ADV
+:ADVNEG 	um:ADV
+:ADVREL 	um:ADV
+:APPAV 	um:ADP
+:APPO 	um:ADP
+:APPR 	um:ADP
+:APPR_ 	um:ADP
+:APZR 	um:ADP
+:CARD 	um:NUM
+:CARDN 	um:NUM
+:CARDS 	um:NUM
+:DD 	um:DET
+:DDA 	um:DET
+:DDN 	um:DET
+:DDREL 	um:DET
+:DDS 	um:DET
+:DDSREL 	um:DET
+:DI 	um:DET
+:DIA 	um:DET
+:DIN 	um:DET
+:DINEG 	um:DET
+:DINEGN 	um:DET
+:DINEGS 	um:DET
+:DIS 	um:DET
+:DPOS 	um:DET
+:DPOSD 	um:DET
+:DPOSN 	um:DET
+:DPOSS 	um:DET
+:DW 	um:DET
+:DWG 	um:DET
+:DWGREL 	um:DET
+:DWREL 	um:DET
+:DWS 	um:DET
+:DWSREL 	um:DET
+:ITJ 	um:INTJ
+:KO 	um:CONJ
+:KOKOM 	um:CONJ
+:KON 	um:CONJ
+:KOUS 	um:CONJ
+:NA 	um:N
+:NE 	um:N
+:NEO 	um:N
+:PI 	um:PRO
+:PINEG 	um:PRO
+:PPER 	um:PRO
+:PPER_DPOS 	um:PRO
+:PRF 	um:PRO
+:PTKANT 	um:PART
+:PTKINT 	um:PART
+:PTKNEG 	um:PART
+:PTKREL 	um:PART
+:PTKVZ 	um:PART
+:PTKZU 	um:PART
+:PW 	um:PRO
+:PWAV 	um:PRO
+:PWAVREL 	um:PRO
+:PWG 	um:PRO
+:PWGAV 	um:PRO
+:PWGAVREL 	um:PRO
+:PWGREL 	um:PRO
+:PWREL 	um:PRO
+:PZKVZ 	um:PART
+:VAFIN 	um:V, um:FIN
+:VAIMP 	um:V, um:IMP
+:VAINF 	um:V, um:NFIN
+:VAINFS 	um:V.MSDR
+:VAPP 	um:V.PTCP, um:PST
+:VAPS 	um:V.PTCP, um:PRS
+:VAPSD 	um:V.PTCP, um:PRS
+:VMFIN 	um:V, um:FIN
+:VMFUB 	um:V
+:VMINF 	um:V, um:NFIN
+:VMINFS 	um:V.MSDR
+:VMPP 	um:V.PTCP, m:PST
+:VMPS 	um:V.PTCP, um:PRS
+:VVFIN 	um:V, um:FIN
+:VVIMP 	um:V, um:IMP
+:VVINF 	um:V, um:NFIN
+:VVINFS 	um:V.MSDR
+:VVPP 	um:V.PTCP, um:PST
+:VVPPA 	um:V.PTCP, um:PST
+:VVPPD 	um:V.PTCP, um:PST
+:VVPPN 	um:V.PTCP, um:PST
+:VVPPS 	um:V.PTCP, um:PST
+:VVPS 	um:V.PTCP, um:PRS
+:VVPSA 	um:V.PTCP, um:PRS
+:VVPSADV 	um:V.PTCP, um:PRS
+:VVPSD 	um:V.PTCP, um:PRS
+:VVPSN 	um:V.PTCP, um:PRS
+:VVPSS 	um:V.PTCP, um:PRS
+:VVVFIN 	um:V, um:FIN
+:handschr 	
+:komma 	
+:punkt 	
+:satzintern 	
+:unklar 	
+:_0	
+:_1	
+:_2	
+:_3	
+:A_O	
+:ACC	um:ACC
+:COMP	um:CMPR
+:DAT	um:DAT
+:FEM	um:FEM
+:GEN	um:GEN
+:IMP	um:IMP
+:IND	um:IND
+:INS	um:INS
+:JA_JO	
+:MASC	um:MASC
+:N	
+:NEUT	um:NEUT
+:NOM	um:NOM
+:P	
+:PAST	um:PST
+:PL	um:PL
+:POS	um:AB
+:PRES	um:PRS
+:SG	um:SG
+:ST	
+:SUBJ	um:SBJV
+:SUP	um:SPRL
+:WK	

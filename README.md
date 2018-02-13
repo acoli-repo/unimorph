@@ -7,5 +7,5 @@ Note that this is an exploratory fork and supposed to feed back into a future ve
 
  - eus/ (Basque@Unimorph)
  - gml/ (Middle Low German@ACoLi)
+ - goh/ (Middle High German@ACoLi)
  - kat/ (Georgian@Unimorph)
-

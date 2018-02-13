@@ -1,0 +1,29 @@
+PREFIX elan: <http://www.mpi.nl/tools/elan/EAFv2.7.xsd#>
+PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>
+PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+    
+# retrieve annotations and put them into a TSV ("CoNLL") file
+SELECT DISTINCT ?l ?w ?p ?i
+WHERE {
+    	?lemma a elan:lemma; elan:ANNOTATION_VALUE ?l.
+
+		?lemma ag:start/elan:TIME_VALUE/^elan:TIME_VALUE/^ag:start ?lang.
+		?lang ag:type "lang"; elan:ANNOTATION_VALUE "goh".
+
+		?lemma ag:start/elan:TIME_VALUE/^elan:TIME_VALUE/^ag:start ?word.
+		?lemma ag:end/elan:TIME_VALUE/^elan:TIME_VALUE/^ag:end ?word.
+		?word ag:type "edition"; elan:ANNOTATION_VALUE ?wordForm.
+				BIND(lcase(?wordForm) AS ?w)
+
+		?lemma ag:start/elan:TIME_VALUE/^elan:TIME_VALUE/^ag:start ?pos.
+		?lemma ag:end/elan:TIME_VALUE/^elan:TIME_VALUE/^ag:end ?pos.
+		?pos ag:type "pos"; elan:ANNOTATION_VALUE ?p.
+
+		OPTIONAL {
+			?lemma ag:start/elan:TIME_VALUE/^elan:TIME_VALUE/^ag:start ?inflection.
+			?lemma ag:end/elan:TIME_VALUE/^elan:TIME_VALUE/^ag:end ?inflection.
+			?inflection ag:type "inflection"; elan:ANNOTATION_VALUE ?i.
+		}
+		
+	}
