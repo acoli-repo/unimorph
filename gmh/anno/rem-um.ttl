@@ -1,0 +1,192 @@
+@prefix : <rem.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix um: <http://purl.org/olia/unimorph.owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<rem-um.ttl> a owl:Ontology;
+	rdfs:comment "linking between ReM annotations and Unimorph specs, note that this is partially derived from DDD"@en;
+	owl:imports <http://purl.org/olia/owl/experimental/unimorph/unimorph.owl>,
+	<rem.owl>.
+	
+:_1	skos:broader	um:firstPerson	.
+:_2	skos:broader	um:secondPerson	.
+:_3	skos:broader	um:thirdPerson	.
+:Abl	skos:broader	um:ABL	.
+:Acc	skos:broader	um:ACC	.
+:ADJ	skos:broader	um:ADJ	.
+:ADJA	skos:broader	um:ADJ	.
+:ADJD	skos:broader	um:ADJ	.
+:ADJDE	skos:broader	um:ADJ	.
+:ADJE	skos:broader	um:ADJ	.
+:ADJN	skos:broader	um:ADJ	.
+:ADJNE	skos:broader	um:ADJ	.
+:ADJO	skos:broader	um:ADJ	.
+:ADJON	skos:broader	um:ADJ	.
+:ADJOS	skos:broader	um:ADJ	.
+:ADJOS_	skos:broader	um:ADJ	.
+:ADJS	skos:broader	um:ADJ	.
+:ADV	skos:broader	um:ADV	.
+:ADVM	skos:broader	um:ADV	.
+:AVD_KO_	skos:broader	um:ADV, um:CONJ .
+:ADVNEG	skos:broader	um:ADV, um:NEG	.
+:ADVREL	skos:broader	um:ADV	.
+:Akk	skos:broader	um:ACC	.
+:APPAV	skos:broader	um:ADP, um:ADV	.
+:APPO	skos:broader	um:ADP	.
+:APPR	skos:broader	um:ADP	.
+:APPR_	skos:broader	um:ADP	.
+:APZR	skos:broader	um:ADP	.
+:AVD	skos:broader	um:ADV	.
+:AVG	skos:broader	um:ADV	.
+:AVNEG	skos:broader	um:ADV, um:NEG	.
+:AVW	skos:broader	um:ADV, um:INT	.
+:CARD	skos:broader	um:NUM	.
+:CARDA	skos:broader	um:NUM	.
+:CARDD	skos:broader	um:NUM	.
+:CARDN	skos:broader	um:NUM	.
+:CARDS	skos:broader	um:NUM	.
+:Comp	skos:broader	um:CMPR	.
+:COMP	skos:broader	um:CMPR	.
+:Dat	skos:broader	um:DAT	.
+:DD	skos:broader	um:DET, um:DEF	.
+:DDA	skos:broader	um:DET, um:DEF	.
+:DDART	skos:broader	um:DET, um:DEF	.
+:DDN	skos:broader	um:DET, um:DEF	.
+:DDREL	skos:broader	um:DET, um:DEF	.
+:DDS	skos:broader	um:DET, um:DEF	.
+:DDSREL	skos:broader	um:DET, um:DEF	.
+:DGA	skos:broader	um:DET	.
+:DGD	skos:broader	um:DET	.
+:DGN	skos:broader	um:DET	.
+:DGS	skos:broader	um:DET	.
+:DI	skos:broader	um:DET, um:INDF	.
+:DIA	skos:broader	um:DET, um:INDF	.
+:DIART	skos:broader	um:DET, um:INDF	.
+:DID	skos:broader	um:DET, um:INDF	.
+:DIN	skos:broader	um:DET, um:INDF	.
+:DINEG	skos:broader	um:DET, um:NEG, um:INDF	.
+:DINEGN	skos:broader	um:DET, um:NEG, um:INDF	.
+:DINEGS	skos:broader	um:DET, um:NEG, um:INDF	.
+:DIS	skos:broader	um:DET, um:INDF	.
+:DNEGA	skos:broader	um:DET, um:NEG	.
+:DNEGD	skos:broader	um:DET, um:NEG	.
+:DNEGN	skos:broader	um:DET, um:NEG	.
+:DNEGS	skos:broader	um:DET, um:NEG	.
+:DPOS	skos:broader	um:DET, um:PSSD	.
+:DPOSA	skos:broader	um:DET, um:PSSD	.
+:DPOSD	skos:broader	um:DET, um:PSSD	.
+:DPOSGEN	skos:broader	um:DET, um:PSSD	.
+:DPOSN	skos:broader	um:DET, um:PSSD	.
+:DPOSS	skos:broader	um:DET, um:PSSD	.
+:DRELS	skos:broader	um:DET	.
+:DW	skos:broader	um:DET, um:INT	.
+:DWA	skos:broader	um:DET, um:INT	.
+:DWD	skos:broader	um:DET, um:INT	.
+:DWG	skos:broader	um:DET, um:INT	.
+:DWGREL	skos:broader	um:DET, um:INT	.
+:DWN	skos:broader	um:DET, um:INT	.
+:DWREL	skos:broader	um:DET, um:INT	.
+:DWS	skos:broader	um:DET, um:INT	.
+:DWSREL	skos:broader	um:DET, um:INT	.
+:Fem	skos:broader	um:FEM	.
+:Gen	skos:broader	um:GEN	.
+:IMP	skos:broader	um:IMP	.
+:Ind	skos:broader	um:IND	.
+:INS	skos:broader	um:INS	.
+:Instr	skos:broader	um:INS	.
+:Ipf	skos:broader	um:IPFV	.
+:ITJ	skos:broader	um:INTJ	.
+:KO	skos:broader	um:CONJ	.
+:KO_	skos:broader	um:CONJ	.
+:KOKOM	skos:broader	um:CONJ	.
+:KON	skos:broader	um:CONJ	.
+:KOUS	skos:broader	um:CONJ	.
+:Masc	skos:broader	um:MASC	.
+:NA	skos:broader	um:N	.
+:NE	skos:broader	um:PROPN	.
+:NEO	skos:broader	um:N	.
+:NEO	skos:broader	um:PROPN	.
+:Neut	skos:broader	um:NEUT	.
+:Nom	skos:broader	um:NOM	.
+:Past	skos:broader	um:PST	.
+:PAVAP	skos:broader	um:ADP	.
+:PAVD	skos:broader	um:PRO	.
+:PAVG	skos:broader	um:PRO	.
+:PAVREL	skos:broader	um:PRO	.
+:PAVW	skos:broader	um:PRO, um:INT	.
+:PG	skos:broader	um:PRO	.
+:PI	skos:broader	um:PRO, um:IND	.
+:PINEG	skos:broader	um:PRO, um:INDF, um:NEG	.
+:Pl	skos:broader	um:PL	.
+:Pl_1	skos:broader	um:firstPerson	.
+:Pl_1	skos:broader	um:PL	.
+:Pl_2	skos:broader	um:PL	.
+:Pl_2	skos:broader	um:secondPerson	.
+:Pl_3	skos:broader	um:PL	.
+:Pl_3	skos:broader	um:thirdPerson	.
+:PNEG	skos:broader	um:NEG, um:PRO	.
+:POS	skos:broader	um:AB	.
+:Pos	skos:broader	um:AB	.
+:PPER	skos:broader	um:PRO	.
+:PPER_DPOS	skos:broader	um:PRO, um:PSSD, um:DET	.
+:Pres	skos:broader	um:PRS	.
+:PRF	skos:broader	um:PRO	.
+:PRF	skos:broader	um:REFL	.
+:PTK	skos:broader	um:PART	.
+:PTK_	skos:broader	um:PART	.
+:PTKA	skos:broader	um:PART	.
+:PTKANT	skos:broader	um:PART	.
+:PTKINT	skos:broader	um:PART, um:INT	.
+:PTKNEG	skos:broader	um:PART, um:NEG	.
+:PTKREL	skos:broader	um:PART	.
+:PTKVZ	skos:broader	um:PART	.
+:PTKZU	skos:broader	um:PART	.
+:PW	skos:broader	um:PRO, um:INT	.
+:PWAV	skos:broader	um:PRO, um:INT, um:ADV	.
+:PWAVREL	skos:broader	um:ADV, um:INT, um:PRO	.
+:PWG	skos:broader	um:PRO, um:INT	.
+:PWGAV	skos:broader	um:PRO, um:INT, um:ADV	.
+:PWGAVREL	skos:broader	um:PRO, um:INT, um:ADV	.
+:PWGREL	skos:broader	um:PRO, um:INT	.
+:PWREL	skos:broader	um:PRO, um:INT	.
+:PZKVZ	skos:broader	um:PART	.
+:satzintern	skos:broader	um:PUNCT	.
+:Sg	skos:broader	um:SG	.
+:Sg_1	skos:broader	um:SG, um:firstPerson	.
+:Sg_2	skos:broader	um:SG, um:secondPerson	.
+:Sg_3	skos:broader	um:SG, um:thirdPerson	.
+:Subj	skos:broader	um:SBJV	.
+:SUP	skos:broader	um:SPRL	.
+:Sup	skos:broader	um:SPRL	.
+:VAFIN	skos:broader	um:AUX, um:FIN	.
+:VAIMP	skos:broader	um:AUX, um:IMP	.
+:VAINF	skos:broader	um:AUX, um:NFIN	.
+:VAINFS	skos:broader	um:AUX, um:V_MSDR	.
+:VAPP	skos:broader	um:AUX, um:V_PTCP, um:PST	.
+:VAPS	skos:broader	um:AUX, um:V_PTCP, um:PRS	.
+:VAPSD	skos:broader	um:AUX, um:V_PTCP, um:PRS	.
+:VMFIN	skos:broader	um:V, um:FIN	.
+:VMFUB	skos:broader	um:V	.
+:VMINF	skos:broader	um:V, um:NFIN	.
+:VMINFS	skos:broader	um:V_MSDR	.
+:VMPP	skos:broader	um:V_PTCP, um:PST	.
+:VMPS	skos:broader	um:V_PTCP, um:PRS	.
+:VVFIN	skos:broader	um:V, um:FIN	.
+:VVIMP	skos:broader	um:V, um:IMP	.
+:VVINF	skos:broader	um:V, um:NFIN	.
+:VVINFS	skos:broader	um:V_MSDR	.
+:VVPP	skos:broader	um:V_PTCP, um:PST	.
+:VVPPA	skos:broader	um:V_PTCP, um:PST	.
+:VVPPD	skos:broader	um:V_PTCP, um:PST	.
+:VVPPN	skos:broader	um:V_PTCP, um:PST	.
+:VVPPS	skos:broader	um:V_PTCP, um:PST	.
+:VVPS	skos:broader	um:V_PTCP, um:PRS	.
+:VVPSA	skos:broader	um:V_PTCP, um:PRS	.
+:VVPSADV	skos:broader	um:ADV, um:V_PTCP, um:PRS	.
+:VVPSD	skos:broader	um:V_PTCP, um:PRS	.
+:VVPSN	skos:broader	um:V_PTCP, um:PRS	.
+:VVPSS	skos:broader	um:V_PTCP, um:PRS	.
+:VVVFIN	skos:broader	um:V, um:FIN	.

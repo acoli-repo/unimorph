@@ -18,16 +18,23 @@ all: gmh
 # DEFINE YOUR ANNOTATIONS HERE # (i.e., replace anno/ddd.owl or anno/ddd-um.ttl)
 ################################
 
-# (3) link to unimorph (continue after errors; note that we ignore INFLCLASS)
+# (3) link to unimorph (continue after errors; note that we label *both* INFL and INFLCLASS as FEATS, so that inherent case of nouns is treated like INFL annotation )
 gmh: src/gmh.tsv | ../tools/conll-rdf/run.sh
-	sed s/'$$'/'\n\n'/g src/gmh.tsv | # one word per "sentence" \
-	../tools/conll-rdf/run.sh CoNLLStreamExtractor http://ignore.me/ LEMMA WORD POS FEATS INFLCLASS | \
+	sed -e s/'$$'/'\n\n'/g src/gmh.tsv | # one word per "sentence" \
+	../tools/conll-rdf/run.sh CoNLLStreamExtractor http://ignore.me/ LEMMA WORD POS FEATS FEATS | \
 	../tools/conll-rdf/run.sh CoNLLRDFUpdater \
 		-custom -model http://purl.org/olia/owl/experimental/unimorph/unimorph.owl http://purl.org/olia/unimorph.owl \
 		-custom -model anno/rem.owl http://purl.org/olia/unimorph.owl \
 		-custom -model anno/rem-um.ttl http://purl.org/olia/unimorph.owl \
 		-updates sparql/link-rem.sparql | \
-	../tools/conll-rdf/run.sh CoNLLRDFFormatter -conll LEMMA WORD UM | egrep '^[^#]' | uniq | tee gmh
+	../tools/conll-rdf/run.sh CoNLLRDFFormatter -conll LEMMA WORD UM | \
+	egrep '^[^#]' | \
+	sed -e s/'\&amp;'/'\&'/g -e s/'\&[lg]t;'//g \
+		-e s/'\\[^\t]*'//g -e s/'\+[^\t]*'//g -e s/'\.\t'/'\t'/g -e s/'[?!0-9]'//g -e s/'\.\t'/'\t'/g -e s/'\['//g -e s/'\]'//g \
+		-e s/'\t\t'/'\t_\t'/g | \
+	grep -v '_' | \
+	sed -e s/'\t;*'/'\t'/g -e s/';*$$'//g -e s/';;*'/';'/g | \
+	uniq | tee gmh
 	
 # (2) extract tsv file with original LEMMA* WORD POS INFL INFLCLASS
 # 		* LEMMA is simplified to the longest possible version

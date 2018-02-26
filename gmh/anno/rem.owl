@@ -442,7 +442,7 @@ CC - Christian Chiarcos, chiarcos@informatik.uni-frankfurt.de</rdfs:comment>
         <rdf:type rdf:resource="#Adjektiv"/>
         <rdfs:comment xml:lang="de"
             >(undocumented, probably) Adjektiv, attributiv [HiTS]</rdfs:comment>
-        <system:hasTag>ADJ</system:hasTag>
+        <system:hasTag>ADJA</system:hasTag>
     </owl:Thing>
     
 
@@ -675,6 +675,7 @@ CC - Christian Chiarcos, chiarcos@informatik.uni-frankfurt.de</rdfs:comment>
     </owl:Thing>
     
 
+	
 
     <!-- rem.owl#AVG -->
 
@@ -1447,7 +1448,14 @@ CC - Christian Chiarcos, chiarcos@informatik.uni-frankfurt.de</rdfs:comment>
             >Konjunktion, neben- oder unterordnend [HiTS]</rdfs:comment>
     </owl:Thing>
     
+    <owl:Thing rdf:about="#AVD_KO_">
+        <rdf:type rdf:resource="#Adverb"/>
+        <rdf:type rdf:resource="#Konjunktion"/>
+        <system:hasTag>AVD-KO*</system:hasTag>
+        <rdfs:comment xml:lang="de">undocumented [ReM-data]</rdfs:comment>
+    </owl:Thing>
 
+	
 
     <!-- rem.owl#Masc -->
 
