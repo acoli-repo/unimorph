@@ -1,0 +1,78 @@
+# read TSV ("CoNLL") data drawn from DDD corpus, convert to Unimorph features using the ontologies in ../anno
+# requires annotation model, linking model and unimorph ontology to be loaded in graph <http://purl.org/olia/unimorph.owl>
+
+PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+PREFIX system: <http://purl.org/olia/system.owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX um: <http://purl.org/olia/unimorph.owl#>
+    
+# 1. retrieve POS annotations and put them into a TSV ("CoNLL") file
+# (hasTag)
+INSERT {
+	?word conll:TMP ?f.
+} WHERE {
+	?word conll:POS ?pos.
+	GRAPH <http://purl.org/olia/unimorph.owl> {
+		?ddd system:hasTag ?pos; skos:broader ?um.
+		?um um:hasLabel ?f
+	}
+};
+
+# 2. feats annotations
+# 2.a (hasTagContaining)
+INSERT {
+	?word conll:TMP ?f.
+} WHERE {
+	?word conll:FEATS ?feats.
+	GRAPH <http://purl.org/olia/unimorph.owl> {
+		?c ^system:hasTagContaining/skos:broader/um:hasLabel ?f.
+	}
+	FILTER(contains(?feats,?c))
+};
+
+# 2.b (hasTagStartingWith)
+INSERT {
+	?word conll:TMP ?f.
+} WHERE {
+	?word conll:FEATS ?feats.
+	GRAPH <http://purl.org/olia/unimorph.owl> {
+		?c ^system:hasTagStartingWith/skos:broader/um:hasLabel ?f.
+	}
+	FILTER(strstarts(?feats,?c))
+};
+
+# 2.c (hasTagEndingWith)
+INSERT {
+	?word conll:TMP ?f.
+} WHERE {
+	?word conll:FEATS ?feats.
+	GRAPH <http://purl.org/olia/unimorph.owl> {
+		?c ^system:hasTagEndingWith/skos:broader/um:hasLabel ?f.
+	}
+	FILTER(strends(?feats,?c))
+};
+
+# 2.d (hasTagMatching)
+INSERT {
+	?word conll:TMP ?f.
+} WHERE {
+	?word conll:FEATS ?feats.
+	GRAPH <http://purl.org/olia/unimorph.owl> {
+		?c ^system:hasTagMatching/skos:broader/um:hasLabel ?f.
+	}
+	FILTER(regex(?feats,?c))
+};
+
+# 3. group UM features
+INSERT {
+	?word conll:UM ?um
+} WHERE {
+	{ SELECT ?word (GROUP_CONCAT(distinct ?f; separator=";") AS ?um)
+	  WHERE {
+		?word conll:TMP ?f
+	  } GROUP BY ?word
+	}
+};
+
+# 4. pruning: we don't need to delete, we just don't export conll:TMP, conll:POS or conll:FEATS
