@@ -1,4 +1,4 @@
-# eus
+# kat: Georgian
 
 Original data from http://unimorph.github.io/, annotated according to Sylak-Glassman (2016), https://unimorph.github.io/doc/unimorph-schema.pdf.
 
