@@ -22,7 +22,7 @@ INSERT {
 # 2. feats annotations
 # 2.a (hasTagContaining)
 INSERT {
-	?word conll:TMP ?c.
+	?word conll:TMP ?f.
 } WHERE {
 	?word conll:FEATS ?feats.
 	GRAPH <http://purl.org/olia/unimorph.owl> {
