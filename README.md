@@ -6,6 +6,7 @@ This repository contains UniMorph data for several languages which are investiga
 Note that this is an exploratory fork and supposed to feed back into a future version of Unimorph.
 
  - eus/ (Basque@Unimorph)
+ - gmh/ (Middle High German@ACoLi)
  - gml/ (Middle Low German@ACoLi)
  - goh/ (Middle High German@ACoLi)
  - kat/ (Georgian@Unimorph)

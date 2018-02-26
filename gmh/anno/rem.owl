@@ -1,0 +1,2528 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY system "http://purl.org/olia/system.owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1518348572208 "rem.owl#" >
+]>
+
+
+<rdf:RDF xmlns="rem.owl#"
+     xml:base="rem.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:Ontology1518348572208="rem.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:system="http://purl.org/olia/system.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="">
+        <rdfs:comment
+            >Annotations of the Referenzkorpus Mittelhochdeutsch, derived from DDD Referenzkorpus Altdeutsch
+
+POS data follows [DDD-POS, HiTS]
+morphological annotation follows [ReM-morph]
+
+note that morphological annotations are incompatible, hence DDD morphology excluded here. Also note that a number of ReM morphological annotations could not be resolved. Apparently, these are relics from the automated pre-annotation.
+
+References:
+[DDD-POS] http://www.deutschdiachrondigital.de/dokumentation/tagset/
+[DDD-data] http://www.laudatio-repository.org/repository/corpus/ddd%3Addd-ad
+[HiTS] http://www.jlcl.org/2013_Heft1/5Dipper.pdf
+[ReM-morph] https://www.linguistics.rub.de/rem/documentation/morph.html
+
+history:
+2018-02-25 adapted for Middle High German (Referenzkorpus Mittelhochdeutsch, gmh) [CC]
+2018-02-11 created for Old High German (DDD Altdeutsch, goh) [CC]
+
+contributors:
+CC - Christian Chiarcos, chiarcos@informatik.uni-frankfurt.de</rdfs:comment>
+        <owl:imports rdf:resource="http://purl.org/olia/system.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/olia/system.owl#hasTag -->
+
+    <owl:DatatypeProperty rdf:about="&system;hasTag"/>
+    
+
+
+    <!-- http://purl.org/olia/system.owl#hasTagContaining -->
+
+    <owl:DatatypeProperty rdf:about="&system;hasTagContaining"/>
+    
+
+
+    <!-- http://purl.org/olia/system.owl#hasTier -->
+
+    <owl:DatatypeProperty rdf:about="&system;hasTier"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/olia/system.owl#Feature -->
+
+    <owl:Class rdf:about="&system;Feature"/>
+    
+
+
+    <!-- http://purl.org/olia/system.owl#UnitOfAnnotation -->
+
+    <owl:Class rdf:about="&system;UnitOfAnnotation"/>
+    
+
+
+    <!-- rem.owl#Adjektiv -->
+
+    <owl:Class rdf:about="#Adjektiv">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#AdjektivOrdinal -->
+
+    <owl:Class rdf:about="#AdjektivOrdinal">
+        <rdfs:subClassOf rdf:resource="#Adjektiv"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Adposition -->
+
+    <owl:Class rdf:about="#Adposition">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Adverb -->
+
+    <owl:Class rdf:about="#Adverb">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Determinativ -->
+
+    <owl:Class rdf:about="#Determinativ">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#DeterminativDemonstrativ -->
+
+    <owl:Class rdf:about="#DeterminativDemonstrativ">
+        <rdfs:subClassOf rdf:resource="#Determinativ"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#DeterminativIndefinit -->
+
+    <owl:Class rdf:about="#DeterminativIndefinit">
+        <rdfs:subClassOf rdf:resource="#Determinativ"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#DeterminativInterrogativ -->
+
+    <owl:Class rdf:about="#DeterminativInterrogativ">
+        <rdfs:subClassOf rdf:resource="#Determinativ"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#DeterminativPossessiv -->
+
+    <owl:Class rdf:about="#DeterminativPossessiv">
+        <rdfs:subClassOf rdf:resource="#Determinativ"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Flexionstyp -->
+
+    <owl:Class rdf:about="#Flexionstyp">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Fremdsprachlich -->
+
+    <owl:Class rdf:about="#Fremdsprachlich">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Genus -->
+
+    <owl:Class rdf:about="#Genus">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Interjektion -->
+
+    <owl:Class rdf:about="#Interjektion">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Interpunktion -->
+
+    <owl:Class rdf:about="#Interpunktion">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Kardinalzahl -->
+
+    <owl:Class rdf:about="#Kardinalzahl">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Kasus -->
+
+    <owl:Class rdf:about="#Kasus">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Komparation -->
+
+    <owl:Class rdf:about="#Komparation">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Konjunktion -->
+
+    <owl:Class rdf:about="#Konjunktion">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Modus -->
+
+    <owl:Class rdf:about="#Modus">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Nomen -->
+
+    <owl:Class rdf:about="#Nomen">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#NomenApellativ -->
+
+    <owl:Class rdf:about="#NomenApellativ">
+        <rdfs:subClassOf rdf:resource="#Nomen"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#NomenEigenname -->
+
+    <owl:Class rdf:about="#NomenEigenname">
+        <rdfs:subClassOf rdf:resource="#Nomen"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Numerus_Person -->
+
+    <owl:Class rdf:about="#Numerus_Person">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#POS -->
+
+    <owl:Class rdf:about="#POS">
+        <rdfs:subClassOf rdf:resource="&system;UnitOfAnnotation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&system;hasTier"/>
+                <owl:hasValue>pos</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="de"
+            >Das Projekt verwendet eine Erweiterung des Stuttgart-T&#252;bingen-Tagsets (STTS). Eine Auflistung der im DDDTS enthaltenen Part-of-Speech-Tags finden Sie hier [http://www.deutschdiachrondigital.de/data/home/manual/dateien/TagSetPos.pdf]. [DDD-POS]</rdfs:comment>
+        <owl:versionInfo
+            >the hierarchical structure follows http://www.laudatio-repository.org/repository/corpus/ddd%3Addd-ad:
+&quot;Beleg&quot; corresponds to individuals, &quot;Lemma&quot; corresponds to groups, higher levels derived from the description</owl:versionInfo>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Partikel -->
+
+    <owl:Class rdf:about="#Partikel">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Person -->
+
+    <owl:Class rdf:about="#Person">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Pronomen -->
+
+    <owl:Class rdf:about="#Pronomen">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#PronomenIndefinit -->
+
+    <owl:Class rdf:about="#PronomenIndefinit">
+        <rdfs:subClassOf rdf:resource="#Pronomen"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#PronomenInterrogativ -->
+
+    <owl:Class rdf:about="#PronomenInterrogativ">
+        <rdfs:subClassOf rdf:resource="#Pronomen"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#PronomenPersonal -->
+
+    <owl:Class rdf:about="#PronomenPersonal">
+        <rdfs:subClassOf rdf:resource="#Pronomen"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#PronomenReflexiv -->
+
+    <owl:Class rdf:about="#PronomenReflexiv">
+        <rdfs:subClassOf rdf:resource="#Pronomen"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Tempus -->
+
+    <owl:Class rdf:about="#Tempus">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Tense -->
+
+    <owl:Class rdf:about="#Tense">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Verb -->
+
+    <owl:Class rdf:about="#Verb">
+        <rdfs:subClassOf rdf:resource="#POS"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#VerbAuxiliar -->
+
+    <owl:Class rdf:about="#VerbAuxiliar">
+        <rdfs:subClassOf rdf:resource="#Verb"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#VerbForm -->
+
+    <owl:Class rdf:about="#VerbForm">
+        <rdfs:subClassOf rdf:resource="&system;Feature"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#VerbModal -->
+
+    <owl:Class rdf:about="#VerbModal">
+        <rdfs:subClassOf rdf:resource="#Verb"/>
+    </owl:Class>
+    
+
+
+    <!-- rem.owl#Vollverb -->
+
+    <owl:Class rdf:about="#Vollverb">
+        <rdfs:subClassOf rdf:resource="#Verb"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- rem.owl#ADJ -->
+
+    <Adjektiv rdf:about="#ADJ">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>ADJ</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, attributiv [DDD-POS]</rdfs:comment>
+    </Adjektiv>
+    
+
+
+    <!-- rem.owl#ADJA -->
+
+    <owl:Thing rdf:about="#ADJA">
+        <rdf:type rdf:resource="#Adjektiv"/>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Adjektiv, attributiv [HiTS]</rdfs:comment>
+        <system:hasTag>ADJ</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#ADJD -->
+
+    <owl:Thing rdf:about="#ADJD">
+        <rdf:type rdf:resource="#Adjektiv"/>
+        <system:hasTag>ADJD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, pr&#228;dikativ [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, pr&#228;dikativ oder adverbial [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#ADJDE -->
+
+    <Adjektiv rdf:about="#ADJDE">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>ADJDE</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, pr&#228;dikativ oder adverbial, Teil eines Eigennamens [DDD-POS]</rdfs:comment>
+    </Adjektiv>
+    
+
+
+    <!-- rem.owl#ADJE -->
+
+    <Adjektiv rdf:about="#ADJE">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>ADJE</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, attributiv, Teil eines Eigennamens [DDD-POS]</rdfs:comment>
+    </Adjektiv>
+    
+
+
+    <!-- rem.owl#ADJN -->
+
+    <owl:Thing rdf:about="#ADJN">
+        <rdf:type rdf:resource="#Adjektiv"/>
+        <system:hasTag>ADJN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, attributiv, nachgestellt [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, attributiv, nachgestellt [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#ADJNE -->
+
+    <owl:Thing rdf:about="#ADJNE">
+        <rdf:type rdf:resource="#Adjektiv"/>
+        <system:hasTag>ADJNE</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, attributiv, nachgestellt, Teil eines Eigennamens [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#ADJO -->
+
+    <AdjektivOrdinal rdf:about="#ADJO">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>ADJO</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, ordinal, attributiv [DDD-POS]</rdfs:comment>
+    </AdjektivOrdinal>
+    
+
+
+    <!-- rem.owl#ADJON -->
+
+    <owl:Thing rdf:about="#ADJON">
+        <rdf:type rdf:resource="#AdjektivOrdinal"/>
+        <system:hasTag>ADJON</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, ordinal, attributiv, nachgestellt [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#ADJOS -->
+
+    <AdjektivOrdinal rdf:about="#ADJOS">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>ADJOS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, ordinal, substantiviert [DDD-POS]</rdfs:comment>
+    </AdjektivOrdinal>
+    
+
+
+    <!-- rem.owl#ADJOS_ -->
+
+    <owl:Thing rdf:about="#ADJOS_">
+        <rdf:type rdf:resource="#AdjektivOrdinal"/>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Adjektiv, ordinal, substantiviert [DDD-POS]</rdfs:comment>
+        <system:hasTag>ADJOS#</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#ADJS -->
+
+    <owl:Thing rdf:about="#ADJS">
+        <rdf:type rdf:resource="#Adjektiv"/>
+        <system:hasTag>ADJS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, substantiviert [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Adjektiv, substituierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#ADV -->
+
+    <Adverb rdf:about="#ADV">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>ADV</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adverb [DDD-POS]</rdfs:comment>
+    </Adverb>
+    
+
+
+    <!-- rem.owl#ADVM -->
+
+    <Adverb rdf:about="#ADVM">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>ADVM</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adverb, multiplikativ [DDD-POS]</rdfs:comment>
+    </Adverb>
+    
+
+
+    <!-- rem.owl#ADVNEG -->
+
+    <owl:Thing rdf:about="#ADVNEG">
+        <rdf:type rdf:resource="#Adverb"/>
+        <system:hasTag>ADVNEG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adverb, negativ [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#ADVREL -->
+
+    <owl:Thing rdf:about="#ADVREL">
+        <rdf:type rdf:resource="#Adverb"/>
+        <system:hasTag>ADVREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Relativadverb [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#APPAV -->
+
+    <Adposition rdf:about="#APPAV">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>APPAV</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) adverbial gebrauchte Adposition [DDD-POS]</rdfs:comment>
+    </Adposition>
+    
+
+
+    <!-- rem.owl#APPO -->
+
+    <Adposition rdf:about="#APPO">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>APPO</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Postposition [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Postposition [HiTS]</rdfs:comment>
+    </Adposition>
+    
+
+
+    <!-- rem.owl#APPR -->
+
+    <Adposition rdf:about="#APPR">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>APPR</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pr&#228;position [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Pr&#228;position; Zirkumposition links [DDD-POS]</rdfs:comment>
+    </Adposition>
+    
+
+
+    <!-- rem.owl#APPR_ -->
+
+    <Adposition rdf:about="#APPR_">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>APPR?</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Pr&#228;position; Zirkumposition links [DDD-POS]</rdfs:comment>
+    </Adposition>
+    
+
+
+    <!-- rem.owl#APZR -->
+
+    <owl:Thing rdf:about="#APZR">
+        <rdf:type rdf:resource="#Adposition"/>
+        <system:hasTag>APZR</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Zirkumposition rechts [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#AVD -->
+
+    <owl:Thing rdf:about="#AVD">
+        <rdf:type rdf:resource="#Adverb"/>
+        <system:hasTag>AVD</system:hasTag>
+        <rdfs:comment xml:lang="de">Adverb [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#AVG -->
+
+    <owl:Thing rdf:about="#AVG">
+        <rdf:type rdf:resource="#Adverb"/>
+        <system:hasTag>AVG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Relativadverb, generalisierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#AVNEG -->
+
+    <owl:Thing rdf:about="#AVNEG">
+        <rdf:type rdf:resource="#Adverb"/>
+        <system:hasTag>AVNEG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adverb, negativ [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#AVW -->
+
+    <owl:Thing rdf:about="#AVW">
+        <rdf:type rdf:resource="#Adverb"/>
+        <system:hasTag>AVW</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Adverb, interrogativ [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Abl -->
+
+    <Kasus rdf:about="#Abl">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Abl</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Ablativ [ReM-morph]</rdfs:comment>
+    </Kasus>
+    
+
+
+    <!-- rem.owl#Acc -->
+
+    <owl:Thing rdf:about="#Acc">
+        <rdf:type rdf:resource="#Kasus"/>
+        <system:hasTagContaining>Acc</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Akkusativ [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Akk -->
+
+    <Kasus rdf:about="#Akk">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Akkusativ [ReM-morph]</rdfs:comment>
+        <system:hasTagContaining>Akk</system:hasTagContaining>
+    </Kasus>
+    
+
+
+    <!-- rem.owl#CARD -->
+
+    <Kardinalzahl rdf:about="#CARD">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>CARD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Kardinalzahl, attribuierend [DDD-POS]</rdfs:comment>
+    </Kardinalzahl>
+    
+
+
+    <!-- rem.owl#CARDA -->
+
+    <owl:Thing rdf:about="#CARDA">
+        <rdf:type rdf:resource="#Kardinalzahl"/>
+        <system:hasTag>CARDA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Kardinalzahl, attributiv, vorangestellt [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#CARDD -->
+
+    <Kardinalzahl rdf:about="#CARDD">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>CARDD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Kardinalzahl, pr&#228;dikativ [HiTS]</rdfs:comment>
+    </Kardinalzahl>
+    
+
+
+    <!-- rem.owl#CARDN -->
+
+    <owl:Thing rdf:about="#CARDN">
+        <rdf:type rdf:resource="#Kardinalzahl"/>
+        <system:hasTag>CARDN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Kardinalzahl, attribuierend, nachgestellt [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Kardinalzahl, attributiv, nachgestellt [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#CARDS -->
+
+    <owl:Thing rdf:about="#CARDS">
+        <rdf:type rdf:resource="#Kardinalzahl"/>
+        <system:hasTag>CARDS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Kardinalzahl (auch Ziffern), substituierend [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Kardinalzahl, substituierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Comp -->
+
+    <owl:Thing rdf:about="#Comp">
+        <rdf:type rdf:resource="#Komparation"/>
+        <system:hasTagContaining>Comp</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Comparativ [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DD -->
+
+    <owl:Thing rdf:about="#DD">
+        <rdf:type rdf:resource="#DeterminativDemonstrativ"/>
+        <system:hasTag>DD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit/demonstrativ, [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DDA -->
+
+    <DeterminativDemonstrativ rdf:about="#DDA">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DDA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit, artikelartig [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit, attributiv, vorangestellt (ad.) [HiTS]</rdfs:comment>
+    </DeterminativDemonstrativ>
+    
+
+
+    <!-- rem.owl#DDART -->
+
+    <DeterminativDemonstrativ rdf:about="#DDART">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DDART</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit, artikelartig (mhd.) [HiTS]</rdfs:comment>
+    </DeterminativDemonstrativ>
+    
+
+
+    <!-- rem.owl#DDD -->
+
+    <owl:Thing rdf:about="#DDD">
+        <rdf:type rdf:resource="#DeterminativDemonstrativ"/>
+        <system:hasTag>DDD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit/demonstrativ, pr&#228;dikativ [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DDN -->
+
+    <DeterminativDemonstrativ rdf:about="#DDN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DDN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit/demonstrativ, attributiv, nachgestellt [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit/demonstrativ, nachgestellt [DDD-POS]</rdfs:comment>
+    </DeterminativDemonstrativ>
+    
+
+
+    <!-- rem.owl#DDREL -->
+
+    <DeterminativDemonstrativ rdf:about="#DDREL">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DDREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit/ demonstrativ/relativ [DDD-POS]</rdfs:comment>
+    </DeterminativDemonstrativ>
+    
+
+
+    <!-- rem.owl#DDS -->
+
+    <owl:Thing rdf:about="#DDS">
+        <rdf:type rdf:resource="#DeterminativDemonstrativ"/>
+        <system:hasTag>DDS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit/demonstrativ, substituierend [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit/demonstrativ, substituierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DDSREL -->
+
+    <owl:Thing rdf:about="#DDSREL">
+        <rdf:type rdf:resource="#DeterminativDemonstrativ"/>
+        <system:hasTag>DDSREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, definit/demonstrativ, substituierend, relativ [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DGA -->
+
+    <Determinativ rdf:about="#DGA">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DGA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, generalisierend, attributiv, vorangestellt [HiTS]</rdfs:comment>
+    </Determinativ>
+    
+
+
+    <!-- rem.owl#DGD -->
+
+    <owl:Thing rdf:about="#DGD">
+        <rdf:type rdf:resource="#Determinativ"/>
+        <system:hasTag>DGD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, generalisierend, pr&#228;dikativ [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DGN -->
+
+    <Determinativ rdf:about="#DGN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DGN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, generalisierend, attributiv, nachgestellt [HiTS]</rdfs:comment>
+    </Determinativ>
+    
+
+
+    <!-- rem.owl#DGS -->
+
+    <owl:Thing rdf:about="#DGS">
+        <rdf:type rdf:resource="#Determinativ"/>
+        <system:hasTag>DGS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, generalisierend, substituierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DI -->
+
+    <owl:Thing rdf:about="#DI">
+        <rdf:type rdf:resource="#DeterminativIndefinit"/>
+        <system:hasTag>DI</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, (mit und ohne Determiner) [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DIA -->
+
+    <DeterminativIndefinit rdf:about="#DIA">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DIA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, artikelartig [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, attributiv, vorangestellt (ad.) [HiTS]</rdfs:comment>
+    </DeterminativIndefinit>
+    
+
+
+    <!-- rem.owl#DIART -->
+
+    <owl:Thing rdf:about="#DIART">
+        <rdf:type rdf:resource="#DeterminativIndefinit"/>
+        <system:hasTag>DIART</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, artikelartig (mhd.) [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DID -->
+
+    <DeterminativIndefinit rdf:about="#DID">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DID</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, pr&#228;dikativ [HiTS]</rdfs:comment>
+    </DeterminativIndefinit>
+    
+
+
+    <!-- rem.owl#DIN -->
+
+    <owl:Thing rdf:about="#DIN">
+        <rdf:type rdf:resource="#DeterminativIndefinit"/>
+        <system:hasTag>DIN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, attributiv, nachgestellt [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, nachgestellt [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DINEG -->
+
+    <owl:Thing rdf:about="#DINEG">
+        <rdf:type rdf:resource="#DeterminativIndefinit"/>
+        <system:hasTag>DINEG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, (mit und ohne Determiner), negativ [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DINEGN -->
+
+    <DeterminativIndefinit rdf:about="#DINEGN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DINEGN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, negativ, nachgestellt [DDD-POS]</rdfs:comment>
+    </DeterminativIndefinit>
+    
+
+
+    <!-- rem.owl#DINEGS -->
+
+    <owl:Thing rdf:about="#DINEGS">
+        <rdf:type rdf:resource="#DeterminativIndefinit"/>
+        <system:hasTag>DINEGS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, negativ, substituierend [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DIS -->
+
+    <DeterminativIndefinit rdf:about="#DIS">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DIS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, substituierend [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, indefinit, substituierend [HiTS]</rdfs:comment>
+    </DeterminativIndefinit>
+    
+
+
+    <!-- rem.owl#DNEGA -->
+
+    <owl:Thing rdf:about="#DNEGA">
+        <rdf:type rdf:resource="#DeterminativIndefinit"/>
+        <system:hasTag>DNEGA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, negativ, attributiv, vorangestellt [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DNEGD -->
+
+    <owl:Thing rdf:about="#DNEGD">
+        <rdf:type rdf:resource="#DeterminativIndefinit"/>
+        <system:hasTag>DNEGD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, negativ, pr&#228;dikativ [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DNEGN -->
+
+    <DeterminativIndefinit rdf:about="#DNEGN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DNEGN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, negativ, attributiv, nachgestellt [HiTS]</rdfs:comment>
+    </DeterminativIndefinit>
+    
+
+
+    <!-- rem.owl#DNEGS -->
+
+    <owl:Thing rdf:about="#DNEGS">
+        <rdf:type rdf:resource="#DeterminativIndefinit"/>
+        <system:hasTag>DNEGS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, negativ, substituierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DPOS -->
+
+    <owl:Thing rdf:about="#DPOS">
+        <rdf:type rdf:resource="#DeterminativPossessiv"/>
+        <system:hasTag>DPOS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, possessiv [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Sonderfall: Genitiv des PPER als DPOS [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DPOSA -->
+
+    <owl:Thing rdf:about="#DPOSA">
+        <rdf:type rdf:resource="#DeterminativPossessiv"/>
+        <system:hasTag>DPOSA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, possessiv, attributiv, vorangestellt [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DPOSD -->
+
+    <DeterminativPossessiv rdf:about="#DPOSD">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DPOSD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, possessiv, pr&#228;dikativ [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, possessiv, pr&#228;dikativ oder adverbial [DDD-POS]</rdfs:comment>
+    </DeterminativPossessiv>
+    
+
+
+    <!-- rem.owl#DPOSGEN -->
+
+    <owl:Thing rdf:about="#DPOSGEN">
+        <rdf:type rdf:resource="#DeterminativPossessiv"/>
+        <system:hasTag>DPOSGEN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, personal-possessiv, Genitiv [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DPOSN -->
+
+    <owl:Thing rdf:about="#DPOSN">
+        <rdf:type rdf:resource="#DeterminativPossessiv"/>
+        <system:hasTag>DPOSN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, possessiv, attributiv, nachgestellt [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, possessiv, nachgestellt [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DPOSS -->
+
+    <DeterminativPossessiv rdf:about="#DPOSS">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DPOSS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, possessiv, substituierend [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, possessiv, substituierend [HiTS]</rdfs:comment>
+    </DeterminativPossessiv>
+    
+
+
+    <!-- rem.owl#DRELS -->
+
+    <owl:Thing rdf:about="#DRELS">
+        <rdf:type rdf:resource="#DeterminativInterrogativ"/>
+        <system:hasTag>DRELS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, relativisch, substituierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DW -->
+
+    <DeterminativInterrogativ rdf:about="#DW">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DW</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, interrogativ [DDD-POS]</rdfs:comment>
+    </DeterminativInterrogativ>
+    
+
+
+    <!-- rem.owl#DWA -->
+
+    <DeterminativInterrogativ rdf:about="#DWA">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DWA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, interrogativ, attributiv, vorangestellt [HiTS]</rdfs:comment>
+    </DeterminativInterrogativ>
+    
+
+
+    <!-- rem.owl#DWD -->
+
+    <owl:Thing rdf:about="#DWD">
+        <rdf:type rdf:resource="#DeterminativInterrogativ"/>
+        <system:hasTag>DWD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, interrogativ, pr&#228;dikativ [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DWG -->
+
+    <owl:Thing rdf:about="#DWG">
+        <rdf:type rdf:resource="#DeterminativInterrogativ"/>
+        <system:hasTag>DWG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, (interrogativ,) generalisierend, attributiv [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DWGREL -->
+
+    <owl:Thing rdf:about="#DWGREL">
+        <rdf:type rdf:resource="#DeterminativInterrogativ"/>
+        <system:hasTag>DWGREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, (interrogativ,) generalisierend, relativ [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DWN -->
+
+    <DeterminativInterrogativ rdf:about="#DWN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DWN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, interrogativ, attributiv, nachgestellt [HiTS]</rdfs:comment>
+    </DeterminativInterrogativ>
+    
+
+
+    <!-- rem.owl#DWREL -->
+
+    <DeterminativInterrogativ rdf:about="#DWREL">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DWREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, interrogativ, relativ [DDD-POS]</rdfs:comment>
+    </DeterminativInterrogativ>
+    
+
+
+    <!-- rem.owl#DWS -->
+
+    <owl:Thing rdf:about="#DWS">
+        <rdf:type rdf:resource="#DeterminativInterrogativ"/>
+        <system:hasTag>DWS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, interrogativ, substituierend [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, interrogativ, substituierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#DWSREL -->
+
+    <DeterminativInterrogativ rdf:about="#DWSREL">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>DWSREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Determinativ, interrogativ, substituierend, relativ [DDD-POS]</rdfs:comment>
+    </DeterminativInterrogativ>
+    
+
+
+    <!-- rem.owl#Dat -->
+
+    <Kasus rdf:about="#Dat">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Dat</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Dativ [ReM-morph]</rdfs:comment>
+    </Kasus>
+    
+
+
+    <!-- rem.owl#FM -->
+
+    <owl:Thing rdf:about="#FM">
+        <rdf:type rdf:resource="#Fremdsprachlich"/>
+        <system:hasTag>FM</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Fremdsprachliches Material [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Fem -->
+
+    <Genus rdf:about="#Fem">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Fem</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Femininum [ReM-morph]</rdfs:comment>
+    </Genus>
+    
+
+
+    <!-- rem.owl#Fem_Neut -->
+
+    <Genus rdf:about="#Fem_Neut">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Fem,Neut</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Femininum oder Neutrum (unterspezifiziert) [ReM-morph]</rdfs:comment>
+    </Genus>
+    
+
+
+    <!-- rem.owl#Gen -->
+
+    <Kasus rdf:about="#Gen">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Gen</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Genitiv [ReM-morph]</rdfs:comment>
+    </Kasus>
+    
+
+
+    <!-- rem.owl#ITJ -->
+
+    <Interjektion rdf:about="#ITJ">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>ITJ</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Interjektion [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Interjektion [HiTS]</rdfs:comment>
+    </Interjektion>
+    
+
+
+    <!-- rem.owl#Ind -->
+
+    <Modus rdf:about="#Ind">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >(Ind) dem Kontext nach Indikativ; Form k&#246;nnte ausdrucksseitig auch Konjunktiv sein [ReM-morph]</rdfs:comment>
+        <system:hasTagContaining>Ind</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Ind: Indikativ [ReM-morph]</rdfs:comment>
+    </Modus>
+    
+
+
+    <!-- rem.owl#Instr -->
+
+    <owl:Thing rdf:about="#Instr">
+        <rdf:type rdf:resource="#Kasus"/>
+        <system:hasTagContaining>Instr</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Instrumental [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Ipf -->
+
+    <Tempus rdf:about="#Ipf">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >Imperfekt [ReM-morph]</rdfs:comment>
+        <system:hasTagContaining>Ipf</system:hasTagContaining>
+    </Tempus>
+    
+
+
+    <!-- rem.owl#KO -->
+
+    <Konjunktion rdf:about="#KO">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>KO</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Konjunktion [DDD-POS]</rdfs:comment>
+    </Konjunktion>
+    
+
+
+    <!-- rem.owl#KOKOM -->
+
+    <Konjunktion rdf:about="#KOKOM">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>KOKOM</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Vergleichspartikel  [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Vergleichspartikel [HiTS]</rdfs:comment>
+    </Konjunktion>
+    
+
+
+    <!-- rem.owl#KON -->
+
+    <Konjunktion rdf:about="#KON">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>KON</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Konjunktion, nebenordnend [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Konjunktion, nebenordnend [HiTS]</rdfs:comment>
+    </Konjunktion>
+    
+
+
+    <!-- rem.owl#KOUS -->
+
+    <Konjunktion rdf:about="#KOUS">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>KOUS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Konjunktion, unterordnend [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Konjunktion, vergleichend oder unterordnend mit Satz [DDD-POS]</rdfs:comment>
+    </Konjunktion>
+    
+
+
+    <!-- rem.owl#KO_ -->
+
+    <owl:Thing rdf:about="#KO_">
+        <rdf:type rdf:resource="#Konjunktion"/>
+        <system:hasTag>KO*</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Konjunktion, neben- oder unterordnend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Masc -->
+
+    <owl:Thing rdf:about="#Masc">
+        <rdf:type rdf:resource="#Genus"/>
+        <system:hasTagContaining>Masc</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Maskulinum [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Masc_Fem -->
+
+    <owl:Thing rdf:about="#Masc_Fem">
+        <rdf:type rdf:resource="#Genus"/>
+        <system:hasTagContaining>Masc,Fem</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Maskulinum oder Femininum (unterspezifiziert) [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Masc_Neut -->
+
+    <owl:Thing rdf:about="#Masc_Neut">
+        <rdf:type rdf:resource="#Genus"/>
+        <system:hasTagContaining>Masc,Neut</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Maskulinum oder Neutrum (unterspezifiziert) [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#NA -->
+
+    <NomenApellativ rdf:about="#NA">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>NA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Nomen appelativum [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Nomen, Appellativ (aus Eigenname) [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Nomen, appellativ [DDD-POS]</rdfs:comment>
+    </NomenApellativ>
+    
+
+
+    <!-- rem.owl#NE -->
+
+    <owl:Thing rdf:about="#NE">
+        <rdf:type rdf:resource="#NomenEigenname"/>
+        <system:hasTag>NE</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Eigenname [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Nomen, Eigenname (aus Appellativ) [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Nomen, Eigenname [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#NEO -->
+
+    <owl:Thing rdf:about="#NEO">
+        <rdf:type rdf:resource="#NomenEigenname"/>
+        <system:hasTag>NEO</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Nomen, Eigenname, Ort [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Neut -->
+
+    <Genus rdf:about="#Neut">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Neut</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Neutrum [ReM-morph]</rdfs:comment>
+    </Genus>
+    
+
+
+    <!-- rem.owl#Nom -->
+
+    <owl:Thing rdf:about="#Nom">
+        <rdf:type rdf:resource="#Kasus"/>
+        <system:hasTagContaining>Nom</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Nominativ [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PAVAP -->
+
+    <Adposition rdf:about="#PAVAP">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PAVAP</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronominaladverb, pr&#228;positionaler Teil [HiTS]</rdfs:comment>
+    </Adposition>
+    
+
+
+    <!-- rem.owl#PAVD -->
+
+    <PronomenPersonal rdf:about="#PAVD">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PAVD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronominaladverb, pronominaler Teil [HiTS]</rdfs:comment>
+    </PronomenPersonal>
+    
+
+
+    <!-- rem.owl#PAVG -->
+
+    <Pronomen rdf:about="#PAVG">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PAVG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronominaladverb, pronominaler Teil, generalisierend [HiTS]</rdfs:comment>
+    </Pronomen>
+    
+
+
+    <!-- rem.owl#PAVREL -->
+
+    <PronomenInterrogativ rdf:about="#PAVREL">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PAVREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronominaladverb, pronominaler Teil, relativisch [HiTS]</rdfs:comment>
+    </PronomenInterrogativ>
+    
+
+
+    <!-- rem.owl#PAVW -->
+
+    <PronomenInterrogativ rdf:about="#PAVW">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PAVW</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronominaladverb, pronominaler Teil, interrogativ [HiTS]</rdfs:comment>
+    </PronomenInterrogativ>
+    
+
+
+    <!-- rem.owl#PG -->
+
+    <owl:Thing rdf:about="#PG">
+        <rdf:type rdf:resource="#Pronomen"/>
+        <system:hasTag>PG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, generalisierend [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PI -->
+
+    <owl:Thing rdf:about="#PI">
+        <rdf:type rdf:resource="#PronomenIndefinit"/>
+        <system:hasTag>PI</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, indefinit (aus Substantiv) [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, indefinit [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, indefinit [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PINEG -->
+
+    <owl:Thing rdf:about="#PINEG">
+        <rdf:type rdf:resource="#PronomenIndefinit"/>
+        <system:hasTag>PINEG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, indefinit, negativ [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PNEG -->
+
+    <owl:Thing rdf:about="#PNEG">
+        <system:hasTag>PNEG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, indefinit, negativ [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PPER -->
+
+    <PronomenPersonal rdf:about="#PPER">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PPER</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, personal, irreflexiv (auch Pronomen im Objekt-Genitiv) [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, personal, irreflexiv [HiTS]</rdfs:comment>
+    </PronomenPersonal>
+    
+
+
+    <!-- rem.owl#PPER_DPOS -->
+
+    <PronomenPersonal rdf:about="#PPER_DPOS">
+        <rdf:type rdf:resource="#DeterminativPossessiv"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PPER,DPOS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Sonderfall: Genitiv des PPER als DPOS [DDD-POS]</rdfs:comment>
+    </PronomenPersonal>
+    
+
+
+    <!-- rem.owl#PRF -->
+
+    <owl:Thing rdf:about="#PRF">
+        <rdf:type rdf:resource="#PronomenReflexiv"/>
+        <system:hasTag>PRF</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, personal, reflexiv [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, personal, reflexiv [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, reflexiv [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PTK -->
+
+    <owl:Thing rdf:about="#PTK">
+        <rdf:type rdf:resource="#Partikel"/>
+        <system:hasTag>PTK</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Partikel [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PTKA -->
+
+    <Partikel rdf:about="#PTKA">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PTKA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Partikel bei Adjektiv oder Adverb [HiTS]</rdfs:comment>
+    </Partikel>
+    
+
+
+    <!-- rem.owl#PTKANT -->
+
+    <Partikel rdf:about="#PTKANT">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PTKANT</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Antwortpartikel [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Antwortpartikel [HiTS]</rdfs:comment>
+    </Partikel>
+    
+
+
+    <!-- rem.owl#PTKINT -->
+
+    <Partikel rdf:about="#PTKINT">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >Fragepartikel (ad.) [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Indefinitpartikel [DDD-POS]</rdfs:comment>
+        <system:hasTag>PTKINT</system:hasTag>
+    </Partikel>
+    
+
+
+    <!-- rem.owl#PTKNEG -->
+
+    <Partikel rdf:about="#PTKNEG">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >Negationspartikel [DDD-POS]</rdfs:comment>
+        <system:hasTag>PTKNEG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Negationspartikel [HiTS]</rdfs:comment>
+    </Partikel>
+    
+
+
+    <!-- rem.owl#PTKREL -->
+
+    <Partikel rdf:about="#PTKREL">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PTKREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Relativpartikel [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Relativpartikel [HiTS]</rdfs:comment>
+    </Partikel>
+    
+
+
+    <!-- rem.owl#PTKVZ -->
+
+    <Partikel rdf:about="#PTKVZ">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PTKVZ</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Verbzusatz [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >abgetrennter Verbzusatz [DDD-POS]</rdfs:comment>
+    </Partikel>
+    
+
+
+    <!-- rem.owl#PTKZU -->
+
+    <owl:Thing rdf:about="#PTKZU">
+        <rdf:type rdf:resource="#Partikel"/>
+        <system:hasTag>PTKZU</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >?zu? vor Infinitiv [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PTK_ -->
+
+    <owl:Thing rdf:about="#PTK_">
+        <rdf:type rdf:resource="#Partikel"/>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Partikel [HiTS]</rdfs:comment>
+        <system:hasTag>PTK*</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PW -->
+
+    <PronomenInterrogativ rdf:about="#PW">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PW</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, interrogativ [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, interrogativ [HiTS]</rdfs:comment>
+    </PronomenInterrogativ>
+    
+
+
+    <!-- rem.owl#PWAV -->
+
+    <PronomenInterrogativ rdf:about="#PWAV">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PWAV</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, interrogativ, adverbial [DDD-POS]</rdfs:comment>
+    </PronomenInterrogativ>
+    
+
+
+    <!-- rem.owl#PWAVREL -->
+
+    <PronomenInterrogativ rdf:about="#PWAVREL">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PWAVREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, interrogativ, adverbial [DDD-POS]</rdfs:comment>
+    </PronomenInterrogativ>
+    
+
+
+    <!-- rem.owl#PWG -->
+
+    <PronomenInterrogativ rdf:about="#PWG">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PWG</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, (interrogativ,) generalisierend, auch Genitivattribut [DDD-POS]</rdfs:comment>
+    </PronomenInterrogativ>
+    
+
+
+    <!-- rem.owl#PWGAV -->
+
+    <owl:Thing rdf:about="#PWGAV">
+        <rdf:type rdf:resource="#PronomenInterrogativ"/>
+        <system:hasTag>PWGAV</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, (interrogativ,) adverbial, generalisierend [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PWGAVREL -->
+
+    <PronomenInterrogativ rdf:about="#PWGAVREL">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>PWGAVREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, (interrogativ,) adverbial, generalisierend, relativ [DDD-POS]</rdfs:comment>
+    </PronomenInterrogativ>
+    
+
+
+    <!-- rem.owl#PWGREL -->
+
+    <owl:Thing rdf:about="#PWGREL">
+        <rdf:type rdf:resource="#PronomenInterrogativ"/>
+        <system:hasTag>PWGREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, (interrogativ,) generalisierend, relativ [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PWREL -->
+
+    <owl:Thing rdf:about="#PWREL">
+        <rdf:type rdf:resource="#PronomenInterrogativ"/>
+        <system:hasTag>PWREL</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Pronomen, interrogativ, relativ [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#PZKVZ -->
+
+    <owl:Thing rdf:about="#PZKVZ">
+        <rdf:type rdf:resource="#Partikel"/>
+        <system:hasTag>PZKVZ</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably typo for) ?zu? vor Infinitiv [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Past -->
+
+    <owl:Thing rdf:about="#Past">
+        <rdf:type rdf:resource="#Tempus"/>
+        <system:hasTagContaining>Past</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Pr&#228;teritum [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Pl -->
+
+    <Numerus_Person rdf:about="#Pl">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Pl</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Plural [ReM-morph]</rdfs:comment>
+    </Numerus_Person>
+    
+
+
+    <!-- rem.owl#Pl_1 -->
+
+    <owl:Thing rdf:about="#Pl_1">
+        <rdf:type rdf:resource="#Numerus_Person"/>
+        <system:hasTagContaining>Pl.1</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Plural, 1. Person [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Pl_2 -->
+
+    <owl:Thing rdf:about="#Pl_2">
+        <rdf:type rdf:resource="#Numerus_Person"/>
+        <system:hasTagContaining>Pl.2</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Plural, 2. Person [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Pl_3 -->
+
+    <Numerus_Person rdf:about="#Pl_3">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Pl.3</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Plural, 3. Person [ReM-morph]</rdfs:comment>
+    </Numerus_Person>
+    
+
+
+    <!-- rem.owl#Pos -->
+
+    <owl:Thing rdf:about="#Pos">
+        <rdf:type rdf:resource="#Komparation"/>
+        <system:hasTagContaining>Pos</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Positiv [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Pres -->
+
+    <owl:Thing rdf:about="#Pres">
+        <rdf:type rdf:resource="#Tempus"/>
+        <system:hasTagContaining>Pres</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Pr&#228;sens [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#S_P -->
+
+    <owl:Thing rdf:about="#S_P">
+        <rdf:type rdf:resource="#Numerus_Person"/>
+        <system:hasTagContaining>S,P</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Singular oder Plural (unterspezifiziert) [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Sg -->
+
+    <owl:Thing rdf:about="#Sg">
+        <rdf:type rdf:resource="#Numerus_Person"/>
+        <system:hasTagContaining>Sg</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Singular [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Sg_1 -->
+
+    <owl:Thing rdf:about="#Sg_1">
+        <rdf:type rdf:resource="#Numerus_Person"/>
+        <system:hasTagContaining>Sg.1</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Singular, 1. Person [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Sg_2 -->
+
+    <Numerus_Person rdf:about="#Sg_2">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Sg.2</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Singular, 2. Person [ReM-morph]</rdfs:comment>
+    </Numerus_Person>
+    
+
+
+    <!-- rem.owl#Sg_3 -->
+
+    <owl:Thing rdf:about="#Sg_3">
+        <rdf:type rdf:resource="#Numerus_Person"/>
+        <system:hasTagContaining>Sg.3</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Singular, 3. Person [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Subj -->
+
+    <owl:Thing rdf:about="#Subj">
+        <rdf:type rdf:resource="#Modus"/>
+        <rdfs:comment xml:lang="de"
+            >Konjunktiv [ReM-morph]</rdfs:comment>
+        <system:hasTagContaining>Subj</system:hasTagContaining>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#Sup -->
+
+    <owl:Thing rdf:about="#Sup">
+        <rdf:type rdf:resource="#Komparation"/>
+        <system:hasTagContaining>Sup</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Superlativ [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VAFIN -->
+
+    <VerbAuxiliar rdf:about="#VAFIN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VAFIN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Auxiliar, finit [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >finites Verb, auxiliar [DDD-POS]</rdfs:comment>
+    </VerbAuxiliar>
+    
+
+
+    <!-- rem.owl#VAIMP -->
+
+    <owl:Thing rdf:about="#VAIMP">
+        <rdf:type rdf:resource="#VerbAuxiliar"/>
+        <system:hasTag>VAIMP</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Auxiliar, Imperativ [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Imperativ, auxiliar [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VAINF -->
+
+    <owl:Thing rdf:about="#VAINF">
+        <rdf:type rdf:resource="#VerbAuxiliar"/>
+        <system:hasTag>VAINF</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Auxiliar, Infinitiv [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Infinitiv, auxiliar [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VAINFS -->
+
+    <VerbAuxiliar rdf:about="#VAINFS">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >Infinitiv, auxiliar, substantiviert oder flektiert [DDD-POS]</rdfs:comment>
+        <system:hasTag>VAINFS</system:hasTag>
+    </VerbAuxiliar>
+    
+
+
+    <!-- rem.owl#VAPP -->
+
+    <owl:Thing rdf:about="#VAPP">
+        <rdf:type rdf:resource="#VerbAuxiliar"/>
+        <rdfs:comment xml:lang="de"
+            >Auxiliar, Partizip Pr&#228;teritum, im Verbalkomplex [HiTS]</rdfs:comment>
+        <system:hasTag>VAPP</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;teritum, auxiliar, im Verbalkomplex [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VAPS -->
+
+    <owl:Thing rdf:about="#VAPS">
+        <rdf:type rdf:resource="#VerbAuxiliar"/>
+        <rdfs:comment xml:lang="de"
+            >Auxiliar, Partizip Pr&#228;sens, im Verbalkomplex [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;sens, auxiliar, im Verbalkomplex [DDD-POS]</rdfs:comment>
+        <system:hasTag>VAPS</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VAPSD -->
+
+    <VerbAuxiliar rdf:about="#VAPSD">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VAPSD</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Partizip Pr&#228;sens, auxiliar, pr&#228;dikativ oder adverbial [DDD-POS]</rdfs:comment>
+    </VerbAuxiliar>
+    
+
+
+    <!-- rem.owl#VMFIN -->
+
+    <VerbModal rdf:about="#VMFIN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VMFIN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Modalverb, finit [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >finites Verb, modal [DDD-POS]</rdfs:comment>
+    </VerbModal>
+    
+
+
+    <!-- rem.owl#VMFUB -->
+
+    <owl:Thing rdf:about="#VMFUB">
+        <rdf:type rdf:resource="#VerbModal"/>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Verb, modal (unbestimmt?) [DDD-POS]</rdfs:comment>
+        <system:hasTag>VMFUB</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VMIMP -->
+
+    <VerbModal rdf:about="#VMIMP">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >Modalverb, Imperativ [HiTS]</rdfs:comment>
+        <system:hasTag>VMIMP</system:hasTag>
+    </VerbModal>
+    
+
+
+    <!-- rem.owl#VMINF -->
+
+    <VerbModal rdf:about="#VMINF">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >Infinitiv, modal [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Modalverb, Infinitiv [HiTS]</rdfs:comment>
+        <system:hasTag>VMINF</system:hasTag>
+    </VerbModal>
+    
+
+
+    <!-- rem.owl#VMINFS -->
+
+    <owl:Thing rdf:about="#VMINFS">
+        <rdf:type rdf:resource="#VerbModal"/>
+        <system:hasTag>VMINFS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Infinitiv, modal, substantiviert oder flektiert [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VMPP -->
+
+    <VerbModal rdf:about="#VMPP">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >Modalverb, Partizip Pr&#228;teritum, im Verbalkomplex [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;teritum, modal, im Verbalkomplex [DDD-POS]</rdfs:comment>
+        <system:hasTag>VMPP</system:hasTag>
+    </VerbModal>
+    
+
+
+    <!-- rem.owl#VMPS -->
+
+    <VerbModal rdf:about="#VMPS">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VMPS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Modalverb, Partizip Pr&#228;sens, im Verbalkomplex [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;sens, modal, im Verbalkomplex [DDD-POS]</rdfs:comment>
+    </VerbModal>
+    
+
+
+    <!-- rem.owl#VV -->
+
+    <Vollverb rdf:about="#VV">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Vollverb [HiTS]</rdfs:comment>
+        <system:hasTag>VV</system:hasTag>
+    </Vollverb>
+    
+
+
+    <!-- rem.owl#VVFIN -->
+
+    <Vollverb rdf:about="#VVFIN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VVFIN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Vollverb, finit [HiTS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >finites Verb, Vollverb [DDD-POS]</rdfs:comment>
+    </Vollverb>
+    
+
+
+    <!-- rem.owl#VVIMP -->
+
+    <owl:Thing rdf:about="#VVIMP">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <rdfs:comment xml:lang="de"
+            >Imperativ, Vollverb [DDD-POS]</rdfs:comment>
+        <system:hasTag>VVIMP</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Vollverb, Imperativ [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVINF -->
+
+    <owl:Thing rdf:about="#VVINF">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <system:hasTag>VVINF</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Infinitiv, Vollverb [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Vollverb, Infinitiv [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVINFS -->
+
+    <owl:Thing rdf:about="#VVINFS">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <rdfs:comment xml:lang="de"
+            >Infinitiv, Vollverb, substantiviert oder flektiert [DDD-POS]</rdfs:comment>
+        <system:hasTag>VVINFS</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVPP -->
+
+    <owl:Thing rdf:about="#VVPP">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;teritum, Vollverb, im Verbalkomplex [DDD-POS]</rdfs:comment>
+        <system:hasTag>VVPP</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Vollverb, Partizip Pr&#228;teritum, im Verbalkomplex [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVPPA -->
+
+    <Vollverb rdf:about="#VVPPA">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VVPPA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;teritum, Vollverb, attribuierend [DDD-POS]</rdfs:comment>
+    </Vollverb>
+    
+
+
+    <!-- rem.owl#VVPPD -->
+
+    <owl:Thing rdf:about="#VVPPD">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;teritum, Vollverb, pr&#228;dikativ oder adverbial [DDD-POS]</rdfs:comment>
+        <system:hasTag>VVPPD</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVPPN -->
+
+    <owl:Thing rdf:about="#VVPPN">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <system:hasTag>VVPPN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;teritum, Vollverb, attribuierend, nachgestellt [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVPPS -->
+
+    <owl:Thing rdf:about="#VVPPS">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;teritum, Vollverb, substantiviert [DDD-POS]</rdfs:comment>
+        <system:hasTag>VVPPS</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVPS -->
+
+    <Vollverb rdf:about="#VVPS">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VVPS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;sens, Vollverb, im Verbalkomplex [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >Vollverb, Partizip Pr&#228;sens, im Verbalkomplex [HiTS]</rdfs:comment>
+    </Vollverb>
+    
+
+
+    <!-- rem.owl#VVPSA -->
+
+    <owl:Thing rdf:about="#VVPSA">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <system:hasTag>VVPSA</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;sens, Vollverb, attribuierend [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVPSADV -->
+
+    <Vollverb rdf:about="#VVPSADV">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VVPSADV</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Partizip Pr&#228;sens, Vollverb, adverbial [DDD-POS]</rdfs:comment>
+    </Vollverb>
+    
+
+
+    <!-- rem.owl#VVPSD -->
+
+    <Vollverb rdf:about="#VVPSD">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably) Partizip Pr&#228;sens, Vollverb, pr&#228;dikativ oder adverbial [DDD-POS]</rdfs:comment>
+        <system:hasTag>VVPSD</system:hasTag>
+    </Vollverb>
+    
+
+
+    <!-- rem.owl#VVPSN -->
+
+    <owl:Thing rdf:about="#VVPSN">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;sens, Vollverb, attribuierend, nachgestellt [DDD-POS]</rdfs:comment>
+        <system:hasTag>VVPSN</system:hasTag>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVPSS -->
+
+    <owl:Thing rdf:about="#VVPSS">
+        <rdf:type rdf:resource="#Vollverb"/>
+        <system:hasTag>VVPSS</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Partizip Pr&#228;sens, substantiviert [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#VVVFIN -->
+
+    <Vollverb rdf:about="#VVVFIN">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>VVVFIN</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >(undocumented, probably typo for) finites Verb, Vollverb [DDD-POS]</rdfs:comment>
+    </Vollverb>
+    
+
+
+    <!-- rem.owl#Voc -->
+
+    <Kasus rdf:about="#Voc">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTagContaining>Voc</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >Vokativ [ReM-morph]</rdfs:comment>
+    </Kasus>
+    
+
+
+    <!-- rem.owl#handschr -->
+
+    <owl:Thing rdf:about="#handschr">
+        <rdf:type rdf:resource="#Interpunktion"/>
+        <system:hasTag>$_</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >handschriftliche Interpunktionszeichen [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >originale Interpunktion [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#komma -->
+
+    <owl:Thing rdf:about="#komma">
+        <rdf:type rdf:resource="#Interpunktion"/>
+        <system:hasTag>$,</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >modernes Komma [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#punkt -->
+
+    <Interpunktion rdf:about="#punkt">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <system:hasTag>$.</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >moderne satzbeendende Interpunktion [DDD-POS]</rdfs:comment>
+    </Interpunktion>
+    
+
+
+    <!-- rem.owl#satzintern -->
+
+    <owl:Thing rdf:about="#satzintern">
+        <rdf:type rdf:resource="#Interpunktion"/>
+        <system:hasTag>$(</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >moderne sonstige Satzzeichen; satzintern [DDD-POS]</rdfs:comment>
+        <rdfs:comment xml:lang="de"
+            >sonstige Satzzeichen [HiTS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#st -->
+
+    <owl:Thing rdf:about="#st">
+        <rdf:type rdf:resource="#Flexionstyp"/>
+        <system:hasTagContaining>st</system:hasTagContaining>
+        <rdfs:comment xml:lang="de"
+            >stark [ReM-morph]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#swv -->
+
+    <Flexionstyp rdf:about="#swv">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >(undocoumented, probably) schwach [ReM-morph]</rdfs:comment>
+        <system:hasTagContaining>swv</system:hasTagContaining>
+    </Flexionstyp>
+    
+
+
+    <!-- rem.owl#unklar -->
+
+    <owl:Thing rdf:about="#unklar">
+        <rdf:type rdf:resource="#POS"/>
+        <system:hasTag>?</system:hasTag>
+        <rdfs:comment xml:lang="de"
+            >Problem ungel&#246;st  [DDD-POS]</rdfs:comment>
+    </owl:Thing>
+    
+
+
+    <!-- rem.owl#wk -->
+
+    <Flexionstyp rdf:about="#wk">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="de"
+            >schwach [ReM-morph]</rdfs:comment>
+        <system:hasTagContaining>wk</system:hasTagContaining>
+    </Flexionstyp>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+
