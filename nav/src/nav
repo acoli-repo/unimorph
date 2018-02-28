@@ -8,7 +8,7 @@ aʼáád	niʼáád	N;PSS2S
 aʼáád	nihiʼáád	N;PSS1D
 aʼáád	nihiʼáád	N;PSS2D
 aʼáád	shiʼáád	N;PSS1S
-aʼáád	yiʼáád	N;PSS4SAC
+aʼáád	yiʼáád	N;PSS4;ARGAC3S
 aadaaní	aadaaní	N;PSS0
 aadaaní	baadaaní	N;PSS3
 aadaaní	danihaadaaní	PSS1P
@@ -18,7 +18,7 @@ aadaaní	naadaaní	N;PSS2S
 aadaaní	nihaadaaní	N;PSS1D
 aadaaní	nihaadaaní	N;PSS2D
 aadaaní	shaadaaní	N;PSS1S
-aadaaní	yaadaaní	N;PSS4SAC
+aadaaní	yaadaaní	N;PSS4;ARGAC3S
 áʼázhoozh	áʼázhoozh	N;PSS0
 áʼázhoozh	bíʼázhoozh	N;PSS3
 áʼázhoozh	danihíʼázhoozh	PSS1P
@@ -28,7 +28,7 @@ aadaaní	yaadaaní	N;PSS4SAC
 áʼázhoozh	nihíʼázhoozh	N;PSS1D
 áʼázhoozh	nihíʼázhoozh	N;PSS2D
 áʼázhoozh	shíʼázhoozh	N;PSS1S
-áʼázhoozh	yíʼázhoozh	N;PSS4SAC
+áʼázhoozh	yíʼázhoozh	N;PSS4;ARGAC3S
 abid	abid	N;PSS0
 abid	bibid	N;PSS3
 abid	danihibid	PSS1P
@@ -38,7 +38,7 @@ abid	nibid	N;PSS2S
 abid	nihibid	N;PSS1D
 abid	nihibid	N;PSS2D
 abid	shibid	N;PSS1S
-abid	yibid	N;PSS4SAC
+abid	yibid	N;PSS4;ARGAC3S
 abízhí	abízhí	N;PSS0
 abízhí	bibízhí	N;PSS3
 abízhí	danihibízhí	PSS1P
@@ -48,7 +48,7 @@ abízhí	nibízhí	N;PSS2S
 abízhí	nihibízhí	N;PSS1D
 abízhí	nihibízhí	N;PSS2D
 abízhí	shibízhí	N;PSS1S
-abízhí	yibízhí	N;PSS4SAC
+abízhí	yibízhí	N;PSS4;ARGAC3S
 achʼéʼé	achʼéʼé	N;PSS0
 achʼéʼé	bichʼéʼé	N;PSS3
 achʼéʼé	danihichʼéʼé	PSS1P
@@ -58,7 +58,7 @@ achʼéʼé	nichʼéʼé	N;PSS2S
 achʼéʼé	nihichʼéʼé	N;PSS1D
 achʼéʼé	nihichʼéʼé	N;PSS2D
 achʼéʼé	shichʼéʼé	N;PSS1S
-achʼéʼé	yichʼéʼé	N;PSS4SAC
+achʼéʼé	yichʼéʼé	N;PSS4;ARGAC3S
 acheii	acheii	N;PSS0
 acheii	bicheii	N;PSS3
 acheii	danihicheii	PSS1P
@@ -68,7 +68,7 @@ acheii	nicheii	N;PSS2S
 acheii	nihicheii	N;PSS1D
 acheii	nihicheii	N;PSS2D
 acheii	shicheii	N;PSS1S
-acheii	yicheii	N;PSS4SAC
+acheii	yicheii	N;PSS4;ARGAC3S
 achįʼ	achįʼ	V;REAL;IPFV/PROG;3;SG/DU/PL
 achįʼ	ajichįʼ	V;REAL;IPFV/PROG;4;SG/DU/PL
 achįʼ	ajizhchąąʼ	V;REAL;PFV/PRF;4;SG/DU/PL
@@ -101,7 +101,7 @@ achʼííʼ	hachʼííʼ	N;PSS4
 áchį́į́h	nihíchį́į́h	N;PSS1D
 áchį́į́h	nihíchį́į́h	N;PSS2D
 áchį́į́h	shíchį́į́h	N;PSS1S
-áchį́į́h	yíchį́į́h	N;PSS4SAC
+áchį́į́h	yíchį́į́h	N;PSS4;ARGAC3S
 achįʼ	iichįʼ	V;REAL;IPFV/PROG;1;DU/PL
 achʼííʼ	nichʼííʼ	N;PSS2S
 achʼííʼ	nihichʼííʼ	N;PSS1D
@@ -127,7 +127,7 @@ achʼiish	ííchʼiizh	V;REAL;PFV/PRF;3;SG/DU/PL
 achʼiish	ííníchʼiizh	V;REAL;PFV/PRF;2;SG
 achʼiish	ohchʼiish	V;REAL;IPFV/PROG;2;DU/PL
 achʼiish	oochʼiizh	V;REAL;PFV/PRF;2;DU/PL
-achʼííʼ	yichʼííʼ	N;PSS4SAC
+achʼííʼ	yichʼííʼ	N;PSS4;ARGAC3S
 achįʼ	ohchįʼ	V;REAL;IPFV/PROG;2;DU/PL
 achoʼ	achoʼ	N;PSS0
 achó	achó	N;PSS0
@@ -154,7 +154,7 @@ achʼooní	nichʼooní	N;PSS2S
 achʼooní	nihichʼooní	N;PSS1D
 achʼooní	nihichʼooní	N;PSS2D
 achʼooní	shichʼooní	N;PSS1S
-achʼooní	yichʼooní	N;PSS4SAC
+achʼooní	yichʼooní	N;PSS4;ARGAC3S
 achʼoozhlaaʼ	achʼoozhlaaʼ	N;PSS0
 achʼoozhlaaʼ	bichʼoozhlaaʼ	N;PSS3
 achʼoozhlaaʼ	danihichʼoozhlaaʼ	PSS1P
@@ -164,11 +164,11 @@ achʼoozhlaaʼ	nichʼoozhlaaʼ	N;PSS2S
 achʼoozhlaaʼ	nihichʼoozhlaaʼ	N;PSS1D
 achʼoozhlaaʼ	nihichʼoozhlaaʼ	N;PSS2D
 achʼoozhlaaʼ	shichʼoozhlaaʼ	N;PSS1S
-achʼoozhlaaʼ	yichʼoozhlaaʼ	N;PSS4SAC
+achʼoozhlaaʼ	yichʼoozhlaaʼ	N;PSS4;ARGAC3S
 achoʼ	shichoʼ	N;PSS1S
 achó	shichó	N;PSS1S
-achoʼ	yichoʼ	N;PSS4SAC
-achó	yichó	N;PSS4SAC
+achoʼ	yichoʼ	N;PSS4;ARGAC3S
+achó	yichó	N;PSS4;ARGAC3S
 achʼozh	achʼozh	N;PSS0
 achʼozh	bichʼozh	N;PSS3
 achʼozh	danihichʼozh	PSS1P
@@ -178,7 +178,7 @@ achʼozh	nichʼozh	N;PSS2S
 achʼozh	nihichʼozh	N;PSS1D
 achʼozh	nihichʼozh	N;PSS2D
 achʼozh	shichʼozh	N;PSS1S
-achʼozh	yichʼozh	N;PSS4SAC
+achʼozh	yichʼozh	N;PSS4;ARGAC3S
 adaaʼ	adaaʼ	N;PSS0
 adaaʼ	bidaaʼ	N;PSS3
 adaaʼ	danihidaaʼ	PSS1P
@@ -188,7 +188,7 @@ adaaʼ	nidaaʼ	N;PSS2S
 adaaʼ	nihidaaʼ	N;PSS1D
 adaaʼ	nihidaaʼ	N;PSS2D
 adaaʼ	shidaaʼ	N;PSS1S
-adaaʼ	yidaaʼ	N;PSS4SAC
+adaaʼ	yidaaʼ	N;PSS4;ARGAC3S
 adáʼi	adáʼi	N;PSS0
 adáʼi	bidáʼi	N;PSS3
 adáʼi	danihidáʼi	PSS1P
@@ -198,7 +198,7 @@ adáʼi	nidáʼi	N;PSS2S
 adáʼi	nihidáʼi	N;PSS1D
 adáʼi	nihidáʼi	N;PSS2D
 adáʼi	shidáʼi	N;PSS1S
-adáʼi	yidáʼi	N;PSS4SAC
+adáʼi	yidáʼi	N;PSS4;ARGAC3S
 adáyiʼ	adáyiʼ	N;PSS0
 adáyiʼ	bidáyiʼ	N;PSS3
 adáyiʼ	danihidáyiʼ	PSS1P
@@ -208,7 +208,7 @@ adáyiʼ	nidáyiʼ	N;PSS2S
 adáyiʼ	nihidáyiʼ	N;PSS1D
 adáyiʼ	nihidáyiʼ	N;PSS2D
 adáyiʼ	shidáyiʼ	N;PSS1S
-adáyiʼ	yidáyiʼ	N;PSS4SAC
+adáyiʼ	yidáyiʼ	N;PSS4;ARGAC3S
 adeezhí	adeezhí	N;PSS0
 adeezhí	bideezhí	N;PSS3
 adeezhí	danihideezhí	PSS1P
@@ -218,7 +218,7 @@ adeezhí	nideezhí	N;PSS2S
 adeezhí	nihideezhí	N;PSS1D
 adeezhí	nihideezhí	N;PSS2D
 adeezhí	shideezhí	N;PSS1S
-adeezhí	yideezhí	N;PSS4SAC
+adeezhí	yideezhí	N;PSS4;ARGAC3S
 adiłhash	adiilghash	V;REAL;PFV/PRF;1;DU/PL
 adiłhash	adíłhash	V;REAL;PFV/PRF;2;SG
 adiłhash	adiłhash	V;REAL;PFV/PRF;3;SG/DU/PL
@@ -288,7 +288,7 @@ adoh	nidoh	N;PSS2S
 adoh	nihidoh	N;PSS1D
 adoh	nihidoh	N;PSS2D
 adoh	shidoh	N;PSS1S
-adoh	yidoh	N;PSS4SAC
+adoh	yidoh	N;PSS4;ARGAC3S
 agaan	agaan	N;PSS0
 agaan	bigaan	N;PSS3
 agaan	danihigaan	PSS1P
@@ -298,7 +298,7 @@ agaan	nigaan	N;PSS2S
 agaan	nihigaan	N;PSS1D
 agaan	nihigaan	N;PSS2D
 agaan	shigaan	N;PSS1S
-agaan	yigaan	N;PSS4SAC
+agaan	yigaan	N;PSS4;ARGAC3S
 agąąstsiin	agąąstsiin	N;PSS0
 agąąstsiin	bigąąstsiin	N;PSS3
 agąąstsiin	danihigąąstsiin	PSS1P
@@ -308,7 +308,7 @@ agąąstsiin	nigąąstsiin	N;PSS2S
 agąąstsiin	nihigąąstsiin	N;PSS1D
 agąąstsiin	nihigąąstsiin	N;PSS2D
 agąąstsiin	shigąąstsiin	N;PSS1S
-agąąstsiin	yigąąstsiin	N;PSS4SAC
+agąąstsiin	yigąąstsiin	N;PSS4;ARGAC3S
 aghaaʼ	aghaaʼ	N;PSS0
 aghaaʼ	bighaaʼ	N;PSS3
 aghaaʼ	danihighaaʼ	PSS1P
@@ -318,7 +318,7 @@ aghaaʼ	nighaaʼ	N;PSS2S
 aghaaʼ	nihighaaʼ	N;PSS1D
 aghaaʼ	nihighaaʼ	N;PSS2D
 aghaaʼ	shighaaʼ	N;PSS1S
-aghaaʼ	yighaaʼ	N;PSS4SAC
+aghaaʼ	yighaaʼ	N;PSS4;ARGAC3S
 agod	agod	N;PSS0
 agod	bigod	N;PSS3
 agod	danihigod	PSS1P
@@ -328,7 +328,7 @@ agod	nigod	N;PSS2S
 agod	nihigod	N;PSS1D
 agod	nihigod	N;PSS2D
 agod	shigod	N;PSS1S
-agod	yigod	N;PSS4SAC
+agod	yigod	N;PSS4;ARGAC3S
 aháshtʼóózh	aháshtʼóózh	N;PSS0
 aháshtʼóózh	biháshtʼóózh	N;PSS3
 aháshtʼóózh	danihiháshtʼóózh	PSS1P
@@ -338,7 +338,7 @@ aháshtʼóózh	niháshtʼóózh	N;PSS2S
 aháshtʼóózh	nihiháshtʼóózh	N;PSS1D
 aháshtʼóózh	nihiháshtʼóózh	N;PSS2D
 aháshtʼóózh	shiháshtʼóózh	N;PSS1S
-aháshtʼóózh	yiháshtʼóózh	N;PSS4SAC
+aháshtʼóózh	yiháshtʼóózh	N;PSS4;ARGAC3S
 aheełtʼé	aheełtʼé	V;REAL;PFV/PRF;3;SG/DU/PL
 aheełtʼé	ahidaałtʼé	V;REAL;PFV/PRF;3;PL
 aheełtʼé	ahidajíłtʼé	V;REAL;PFV/PRF;4;PL
@@ -382,13 +382,13 @@ ajáád	nihijáád	N;PSS1D
 ajáád	nihijáád	N;PSS2D
 ajáád	nijáád	N;PSS2S
 ajáád	shijáád	N;PSS1S
-ajáád	yijáád	N;PSS4SAC
+ajáád	yijáád	N;PSS4;ARGAC3S
 ajaaʼ	hajaaʼ	N;PSS4
 ajaaʼ	nihijaaʼ	N;PSS1D
 ajaaʼ	nihijaaʼ	N;PSS2D
 ajaaʼ	nijaaʼ	N;PSS2S
 ajaaʼ	shijaaʼ	N;PSS1S
-ajaaʼ	yijaaʼ	N;PSS4SAC
+ajaaʼ	yijaaʼ	N;PSS4;ARGAC3S
 ajéí	ajéí	N;PSS0
 ajéí	bijéí	N;PSS3
 ajéí	danihijéí	PSS1P
@@ -402,7 +402,7 @@ ajéídíshjool	nihijéídíshjool	N;PSS1D
 ajéídíshjool	nihijéídíshjool	N;PSS2D
 ajéídíshjool	nijéídíshjool	N;PSS2S
 ajéídíshjool	shijéídíshjool	N;PSS1S
-ajéídíshjool	yijéídíshjool	N;PSS4SAC
+ajéídíshjool	yijéídíshjool	N;PSS4;ARGAC3S
 ajéí	hajéí	N;PSS4
 ajéí	nihijéí	N;PSS1D
 ajéí	nihijéí	N;PSS2D
@@ -417,8 +417,8 @@ ajéítsʼiin	nihijéítsʼiin	N;PSS1D
 ajéítsʼiin	nihijéítsʼiin	N;PSS2D
 ajéítsʼiin	nijéítsʼiin	N;PSS2S
 ajéítsʼiin	shijéítsʼiin	N;PSS1S
-ajéítsʼiin	yijéítsʼiin	N;PSS4SAC
-ajéí	yijéí	N;PSS4SAC
+ajéítsʼiin	yijéítsʼiin	N;PSS4;ARGAC3S
+ajéí	yijéí	N;PSS4;ARGAC3S
 ajilchiiʼ	ajilchiiʼ	N;PSS0
 ajilchiiʼ	bijilchiiʼ	N;PSS3
 ajilchiiʼ	danihijilchiiʼ	PSS1P
@@ -428,7 +428,7 @@ ajilchiiʼ	nihijilchiiʼ	N;PSS1D
 ajilchiiʼ	nihijilchiiʼ	N;PSS2D
 ajilchiiʼ	nijilchiiʼ	N;PSS2S
 ajilchiiʼ	shijilchiiʼ	N;PSS1S
-ajilchiiʼ	yijilchiiʼ	N;PSS4SAC
+ajilchiiʼ	yijilchiiʼ	N;PSS4;ARGAC3S
 ajóózh	ajóózh	N;PSS0
 ajóózh	bijóózh	N;PSS3
 ajóózh	danihijóózh	PSS1P
@@ -438,7 +438,7 @@ ajóózh	nihijóózh	N;PSS1D
 ajóózh	nihijóózh	N;PSS2D
 ajóózh	nijóózh	N;PSS2S
 ajóózh	shijóózh	N;PSS1S
-ajóózh	yijóózh	N;PSS4SAC
+ajóózh	yijóózh	N;PSS4;ARGAC3S
 akąʼ	akąʼ	N;PSS0
 akááz	akááz	N;PSS0
 akááz	bikááz	N;PSS3
@@ -449,7 +449,7 @@ akááz	nihikááz	N;PSS1D
 akááz	nihikááz	N;PSS2D
 akááz	nikááz	N;PSS2S
 akááz	shikááz	N;PSS1S
-akááz	yikááz	N;PSS4SAC
+akááz	yikááz	N;PSS4;ARGAC3S
 akąʼ	bikąʼ	N;PSS3
 akąʼ	danihikąʼ	PSS1P
 akąʼ	danihikąʼ	PSS2P
@@ -462,7 +462,7 @@ akágí	nihikágí	N;PSS1D
 akágí	nihikágí	N;PSS2D
 akágí	nikágí	N;PSS2S
 akágí	shikágí	N;PSS1S
-akágí	yikágí	N;PSS4SAC
+akágí	yikágí	N;PSS4;ARGAC3S
 akʼah	akʼah	N;PSS0
 akąʼ	hakąʼ	N;PSS4
 akʼah	bikʼah	N;PSS3
@@ -473,7 +473,7 @@ akʼah	nihikʼah	N;PSS1D
 akʼah	nihikʼah	N;PSS2D
 akʼah	nikʼah	N;PSS2S
 akʼah	shikʼah	N;PSS1S
-akʼah	yikʼah	N;PSS4SAC
+akʼah	yikʼah	N;PSS4;ARGAC3S
 akaiʼ	akaiʼ	N;PSS0
 ákʼaʼí	ákʼaʼí	N;PSS0
 akaiʼ	bikaiʼ	N;PSS3
@@ -492,13 +492,13 @@ akaiʼ	nikaiʼ	N;PSS2S
 ákʼaʼí	níkʼaʼí	N;PSS2S
 akaiʼ	shikaiʼ	N;PSS1S
 ákʼaʼí	shíkʼaʼí	N;PSS1S
-akaiʼ	yikaiʼ	N;PSS4SAC
-ákʼaʼí	yíkʼaʼí	N;PSS4SAC
+akaiʼ	yikaiʼ	N;PSS4;ARGAC3S
+ákʼaʼí	yíkʼaʼí	N;PSS4;ARGAC3S
 akąʼ	nihikąʼ	N;PSS1D
 akąʼ	nihikąʼ	N;PSS2D
 akąʼ	nikąʼ	N;PSS2S
 akąʼ	shikąʼ	N;PSS1S
-akąʼ	yikąʼ	N;PSS4SAC
+akąʼ	yikąʼ	N;PSS4;ARGAC3S
 akeeʼ	akeeʼ	N;PSS0
 akeeʼ	bikeeʼ	N;PSS3
 akeeʼ	danihikeeʼ	PSS1P
@@ -538,7 +538,7 @@ akeeʼ	nihikeeʼ	N;PSS1D
 akeeʼ	nihikeeʼ	N;PSS2D
 akeeʼ	nikeeʼ	N;PSS2S
 akeeʼ	shikeeʼ	N;PSS1S
-akeeʼ	yikeeʼ	N;PSS4SAC
+akeeʼ	yikeeʼ	N;PSS4;ARGAC3S
 akʼéí	akʼéí	N;PSS0
 akʼéí	bikʼéí	N;PSS3
 akʼéí	danihikʼéí	PSS1P
@@ -548,7 +548,7 @@ akʼéí	nihikʼéí	N;PSS1D
 akʼéí	nihikʼéí	N;PSS2D
 akʼéí	nikʼéí	N;PSS2S
 akʼéí	shikʼéí	N;PSS1S
-akʼéí	yikʼéí	N;PSS4SAC
+akʼéí	yikʼéí	N;PSS4;ARGAC3S
 akétal	akétal	N;PSS0
 akétal	bikétal	N;PSS3
 akétal	danihikétal	PSS1P
@@ -558,7 +558,7 @@ akétal	nihikétal	N;PSS1D
 akétal	nihikétal	N;PSS2D
 akétal	nikétal	N;PSS2S
 akétal	shikétal	N;PSS1S
-akétal	yikétal	N;PSS4SAC
+akétal	yikétal	N;PSS4;ARGAC3S
 akétsíín	akétsíín	N;PSS0
 akétsíín	bikétsíín	N;PSS3
 akétsíín	danihikétsíín	PSS1P
@@ -568,7 +568,7 @@ akétsíín	nihikétsíín	N;PSS1D
 akétsíín	nihikétsíín	N;PSS2D
 akétsíín	nikétsíín	N;PSS2S
 akétsíín	shikétsíín	N;PSS1S
-akétsíín	yikétsíín	N;PSS4SAC
+akétsíín	yikétsíín	N;PSS4;ARGAC3S
 akézhoozh	akézhoozh	N;PSS0
 akézhoozh	bikézhoozh	N;PSS3
 akézhoozh	danihikézhoozh	PSS1P
@@ -578,7 +578,7 @@ akézhoozh	nihikézhoozh	N;PSS1D
 akézhoozh	nihikézhoozh	N;PSS2D
 akézhoozh	nikézhoozh	N;PSS2S
 akézhoozh	shikézhoozh	N;PSS1S
-akézhoozh	yikézhoozh	N;PSS4SAC
+akézhoozh	yikézhoozh	N;PSS4;ARGAC3S
 akʼis	akʼis	N;PSS0
 akʼis	bikʼis	N;PSS3
 akʼis	danihikʼis	PSS1P
@@ -588,7 +588,7 @@ akʼis	nihikʼis	N;PSS1D
 akʼis	nihikʼis	N;PSS2D
 akʼis	nikʼis	N;PSS2S
 akʼis	sikʼis	N;PSS1S
-akʼis	yikʼis	N;PSS4SAC
+akʼis	yikʼis	N;PSS4;ARGAC3S
 akʼos	akʼos	N;PSS0
 akʼos	bikʼos	N;PSS3
 akʼos	danihikʼos	PSS1P
@@ -598,7 +598,7 @@ akʼos	nihikʼos	N;PSS1D
 akʼos	nihikʼos	N;PSS2D
 akʼos	nikʼos	N;PSS2S
 akʼos	sikʼos	N;PSS1S
-akʼos	yikʼos	N;PSS4SAC
+akʼos	yikʼos	N;PSS4;ARGAC3S
 ákótʼé	ákódaatʼé	V;REAL;PFV/PRF;3;PL
 ákótʼé	ákódajítʼé	V;REAL;PFV/PRF;4;PL
 ákótʼé	ákódaniitʼé	V;REAL;PFV/PRF;1;PL
@@ -623,7 +623,7 @@ alah	nihilah	N;PSS1D
 alah	nihilah	N;PSS2D
 alah	nilah	N;PSS2S
 alah	shilah	N;PSS1S
-alah	yilah	N;PSS4SAC
+alah	yilah	N;PSS4;ARGAC3S
 álánééz	álánééz	N;PSS0
 álánééz	bílánééz	N;PSS3
 álánééz	danihílánééz	PSS1P
@@ -633,7 +633,7 @@ alah	yilah	N;PSS4SAC
 álánééz	nihílánééz	N;PSS2D
 álánééz	nílánééz	N;PSS2S
 álánééz	shílánééz	N;PSS1S
-álánééz	yílánééz	N;PSS4SAC
+álánééz	yílánééz	N;PSS4;ARGAC3S
 álaʼ	nihílaʼ	N;PSS1D
 álaʼ	nihílaʼ	N;PSS2D
 álaʼ	nílaʼ	N;PSS2S
@@ -646,7 +646,7 @@ alah	yilah	N;PSS4SAC
 áláshgaan	nihíláshgaan	N;PSS2D
 áláshgaan	níláshgaan	N;PSS2S
 áláshgaan	shíláshgaan	N;PSS1S
-áláshgaan	yíláshgaan	N;PSS4SAC
+áláshgaan	yíláshgaan	N;PSS4;ARGAC3S
 álaʼ	shílaʼ	N;PSS1S
 álátah	álátah	N;PSS0
 álátah	bílátah	N;PSS3
@@ -657,7 +657,7 @@ alah	yilah	N;PSS4SAC
 álátah	nihílátah	N;PSS2D
 álátah	nílátah	N;PSS2S
 álátah	shílátah	N;PSS1S
-álátah	yílátah	N;PSS4SAC
+álátah	yílátah	N;PSS4;ARGAC3S
 álátsíín	álátsíín	N;PSS0
 álátsíín	bílátsíín	N;PSS3
 álátsíín	danihílátsíín	PSS1P
@@ -667,7 +667,7 @@ alah	yilah	N;PSS4SAC
 álátsíín	nihílátsíín	N;PSS2D
 álátsíín	nílátsíín	N;PSS2S
 álátsíín	shílátsíín	N;PSS1S
-álátsíín	yílátsíín	N;PSS4SAC
+álátsíín	yílátsíín	N;PSS4;ARGAC3S
 álátsoh	álátsoh	N;PSS0
 álátsoh	bílátsoh	N;PSS3
 álátsoh	danihílátsoh	PSS1P
@@ -677,8 +677,8 @@ alah	yilah	N;PSS4SAC
 álátsoh	nihílátsoh	N;PSS2D
 álátsoh	nílátsoh	N;PSS2S
 álátsoh	shílátsoh	N;PSS1S
-álátsoh	yílátsoh	N;PSS4SAC
-álaʼ	yílaʼ	N;PSS4SAC
+álátsoh	yílátsoh	N;PSS4;ARGAC3S
+álaʼ	yílaʼ	N;PSS4;ARGAC3S
 álázhoozh	álázhoozh	N;PSS0
 álázhoozh	bílázhoozh	N;PSS3
 álázhoozh	danihílázhoozh	PSS1P
@@ -688,7 +688,7 @@ alah	yilah	N;PSS4SAC
 álázhoozh	nihílázhoozh	N;PSS2D
 álázhoozh	nílázhoozh	N;PSS2S
 álázhoozh	shílázhoozh	N;PSS1S
-álázhoozh	yílázhoozh	N;PSS4SAC
+álázhoozh	yílázhoozh	N;PSS4;ARGAC3S
 ałchin	ajiłchin	V;REAL;IPFV/PROG;4;SG/DU/PL
 ałchin	ajischą́ą́ʼ	V;REAL;PFV/PRF;4;SG/DU/PL
 ałchin	ałchin	V;REAL;IPFV/PROG;3;SG/DU/PL
@@ -866,7 +866,7 @@ amásání	nihimásání	N;PSS1D
 amásání	nihimásání	N;PSS2D
 amásání	nimásání	N;PSS2S
 amásání	shimásání	N;PSS1S
-amásání	yimásání	N;PSS4SAC
+amásání	yimásání	N;PSS4;ARGAC3S
 amá	shimá	N;PSS1S
 amáyázhí	amáyázhí	N;PSS0
 amáyázhí	bimáyázhí	N;PSS3
@@ -877,8 +877,8 @@ amáyázhí	nihimáyázhí	N;PSS1D
 amáyázhí	nihimáyázhí	N;PSS2D
 amáyázhí	nimáyázhí	N;PSS2S
 amáyázhí	shimáyázhí	N;PSS1S
-amáyázhí	yimáyázhí	N;PSS4SAC
-amá	yimá	N;PSS4SAC
+amáyázhí	yimáyázhí	N;PSS4;ARGAC3S
+amá	yimá	N;PSS4;ARGAC3S
 anááʼ	anááʼ	N;PSS0
 anááʼ	binááʼ	N;PSS3
 anááʼ	danihinááʼ	PSS1P
@@ -893,12 +893,12 @@ anááʼ	hanááʼ	N;PSS4
 ánaaí	nihínaaí	N;PSS2D
 ánaaí	nínaaí	N;PSS2S
 ánaaí	shínaaí	N;PSS1S
-ánaaí	yínaaí	N;PSS4SAC
+ánaaí	yínaaí	N;PSS4;ARGAC3S
 anááʼ	nihinááʼ	N;PSS1D
 anááʼ	nihinááʼ	N;PSS2D
 anááʼ	ninááʼ	N;PSS2S
 anááʼ	shinááʼ	N;PSS1S
-anááʼ	yinááʼ	N;PSS4SAC
+anááʼ	yinááʼ	N;PSS4;ARGAC3S
 anádiz	anádiz	N;PSS0
 anádiz	binádiz	N;PSS3
 anádiz	danihinádiz	PSS1P
@@ -908,7 +908,7 @@ anádiz	nihinádiz	N;PSS1D
 anádiz	nihinádiz	N;PSS2D
 anádiz	ninádiz	N;PSS2S
 anádiz	shinádiz	N;PSS1S
-anádiz	yinádiz	N;PSS4SAC
+anádiz	yinádiz	N;PSS4;ARGAC3S
 anágaii	anágaii	N;PSS0
 anágaii	binágaii	N;PSS3
 anágaii	danihinágaii	PSS1P
@@ -918,7 +918,7 @@ anágaii	nihinágaii	N;PSS1D
 anágaii	nihinágaii	N;PSS2D
 anágaii	ninágaii	N;PSS2S
 anágaii	shinágaii	N;PSS1S
-anágaii	yinágaii	N;PSS4SAC
+anágaii	yinágaii	N;PSS4;ARGAC3S
 anákʼee	anákʼee	N;PSS0
 anákʼee	binákʼee	N;PSS3
 anákʼee	danihinákʼee	PSS1P
@@ -928,7 +928,7 @@ anákʼee	nihinákʼee	N;PSS1D
 anákʼee	nihinákʼee	N;PSS2D
 anákʼee	ninákʼee	N;PSS2S
 anákʼee	shinákʼee	N;PSS1S
-anákʼee	yinákʼee	N;PSS4SAC
+anákʼee	yinákʼee	N;PSS4;ARGAC3S
 análí	análí	N;PSS0
 análí	binálí	N;PSS3
 análí	danihinálí	PSS1P
@@ -938,7 +938,7 @@ análí	nihinálí	N;PSS1D
 análí	nihinálí	N;PSS2D
 análí	ninálí	N;PSS2S
 análí	shinálí	N;PSS1S
-análí	yinálí	N;PSS4SAC
+análí	yinálí	N;PSS4;ARGAC3S
 anátʼéézh	anátʼéézh	N;PSS0
 anátʼéézh	binátʼéézh	N;PSS3
 anátʼéézh	danihinátʼéézh	PSS1P
@@ -948,7 +948,7 @@ anátʼéézh	nihinátʼéézh	N;PSS1D
 anátʼéézh	nihinátʼéézh	N;PSS2D
 anátʼéézh	ninátʼéézh	N;PSS2S
 anátʼéézh	shinátʼéézh	N;PSS1S
-anátʼéézh	yinátʼéézh	N;PSS4SAC
+anátʼéézh	yinátʼéézh	N;PSS4;ARGAC3S
 anázhiin	anázhiin	N;PSS0
 anázhiin	binázhiin	N;PSS3
 anázhiin	danihinázhiin	PSS1P
@@ -958,7 +958,7 @@ anázhiin	nihinázhiin	N;PSS1D
 anázhiin	nihinázhiin	N;PSS2D
 anázhiin	ninázhiin	N;PSS2S
 anázhiin	shinázhiin	N;PSS1S
-anázhiin	yinázhiin	N;PSS4SAC
+anázhiin	yinázhiin	N;PSS4;ARGAC3S
 anáziz	anáziz	N;PSS0
 anáziz	bináziz	N;PSS3
 anáziz	danihináziz	PSS1P
@@ -968,7 +968,7 @@ anáziz	nihináziz	N;PSS1D
 anáziz	nihináziz	N;PSS2D
 anáziz	nináziz	N;PSS2S
 anáziz	shináziz	N;PSS1S
-anáziz	yináziz	N;PSS4SAC
+anáziz	yináziz	N;PSS4;ARGAC3S
 aniiʼ	aniiʼ	N;PSS0
 anííʼ	anííʼ	N;PSS0
 ánííʼ	ánííʼ	N;PSS0
@@ -996,9 +996,9 @@ anííʼ	ninííʼ	N;PSS2S
 aniiʼ	shiniiʼ	N;PSS1S
 anííʼ	shinííʼ	N;PSS1S
 ánííʼ	shínííʼ	N;PSS1S
-aniiʼ	yiniiʼ	N;PSS4SAC
-anííʼ	yinííʼ	N;PSS4SAC
-ánííʼ	yínííʼ	N;PSS4SAC
+aniiʼ	yiniiʼ	N;PSS4;ARGAC3S
+anííʼ	yinííʼ	N;PSS4;ARGAC3S
+ánííʼ	yínííʼ	N;PSS4;ARGAC3S
 áníldííl	ádaniildííl	V;REAL;PFV/PRF;1;PL
 áníldííl	ádaníldííl	V;REAL;PFV/PRF;3;PL
 áníldííl	ádanółdííl	V;REAL;PFV/PRF;2;PL
@@ -1018,7 +1018,7 @@ ashkii	neʼashkii	N;PSS2S
 ashkii	niheʼashkii	N;PSS1D
 ashkii	niheʼashkii	N;PSS2D
 ashkii	sheʼashkii	N;PSS1S
-ashkii	yeʼashkii	N;PSS4SAC
+ashkii	yeʼashkii	N;PSS4;ARGAC3S
 ászólí	ádaaszólí	V;REAL;PFV/PRF;3;PL
 ászólí	ádajízólí	V;REAL;PFV/PRF;4;PL
 ászólí	ádaniilzólí	V;REAL;PFV/PRF;1;PL
@@ -1057,9 +1057,9 @@ ataaʼ	shitaaʼ	N;PSS1S
 átááʼ	shítááʼ	N;PSS1S
 atʼąąʼ	shitʼąąʼ	N;PSS1S
 atʼaʼ	atʼaʼ	N;PSS0
-ataaʼ	yitaaʼ	N;PSS4SAC
-átááʼ	yítááʼ	N;PSS4SAC
-atʼąąʼ	yitʼąąʼ	N;PSS4SAC
+ataaʼ	yitaaʼ	N;PSS4;ARGAC3S
+átááʼ	yítááʼ	N;PSS4;ARGAC3S
+atʼąąʼ	yitʼąąʼ	N;PSS4;ARGAC3S
 atʼaʼ	bitʼaʼ	N;PSS3
 atʼaʼ	danihitʼaʼ	PSS1P
 atʼaʼ	danihitʼaʼ	PSS2P
@@ -1068,7 +1068,7 @@ atʼaʼ	nihitʼaʼ	N;PSS1D
 atʼaʼ	nihitʼaʼ	N;PSS2D
 atʼaʼ	nitʼaʼ	N;PSS2S
 atʼaʼ	shitʼaʼ	N;PSS1S
-atʼaʼ	yitʼaʼ	N;PSS4SAC
+atʼaʼ	yitʼaʼ	N;PSS4;ARGAC3S
 átʼé	ádaatʼée doo	V;REAL;PROSP;3;PL
 átʼé	ádaatʼéé nítʼééʼ	V;REAL;PFV/PRF;3;PL
 átʼé	ádaatʼé	V;REAL;IPFV/PROG;3;PL
@@ -1108,7 +1108,7 @@ atʼééd	neʼatʼééd	N;PSS2S
 atʼééd	niheʼatʼééd	N;PSS1D
 atʼééd	niheʼatʼééd	N;PSS2D
 atʼééd	sheʼatʼééd	N;PSS1S
-atʼééd	yeʼatʼééd	N;PSS4SAC
+atʼééd	yeʼatʼééd	N;PSS4;ARGAC3S
 atéél	atéél	N;PSS0
 atéél	bitéél	N;PSS3
 atéél	danihitéél	PSS1P
@@ -1118,7 +1118,7 @@ atéél	nihitéél	N;PSS1D
 atéél	nihitéél	N;PSS2D
 atéél	nitéél	N;PSS2S
 atéél	shitéél	N;PSS1S
-atéél	yitéél	N;PSS4SAC
+atéél	yitéél	N;PSS4;ARGAC3S
 átʼį́	ádaadza	V;REAL;PFV/PRF;3;PL
 átʼį́	ádaahdzaa	V;REAL;PFV/PRF;2;PL
 átʼį́	ádaatʼį́	V;REAL;IPFV/PROG;3;PL
@@ -1156,7 +1156,7 @@ atiin	nihitiin	N;PSS1D
 atiin	nihitiin	N;PSS2D
 atiin	nitiin	N;PSS2S
 atiin	shitiin	N;PSS1S
-atiin	yitiin	N;PSS4SAC
+atiin	yitiin	N;PSS4;ARGAC3S
 átʼį́	óhtʼį́	V;REAL;IPFV/PROG;2;DU/PL
 átʼį́	óohdzaa	V;REAL;PFV/PRF;2;DU/PL
 atłʼaaʼ	atłʼaaʼ	N;PSS0
@@ -1168,7 +1168,7 @@ atłʼaaʼ	nihitłʼaaʼ	N;PSS1D
 atłʼaaʼ	nihitłʼaaʼ	N;PSS2D
 atłʼaaʼ	nitłʼaaʼ	N;PSS2S
 atłʼaaʼ	shitłʼaaʼ	N;PSS1S
-atłʼaaʼ	yitłʼaaʼ	N;PSS4SAC
+atłʼaaʼ	yitłʼaaʼ	N;PSS4;ARGAC3S
 atłʼeh	atłʼeh	N;PSS0
 atłʼeh	bitłʼeh	N;PSS3
 atłʼeh	danihitłʼeh	PSS1P
@@ -1178,7 +1178,7 @@ atłʼeh	nihitłʼeh	N;PSS1D
 atłʼeh	nihitłʼeh	N;PSS2D
 atłʼeh	nitłʼeh	N;PSS2S
 atłʼeh	shitłʼeh	N;PSS1S
-atłʼeh	yitłʼeh	N;PSS4SAC
+atłʼeh	yitłʼeh	N;PSS4;ARGAC3S
 atłʼó	adeeshtłʼóół	V;REAL;PROSP;1;SG
 atłʼó	adiitłʼóół	V;REAL;PROSP;1;DU/PL
 atłʼó	adíítłʼóół	V;REAL;PROSP;2;SG
@@ -1218,7 +1218,7 @@ atłʼó	ohtłʼó	V;REAL;IPFV/PROG;2;DU/PL
 átsą́ą́ʼ	nihítsą́ą́ʼ	N;PSS2D
 átsą́ą́ʼ	nítsą́ą́ʼ	N;PSS2S
 átsą́ą́ʼ	sítsą́ą́ʼ	N;PSS1S
-átsą́ą́ʼ	yítsą́ą́ʼ	N;PSS4SAC
+átsą́ą́ʼ	yítsą́ą́ʼ	N;PSS4;ARGAC3S
 atseeʼ	atseeʼ	N;PSS0
 atsʼééʼ	atsʼééʼ	N;PSS0
 atseeʼ	bitseeʼ	N;PSS3
@@ -1237,8 +1237,8 @@ atseeʼ	nitseeʼ	N;PSS2S
 atsʼééʼ	nitsʼééʼ	N;PSS2S
 atseeʼ	sitseeʼ	N;PSS1S
 atsʼééʼ	sitsʼééʼ	N;PSS1S
-atseeʼ	yitseeʼ	N;PSS4SAC
-atsʼééʼ	yitsʼééʼ	N;PSS4SAC
+atseeʼ	yitseeʼ	N;PSS4;ARGAC3S
+atsʼééʼ	yitsʼééʼ	N;PSS4;ARGAC3S
 atsékʼee	atsékʼee	N;PSS0
 atsékʼee	bitsékʼee	N;PSS3
 atsékʼee	danihitsékʼee	PSS1P
@@ -1248,7 +1248,7 @@ atsékʼee	nihitsékʼee	N;PSS1D
 atsékʼee	nihitsékʼee	N;PSS2D
 atsékʼee	nitsékʼee	N;PSS2S
 atsékʼee	sitsékʼee	N;PSS1S
-atsékʼee	yitsékʼee	N;PSS4SAC
+atsékʼee	yitsékʼee	N;PSS4;ARGAC3S
 atsiʼ	atsiʼ	N;PSS0
 atsiʼ	bitsiʼ	N;PSS3
 atsiʼ	danihitsiʼ	PSS1P
@@ -1267,7 +1267,7 @@ atsiighaʼ	nihitsiighaʼ	N;PSS1D
 atsiighaʼ	nihitsiighaʼ	N;PSS2D
 atsiighaʼ	nitsiighaʼ	N;PSS2S
 atsiighaʼ	sitsiighaʼ	N;PSS1S
-atsiighaʼ	yitsiighaʼ	N;PSS4SAC
+atsiighaʼ	yitsiighaʼ	N;PSS4;ARGAC3S
 atsiiʼ	hatsiiʼ	N;PSS4
 atsiiʼ	nihitsiiʼ	N;PSS1D
 atsiiʼ	nihitsiiʼ	N;PSS2D
@@ -1282,7 +1282,7 @@ atsʼíís	nihitsʼíís	N;PSS1D
 atsʼíís	nihitsʼíís	N;PSS2D
 atsʼíís	nitsʼíís	N;PSS2S
 atsʼíís	sitsʼíís	N;PSS1S
-atsʼíís	yitsʼíís	N;PSS4SAC
+atsʼíís	yitsʼíís	N;PSS4;ARGAC3S
 atsiitsʼiin	atsiitsʼiin	N;PSS0
 atsiitsʼiin	bitsiitsʼiin	N;PSS3
 atsiitsʼiin	danihitsiitsʼiin	PSS1P
@@ -1292,8 +1292,8 @@ atsiitsʼiin	nihitsiitsʼiin	N;PSS1D
 atsiitsʼiin	nihitsiitsʼiin	N;PSS2D
 atsiitsʼiin	nitsiitsʼiin	N;PSS2S
 atsiitsʼiin	sitsiitsʼiin	N;PSS1S
-atsiitsʼiin	yitsiitsʼiin	N;PSS4SAC
-atsiiʼ	yitsiiʼ	N;PSS4SAC
+atsiitsʼiin	yitsiitsʼiin	N;PSS4;ARGAC3S
+atsiiʼ	yitsiiʼ	N;PSS4;ARGAC3S
 atsilí	atsilí	N;PSS0
 atsilí	bitsilí	N;PSS3
 atsilí	danihitsilí	PSS1P
@@ -1303,7 +1303,7 @@ atsilí	nihitsilí	N;PSS1D
 atsilí	nihitsilí	N;PSS2D
 atsilí	nitsilí	N;PSS2S
 atsilí	sitsilí	N;PSS1S
-atsilí	yitsilí	N;PSS4SAC
+atsilí	yitsilí	N;PSS4;ARGAC3S
 atsʼin	atsʼin	N;PSS0
 atsʼin	bitsʼin	N;PSS3
 atsʼin	danihitsʼin	PSS1P
@@ -1316,9 +1316,9 @@ atsʼin	nihitsʼin	N;PSS1D
 atsʼin	nihitsʼin	N;PSS2D
 atsʼin	nitsʼin	N;PSS2S
 atsʼin	sitsʼin	N;PSS1S
-atsʼin	yitsʼin	N;PSS4SAC
+atsʼin	yitsʼin	N;PSS4;ARGAC3S
 atsiʼ	shitsiʼ	N;PSS1S
-atsiʼ	yitsiʼ	N;PSS4SAC
+atsiʼ	yitsiʼ	N;PSS4;ARGAC3S
 atsóí	atsóí	N;PSS0
 atsóí	bitsóí	N;PSS3
 atsóí	danihitsóí	PSS1P
@@ -1328,7 +1328,7 @@ atsóí	nihitsóí	N;PSS1D
 atsóí	nihitsóí	N;PSS2D
 atsóí	nitsóí	N;PSS2S
 atsóí	shitsóí	N;PSS1S
-atsóí	yitsóí	N;PSS4SAC
+atsóí	yitsóí	N;PSS4;ARGAC3S
 atsooʼ	atsooʼ	N;PSS0
 atsooʼ	bitsooʼ	N;PSS3
 atsooʼ	danihitsooʼ	PSS1P
@@ -1338,7 +1338,7 @@ atsooʼ	nihitsooʼ	N;PSS1D
 atsooʼ	nihitsooʼ	N;PSS2D
 atsooʼ	nitsooʼ	N;PSS2S
 atsooʼ	sitsooʼ	N;PSS1S
-atsooʼ	yitsooʼ	N;PSS4SAC
+atsooʼ	yitsooʼ	N;PSS4;ARGAC3S
 atsʼóóz	atsʼóóz	N;PSS0
 atsʼóóz	bitsʼóóz	N;PSS3
 atsʼóóz	danihitsʼóóz	PSS1P
@@ -1348,7 +1348,7 @@ atsʼóóz	nihitsʼóóz	N;PSS1D
 atsʼóóz	nihitsʼóóz	N;PSS2D
 atsʼóóz	nitsʼóóz	N;PSS2S
 atsʼóóz	shitsʼóóz	N;PSS1S
-atsʼóóz	yitsʼóóz	N;PSS4SAC
+atsʼóóz	yitsʼóóz	N;PSS4;ARGAC3S
 atsʼos	atsʼos	N;PSS0
 atsʼos	bitsʼos	N;PSS3
 atsʼos	danihitsʼos	PSS1P
@@ -1358,7 +1358,7 @@ atsʼos	nihitsʼos	N;PSS1D
 atsʼos	nihitsʼos	N;PSS2D
 atsʼos	nitsʼos	N;PSS2S
 atsʼos	sitsʼos	N;PSS1S
-atsʼos	yitsʼos	N;PSS4SAC
+atsʼos	yitsʼos	N;PSS4;ARGAC3S
 awol	awol	N;PSS0
 awol	biwol	N;PSS3
 awol	danihiwol	PSS1P
@@ -1368,7 +1368,7 @@ awol	nihiwol	N;PSS1D
 awol	nihiwol	N;PSS2D
 awol	niwol	N;PSS2S
 awol	shiwol	N;PSS1S
-awol	yiwol	N;PSS4SAC
+awol	yiwol	N;PSS4;ARGAC3S
 awooʼ	awooʼ	N;PSS0
 awooʼ	biwooʼ	N;PSS3
 awooʼ	danihiwooʼ	PSS1P
@@ -1378,7 +1378,7 @@ awooʼ	nihiwooʼ	N;PSS1D
 awooʼ	nihiwooʼ	N;PSS2D
 awooʼ	niwooʼ	N;PSS2S
 awooʼ	shiwooʼ	N;PSS1S
-awooʼ	yiwooʼ	N;PSS4SAC
+awooʼ	yiwooʼ	N;PSS4;ARGAC3S
 awos	awos	N;PSS0
 awos	biwos	N;PSS3
 awos	danihiwos	PSS1P
@@ -1388,7 +1388,7 @@ awos	nihiwos	N;PSS1D
 awos	nihiwos	N;PSS2D
 awos	niwos	N;PSS2S
 awos	shiwos	N;PSS1S
-awos	yiwos	N;PSS4SAC
+awos	yiwos	N;PSS4;ARGAC3S
 ayid	ayid	N;PSS0
 ayid	biyid	N;PSS3
 ayid	danihiyid	PSS1P
@@ -1398,7 +1398,7 @@ ayid	nihiyid	N;PSS1D
 ayid	nihiyid	N;PSS2D
 ayid	niyid	N;PSS2S
 ayid	shiyid	N;PSS1S
-ayid	yiyid	N;PSS4SAC
+ayid	yiyid	N;PSS4;ARGAC3S
 azaʼazis	azaʼazis	N;PSS0
 azaʼazis	bizaʼazis	N;PSS3
 azaʼazis	danihizaʼazis	PSS1P
@@ -1408,7 +1408,7 @@ azaʼazis	nihizaʼazis	N;PSS1D
 azaʼazis	nihizaʼazis	N;PSS2D
 azaʼazis	nizaʼazis	N;PSS2S
 azaʼazis	shizaʼazis	N;PSS1S
-azaʼazis	yizaʼazis	N;PSS4SAC
+azaʼazis	yizaʼazis	N;PSS4;ARGAC3S
 azágí	azágí	N;PSS0
 azágí	bizágí	N;PSS3
 azágí	danihizágí	PSS1P
@@ -1418,7 +1418,7 @@ azágí	nihizágí	N;PSS1D
 azágí	nihizágí	N;PSS2D
 azágí	nizágí	N;PSS2S
 azágí	sizágí	N;PSS1S
-azágí	yizágí	N;PSS4SAC
+azágí	yizágí	N;PSS4;ARGAC3S
 azází	azází	N;PSS0
 azází	bizází	N;PSS3
 azází	danihizází	PSS1P
@@ -1428,7 +1428,7 @@ azází	nihizází	N;PSS1D
 azází	nihizází	N;PSS2D
 azází	nizází	N;PSS2S
 azází	shizází	N;PSS1S
-azází	yizází	N;PSS4SAC
+azází	yizází	N;PSS4;ARGAC3S
 azééʼ	azééʼ	N;PSS0
 azééʼ	bizééʼ	N;PSS3
 azééʼ	danihizééʼ	PSS1P
@@ -1438,7 +1438,7 @@ azééʼ	nihizééʼ	N;PSS1D
 azééʼ	nihizééʼ	N;PSS2D
 azééʼ	nizééʼ	N;PSS2S
 azééʼ	shizééʼ	N;PSS1S
-azééʼ	yizééʼ	N;PSS4SAC
+azééʼ	yizééʼ	N;PSS4;ARGAC3S
 azhéʼé	azhéʼé	N;PSS0
 azhéʼé	bizhéʼé	N;PSS3
 azhéʼé	danihizhéʼé	PSS1P
@@ -1448,7 +1448,7 @@ azhéʼé	nihizhéʼé	N;PSS1D
 azhéʼé	nihizhéʼé	N;PSS2D
 azhéʼé	nizhéʼé	N;PSS2S
 azhéʼé	shizhéʼé	N;PSS1S
-azhéʼé	yizhéʼé	N;PSS4SAC
+azhéʼé	yizhéʼé	N;PSS4;ARGAC3S
 azhiʼ	azhiʼ	N;PSS0
 azhí	azhí	N;PSS0
 azhiʼ	bizhiʼ	N;PSS3
@@ -1467,8 +1467,8 @@ azhiʼ	nizhiʼ	N;PSS2S
 azhí	nizhí	N;PSS2S
 azhiʼ	shizhiʼ	N;PSS1S
 azhí	shizhí	N;PSS1S
-azhiʼ	yizhiʼ	N;PSS4SAC
-azhí	yizhí	N;PSS4SAC
+azhiʼ	yizhiʼ	N;PSS4;ARGAC3S
+azhí	yizhí	N;PSS4;ARGAC3S
 azid	azid	N;PSS0
 azid	bizid	N;PSS3
 azid	danihizid	PSS1P
@@ -1478,7 +1478,7 @@ azid	nihizid	N;PSS1D
 azid	nihizid	N;PSS2D
 azid	nizid	N;PSS2S
 azid	shizid	N;PSS1S
-azid	yizid	N;PSS4SAC
+azid	yizid	N;PSS4;ARGAC3S
 azis	azis	N;PSS0
 azis	bizis	N;PSS3
 azis	danihizis	PSS1P
@@ -1488,7 +1488,7 @@ azis	nihizis	N;PSS1D
 azis	nihizis	N;PSS2D
 azis	nizis	N;PSS2S
 azis	shizis	N;PSS1S
-azis	yizis	N;PSS4SAC
+azis	yizis	N;PSS4;ARGAC3S
 aziz	aziz	N;PSS0
 aziz	biziz	N;PSS3
 aziz	danihiziz	PSS1P
@@ -1498,7 +1498,7 @@ aziz	nihiziz	N;PSS1D
 aziz	nihiziz	N;PSS2D
 aziz	niziz	N;PSS2S
 aziz	shiziz	N;PSS1S
-aziz	yiziz	N;PSS4SAC
+aziz	yiziz	N;PSS4;ARGAC3S
 azooł	azooł	N;PSS0
 azooł	bizooł	N;PSS3
 azooł	danihizooł	PSS1P
@@ -1508,7 +1508,7 @@ azooł	nihizooł	N;PSS1D
 azooł	nihizooł	N;PSS2D
 azooł	nizooł	N;PSS2S
 azooł	shizooł	N;PSS1S
-azooł	yizooł	N;PSS4SAC
+azooł	yizooł	N;PSS4;ARGAC3S
 azǫ́ǫ́z	azǫ́ǫ́z	N;PSS0
 azǫ́ǫ́z	bizǫ́ǫ́z	N;PSS3
 azǫ́ǫ́z	danihizǫ́ǫ́z	PSS1P
@@ -1518,7 +1518,7 @@ azǫ́ǫ́z	nihizǫ́ǫ́z	N;PSS1D
 azǫ́ǫ́z	nihizǫ́ǫ́z	N;PSS2D
 azǫ́ǫ́z	nizǫ́ǫ́z	N;PSS2S
 azǫ́ǫ́z	shizǫ́ǫ́z	N;PSS1S
-azǫ́ǫ́z	yizǫ́ǫ́z	N;PSS4SAC
+azǫ́ǫ́z	yizǫ́ǫ́z	N;PSS4;ARGAC3S
 beeldléí	abeeldléí	N;PSS0
 beeldléí	bibeeldléí	N;PSS3
 beeldléí	danihibeeldléí	PSS1P
@@ -1528,7 +1528,7 @@ beeldléí	nibeeldléí	N;PSS2S
 beeldléí	nihibeeldléí	N;PSS1D
 beeldléí	nihibeeldléí	N;PSS2D
 beeldléí	shibeeldléí	N;PSS1S
-beeldléí	yibeeldléí	N;PSS4SAC
+beeldléí	yibeeldléí	N;PSS4;ARGAC3S
 bigaan	agaan	N;PSS0
 bigaan	bigaan	N;PSS3
 bigaan	danihigaan	PSS1P
@@ -1538,7 +1538,7 @@ bigaan	nigaan	N;PSS2S
 bigaan	nihigaan	N;PSS1D
 bigaan	nihigaan	N;PSS2D
 bigaan	shigaan	N;PSS1S
-bigaan	yigaan	N;PSS4SAC
+bigaan	yigaan	N;PSS4;ARGAC3S
 bighaaʼ	aghaaʼ	N;PSS0
 bighaaʼ	bighaaʼ	N;PSS3
 bighaaʼ	danihighaaʼ	PSS1P
@@ -1548,7 +1548,7 @@ bighaaʼ	nighaaʼ	N;PSS2S
 bighaaʼ	nihighaaʼ	N;PSS1D
 bighaaʼ	nihighaaʼ	N;PSS2D
 bighaaʼ	shighaaʼ	N;PSS1S
-bighaaʼ	yighaaʼ	N;PSS4SAC
+bighaaʼ	yighaaʼ	N;PSS4;ARGAC3S
 bighan	aghan	N;PSS0
 bighan	bighan	N;PSS3
 bighan	danihighan	PSS1P
@@ -1558,7 +1558,7 @@ bighan	nighan	N;PSS2S
 bighan	nihighan	N;PSS1D
 bighan	nihighan	N;PSS2D
 bighan	shighan	N;PSS1S
-bighan	yighan	N;PSS4SAC
+bighan	yighan	N;PSS4;ARGAC3S
 bijaaʼ	ajaaʼ	N;PSS0
 bijaaʼ	bijaaʼ	N;PSS3
 bijáád	ajáád	N;PSS0
@@ -1572,13 +1572,13 @@ bijáád	nihijáád	N;PSS1D
 bijáád	nihijáád	N;PSS2D
 bijáád	nijáád	N;PSS2S
 bijáád	shijáád	N;PSS1S
-bijáád	yijáád	N;PSS4SAC
+bijáád	yijáád	N;PSS4;ARGAC3S
 bijaaʼ	hajaaʼ	N;PSS4
 bijaaʼ	nihijaaʼ	N;PSS1D
 bijaaʼ	nihijaaʼ	N;PSS2D
 bijaaʼ	nijaaʼ	N;PSS2S
 bijaaʼ	shijaaʼ	N;PSS1S
-bijaaʼ	yijaaʼ	N;PSS4SAC
+bijaaʼ	yijaaʼ	N;PSS4;ARGAC3S
 bikeeʼ	akeeʼ	N;PSS0
 bikeeʼ	bikeeʼ	N;PSS3
 bikeeʼ	danihikeeʼ	PSS1P
@@ -1588,7 +1588,7 @@ bikeeʼ	nihikeeʼ	N;PSS1D
 bikeeʼ	nihikeeʼ	N;PSS2D
 bikeeʼ	nikeeʼ	N;PSS2S
 bikeeʼ	shikeeʼ	N;PSS1S
-bikeeʼ	yikeeʼ	N;PSS4SAC
+bikeeʼ	yikeeʼ	N;PSS4;ARGAC3S
 bikétsíín	akétsíín	N;PSS0
 bikétsíín	bikétsíín	N;PSS3
 bikétsíín	danihikétsíín	PSS1P
@@ -1598,7 +1598,7 @@ bikétsíín	nihikétsíín	N;PSS1D
 bikétsíín	nihikétsíín	N;PSS2D
 bikétsíín	nikétsíín	N;PSS2S
 bikétsíín	shikétsíín	N;PSS1S
-bikétsíín	yikétsíín	N;PSS4SAC
+bikétsíín	yikétsíín	N;PSS4;ARGAC3S
 bikin	akin	N;PSS0
 bikin	bikin	N;PSS3
 bikin	danihikin	PSS1P
@@ -1608,7 +1608,7 @@ bikin	nihikin	N;PSS1D
 bikin	nihikin	N;PSS2D
 bikin	nikin	N;PSS2S
 bikin	shikin	N;PSS1S
-bikin	yikin	N;PSS4SAC
+bikin	yikin	N;PSS4;ARGAC3S
 bikʼos	akʼos	N;PSS0
 bikʼos	bikʼos	N;PSS3
 bikʼos	danihikʼos	PSS1P
@@ -1618,7 +1618,7 @@ bikʼos	nihikʼos	N;PSS1D
 bikʼos	nihikʼos	N;PSS2D
 bikʼos	nikʼos	N;PSS2S
 bikʼos	sikʼos	N;PSS1S
-bikʼos	yikʼos	N;PSS4SAC
+bikʼos	yikʼos	N;PSS4;ARGAC3S
 bílaʼ	álaʼ	N;PSS0
 bílaʼ	bílaʼ	N;PSS3
 bílaʼ	danihílaʼ	PSS1P
@@ -1628,7 +1628,7 @@ bílaʼ	nihílaʼ	N;PSS1D
 bílaʼ	nihílaʼ	N;PSS2D
 bílaʼ	nílaʼ	N;PSS2S
 bílaʼ	shílaʼ	N;PSS1S
-bílaʼ	yílaʼ	N;PSS4SAC
+bílaʼ	yílaʼ	N;PSS4;ARGAC3S
 binááʼ	anááʼ	N;PSS0
 binááʼ	binááʼ	N;PSS3
 binááʼ	danihinááʼ	PSS1P
@@ -1638,7 +1638,7 @@ binááʼ	nihinááʼ	N;PSS1D
 binááʼ	nihinááʼ	N;PSS2D
 binááʼ	ninááʼ	N;PSS2S
 binááʼ	shinááʼ	N;PSS1S
-binááʼ	yinááʼ	N;PSS4SAC
+binááʼ	yinááʼ	N;PSS4;ARGAC3S
 bíniʼ	ániʼ	N;PSS0
 bíniʼ	bíniʼ	N;PSS3
 bíniʼ	danihíniʼ	PSS1P
@@ -1648,7 +1648,7 @@ bíniʼ	nihíniʼ	N;PSS1D
 bíniʼ	nihíniʼ	N;PSS2D
 bíniʼ	níniʼ	N;PSS2S
 bíniʼ	shíniʼ	N;PSS1S
-bíniʼ	yíniʼ	N;PSS4SAC
+bíniʼ	yíniʼ	N;PSS4;ARGAC3S
 bitseeʼ	atseeʼ	N;PSS0
 bitseeʼ	bitseeʼ	N;PSS3
 bitseeʼ	danihitseeʼ	PSS1P
@@ -1658,7 +1658,7 @@ bitseeʼ	nihitseeʼ	N;PSS1D
 bitseeʼ	nihitseeʼ	N;PSS2D
 bitseeʼ	nitseeʼ	N;PSS2S
 bitseeʼ	sitseeʼ	N;PSS1S
-bitseeʼ	yitseeʼ	N;PSS4SAC
+bitseeʼ	yitseeʼ	N;PSS4;ARGAC3S
 bitsiiʼ	atsiiʼ	N;PSS0
 bitsiiʼ	bitsiiʼ	N;PSS3
 bitsiiʼ	danihitsiiʼ	PSS1P
@@ -1668,7 +1668,7 @@ bitsiiʼ	nihitsiiʼ	N;PSS1D
 bitsiiʼ	nihitsiiʼ	N;PSS2D
 bitsiiʼ	nitsiiʼ	N;PSS2S
 bitsiiʼ	sitsiiʼ	N;PSS1S
-bitsiiʼ	yitsiiʼ	N;PSS4SAC
+bitsiiʼ	yitsiiʼ	N;PSS4;ARGAC3S
 bitsóóké	atsóóké	N;PSS0
 bitsóóké	bitsóóké	N;PSS3
 bitsóóké	danihitsóóké	PSS1P
@@ -1678,7 +1678,7 @@ bitsóóké	nihitsóóké	N;PSS1D
 bitsóóké	nihitsóóké	N;PSS2D
 bitsóóké	nitsóóké	N;PSS2S
 bitsóóké	shitsóóké	N;PSS1S
-bitsóóké	yitsóóké	N;PSS4SAC
+bitsóóké	yitsóóké	N;PSS4;ARGAC3S
 biyáázh	ayáázh	N;PSS0
 biyáázh	biyáázh	N;PSS3
 biyáázh	danihiyáázh	PSS1P
@@ -1688,7 +1688,7 @@ biyáázh	nihiyáázh	N;PSS1D
 biyáázh	nihiyáázh	N;PSS2D
 biyáázh	niyáázh	N;PSS2S
 biyáázh	shiyáázh	N;PSS1S
-biyáázh	yiyáázh	N;PSS4SAC
+biyáázh	yiyáázh	N;PSS4;ARGAC3S
 biyeʼ	ayeʼ	N;PSS0
 biyeʼ	biyeʼ	N;PSS3
 biyeʼ	danihiyeʼ	PSS1P
@@ -1698,7 +1698,7 @@ biyeʼ	nihiyeʼ	N;PSS1D
 biyeʼ	nihiyeʼ	N;PSS2D
 biyeʼ	niyeʼ	N;PSS2S
 biyeʼ	shiyeʼ	N;PSS1S
-biyeʼ	yiyeʼ	N;PSS4SAC
+biyeʼ	yiyeʼ	N;PSS4;ARGAC3S
 bizaad	azaad	N;PSS0
 bizaad	bizaad	N;PSS3
 bizaad	danihizaad	PSS1P
@@ -1708,7 +1708,7 @@ bizaad	nihizaad	N;PSS1D
 bizaad	nihizaad	N;PSS2D
 bizaad	nizaad	N;PSS2S
 bizaad	shizaad	N;PSS1S
-bizaad	yizaad	N;PSS4SAC
+bizaad	yizaad	N;PSS4;ARGAC3S
 bízhiʼ	ázhiʼ	N;PSS0
 bízhiʼ	bízhiʼ	N;PSS3
 bízhiʼ	danihízhiʼ	PSS1P
@@ -1718,7 +1718,7 @@ bízhiʼ	nihízhiʼ	N;PSS1D
 bízhiʼ	nihízhiʼ	N;PSS2D
 bízhiʼ	nízhiʼ	N;PSS2S
 bízhiʼ	shízhiʼ	N;PSS1S
-bízhiʼ	yízhiʼ	N;PSS4SAC
+bízhiʼ	yízhiʼ	N;PSS4;ARGAC3S
 bizis	azis	N;PSS0
 bizis	bizis	N;PSS3
 bizis	danihizis	PSS1P
@@ -1728,7 +1728,7 @@ bizis	nihizis	N;PSS1D
 bizis	nihizis	N;PSS2D
 bizis	nizis	N;PSS2S
 bizis	shizis	N;PSS1S
-bizis	yizis	N;PSS4SAC
+bizis	yizis	N;PSS4;ARGAC3S
 chąąʼ	achaan	N;PSS0
 chąąʼ	bichaan	N;PSS3
 chąąʼ	danihichaan	PSS1P
@@ -1738,7 +1738,7 @@ chąąʼ	nichaan	N;PSS2S
 chąąʼ	nihichaan	N;PSS1D
 chąąʼ	nihichaan	N;PSS2D
 chąąʼ	shichaan	N;PSS1S
-chąąʼ	yichaan	N;PSS4SAC
+chąąʼ	yichaan	N;PSS4;ARGAC3S
 chʼéghááh	chʼéghááh	V;REAL;IPFV/PROG;3;SG/DU/PL
 chʼéghááh	chʼíʼaash	V;REAL;IPFV/PROG;3;PL
 chʼéghááh	chʼídeeshááł	V;REAL;PROSP;1;SG
@@ -1868,7 +1868,7 @@ chidí	nichidí	N;PSS2S
 chidí	nihichidí	N;PSS1D
 chidí	nihichidí	N;PSS2D
 chidí	shichidí	N;PSS1S
-chidí	yichidí	N;PSS4SAC
+chidí	yichidí	N;PSS4;ARGAC3S
 chʼííłʼá	chʼídajíłʼá	V;REAL;IPFV/PROG;4;PL
 chʼííłʼá	chʼídajisʼaʼ	V;REAL;PFV/PRF;4;PL
 chʼííłʼá	chʼídaniilʼá	V;REAL;IPFV/PROG;1;PL
@@ -1948,7 +1948,7 @@ chʼiyáán	nichʼiyąʼ	N;PSS2S
 chʼiyáán	nihichʼiyąʼ	N;PSS1D
 chʼiyáán	nihichʼiyąʼ	N;PSS2D
 chʼiyáán	shichʼiyąʼ	N;PSS1S
-chʼiyáán	yichʼiyąʼ	N;PSS4SAC
+chʼiyáán	yichʼiyąʼ	N;PSS4;ARGAC3S
 déesxéél	dadéesxéél	V;REAL;PFV/PRF;3;PL
 déesxéél	dadíníilyéél	V;REAL;PFV/PRF;1;PL
 déesxéél	dadínóołhéél	V;REAL;PFV/PRF;2;PL
@@ -2279,7 +2279,7 @@ dizheeh	dohsheeh	V;REAL;IPFV/PROG;2;DU/PL
 dizheeh	doozhééʼ	V;REAL;PFV/PRF;2;DU/PL
 dizheeh	jidíízhééʼ	V;REAL;PFV/PRF;4;SG/DU/PL
 dizheeh	jidizheeh	V;REAL;IPFV/PROG;4;SG/DU/PL
-ééʼ	beʼééʼ	N;PSS4SAC
+ééʼ	beʼééʼ	N;PSS4;ARGAC3S
 ééʼ	daniheʼééʼ	PSS2P
 ééʼ	duoplural	N;PSS1D
 ééʼ	hweʼééʼ	N;PSS0
@@ -2318,7 +2318,7 @@ habid	nibid	N;PSS2S
 habid	nihibid	N;PSS1D
 habid	nihibid	N;PSS2D
 habid	shibid	N;PSS1S
-habid	yibid	N;PSS4SAC
+habid	yibid	N;PSS4;ARGAC3S
 hachʼoozhlaaʼ	achʼoozhlaaʼ	N;PSS0
 hachʼoozhlaaʼ	bichʼoozhlaaʼ	N;PSS3
 hachʼoozhlaaʼ	danihichʼoozhlaaʼ	PSS1P
@@ -2328,7 +2328,7 @@ hachʼoozhlaaʼ	nichʼoozhlaaʼ	N;PSS2S
 hachʼoozhlaaʼ	nihichʼoozhlaaʼ	N;PSS1D
 hachʼoozhlaaʼ	nihichʼoozhlaaʼ	N;PSS2D
 hachʼoozhlaaʼ	shichʼoozhlaaʼ	N;PSS1S
-hachʼoozhlaaʼ	yichʼoozhlaaʼ	N;PSS4SAC
+hachʼoozhlaaʼ	yichʼoozhlaaʼ	N;PSS4;ARGAC3S
 hadoh	adoh	N;PSS0
 hadoh	bidoh	N;PSS3
 hadoh	danihidoh	PSS1P
@@ -2338,7 +2338,7 @@ hadoh	nidoh	N;PSS2S
 hadoh	nihidoh	N;PSS1D
 hadoh	nihidoh	N;PSS2D
 hadoh	shidoh	N;PSS1S
-hadoh	yidoh	N;PSS4SAC
+hadoh	yidoh	N;PSS4;ARGAC3S
 hagaan	agaan	N;PSS0
 hagaan	bigaan	N;PSS3
 hagaan	danihigaan	PSS1P
@@ -2348,7 +2348,7 @@ hagaan	nigaan	N;PSS2S
 hagaan	nihigaan	N;PSS1D
 hagaan	nihigaan	N;PSS2D
 hagaan	shigaan	N;PSS1S
-hagaan	yigaan	N;PSS4SAC
+hagaan	yigaan	N;PSS4;ARGAC3S
 hagod	agod	N;PSS0
 hagod	bigod	N;PSS3
 hagod	danihigod	PSS1P
@@ -2358,7 +2358,7 @@ hagod	nigod	N;PSS2S
 hagod	nihigod	N;PSS1D
 hagod	nihigod	N;PSS2D
 hagod	shigod	N;PSS1S
-hagod	yigod	N;PSS4SAC
+hagod	yigod	N;PSS4;ARGAC3S
 haichʼiid	hááchʼid	V;REAL;PFV/PRF;1;SG
 haichʼiid	haahchʼiid	V;REAL;IPFV/PROG;2;DU/PL
 haichʼiid	haashchʼiid	V;REAL;IPFV/PROG;1;SG
@@ -2778,7 +2778,7 @@ hajáád	nihijáád	N;PSS1D
 hajáád	nihijáád	N;PSS2D
 hajáád	nijáád	N;PSS2S
 hajáád	shijáád	N;PSS1S
-hajáád	yijáád	N;PSS4SAC
+hajáád	yijáád	N;PSS4;ARGAC3S
 hákʼaʼí	ákʼaʼí	N;PSS0
 hákʼaʼí	bíkʼaʼí	N;PSS3
 hákʼaʼí	danihíkʼaʼí	PSS1P
@@ -2788,7 +2788,7 @@ hákʼaʼí	nihíkʼaʼí	N;PSS1D
 hákʼaʼí	nihíkʼaʼí	N;PSS2D
 hákʼaʼí	níkʼaʼí	N;PSS2S
 hákʼaʼí	shíkʼaʼí	N;PSS1S
-hákʼaʼí	yíkʼaʼí	N;PSS4SAC
+hákʼaʼí	yíkʼaʼí	N;PSS4;ARGAC3S
 hakeeʼ	akeeʼ	N;PSS0
 hakeeʼ	bikeeʼ	N;PSS3
 hakeeʼ	danihikeeʼ	PSS1P
@@ -2798,7 +2798,7 @@ hakeeʼ	nihikeeʼ	N;PSS1D
 hakeeʼ	nihikeeʼ	N;PSS2D
 hakeeʼ	nikeeʼ	N;PSS2S
 hakeeʼ	shikeeʼ	N;PSS1S
-hakeeʼ	yikeeʼ	N;PSS4SAC
+hakeeʼ	yikeeʼ	N;PSS4;ARGAC3S
 hakʼéí	akʼéí	N;PSS0
 hakʼéí	bikʼéí	N;PSS3
 hakʼéí	danihikʼéí	PSS1P
@@ -2808,7 +2808,7 @@ hakʼéí	nihikʼéí	N;PSS1D
 hakʼéí	nihikʼéí	N;PSS2D
 hakʼéí	nikʼéí	N;PSS2S
 hakʼéí	shikʼéí	N;PSS1S
-hakʼéí	yikʼéí	N;PSS4SAC
+hakʼéí	yikʼéí	N;PSS4;ARGAC3S
 hakétsíín	akétsíín	N;PSS0
 hakétsíín	bikétsíín	N;PSS3
 hakétsíín	danihikétsíín	PSS1P
@@ -2818,7 +2818,7 @@ hakétsíín	nihikétsíín	N;PSS1D
 hakétsíín	nihikétsíín	N;PSS2D
 hakétsíín	nikétsíín	N;PSS2S
 hakétsíín	shikétsíín	N;PSS1S
-hakétsíín	yikétsíín	N;PSS4SAC
+hakétsíín	yikétsíín	N;PSS4;ARGAC3S
 hakʼos	akʼos	N;PSS0
 hakʼos	bikʼos	N;PSS3
 hakʼos	danihikʼos	PSS1P
@@ -2828,7 +2828,7 @@ hakʼos	nihikʼos	N;PSS1D
 hakʼos	nihikʼos	N;PSS2D
 hakʼos	nikʼos	N;PSS2S
 hakʼos	sikʼos	N;PSS1S
-hakʼos	yikʼos	N;PSS4SAC
+hakʼos	yikʼos	N;PSS4;ARGAC3S
 hálaʼ	álaʼ	N;PSS0
 hálaʼ	bílaʼ	N;PSS3
 hálaʼ	danihílaʼ	PSS1P
@@ -2847,8 +2847,8 @@ hálátsíín	nihílátsíín	N;PSS1D
 hálátsíín	nihílátsíín	N;PSS2D
 hálátsíín	nílátsíín	N;PSS2S
 hálátsíín	shílátsíín	N;PSS1S
-hálátsíín	yílátsíín	N;PSS4SAC
-hálaʼ	yílaʼ	N;PSS4SAC
+hálátsíín	yílátsíín	N;PSS4;ARGAC3S
+hálaʼ	yílaʼ	N;PSS4;ARGAC3S
 halchin	dahalchin	V;REAL;PFV/PRF;3;PL
 halchin	dahojílchin	V;REAL;PFV/PRF;4;PL
 halchin	dahoniilchin	V;REAL;PFV/PRF;1;PL
@@ -2958,7 +2958,7 @@ hánaaí	nihínaaí	N;PSS1D
 hánaaí	nihínaaí	N;PSS2D
 hánaaí	nínaaí	N;PSS2S
 hánaaí	shínaaí	N;PSS1S
-hánaaí	yínaaí	N;PSS4SAC
+hánaaí	yínaaí	N;PSS4;ARGAC3S
 hanidááh	hadaneesdaaʼ	V;REAL;PFV/PRF;3;PL
 hanidááh	hadanidááh	V;REAL;IPFV/PROG;3;PL
 hanidááh	hadaniidááh	V;REAL;IPFV/PROG;1;PL
@@ -2994,7 +2994,7 @@ haniiʼ	nihiniiʼ	N;PSS1D
 haniiʼ	nihiniiʼ	N;PSS2D
 haniiʼ	niniiʼ	N;PSS2S
 haniiʼ	shiniiʼ	N;PSS1S
-haniiʼ	yiniiʼ	N;PSS4SAC
+haniiʼ	yiniiʼ	N;PSS4;ARGAC3S
 hashké	dahajishké	V;REAL;PFV/PRF;4;PL
 hashké	dahashiiké	V;REAL;PFV/PRF;1;PL
 hashké	dahashké	V;REAL;IPFV/PROG;3;PL
@@ -3084,7 +3084,7 @@ hatłʼaaʼ	nihitłʼaaʼ	N;PSS1D
 hatłʼaaʼ	nihitłʼaaʼ	N;PSS2D
 hatłʼaaʼ	nitłʼaaʼ	N;PSS2S
 hatłʼaaʼ	shitłʼaaʼ	N;PSS1S
-hatłʼaaʼ	yitłʼaaʼ	N;PSS4SAC
+hatłʼaaʼ	yitłʼaaʼ	N;PSS4;ARGAC3S
 hatsiʼ	atsiʼ	N;PSS0
 hatsiʼ	bitsiʼ	N;PSS3
 hatsiʼ	danihitsiʼ	PSS1P
@@ -3108,8 +3108,8 @@ hatsʼíís	nihitsʼíís	N;PSS1D
 hatsʼíís	nihitsʼíís	N;PSS2D
 hatsʼíís	nitsʼíís	N;PSS2S
 hatsʼíís	sitsʼíís	N;PSS1S
-hatsʼíís	yitsʼíís	N;PSS4SAC
-hatsiiʼ	yitsiiʼ	N;PSS4SAC
+hatsʼíís	yitsʼíís	N;PSS4;ARGAC3S
+hatsiiʼ	yitsiiʼ	N;PSS4;ARGAC3S
 hatsʼin	atsʼin	N;PSS0
 hatsʼin	bitsʼin	N;PSS3
 hatsʼin	danihitsʼin	PSS1P
@@ -3122,9 +3122,9 @@ hatsʼin	nihitsʼin	N;PSS1D
 hatsʼin	nihitsʼin	N;PSS2D
 hatsʼin	nitsʼin	N;PSS2S
 hatsʼin	sitsʼin	N;PSS1S
-hatsʼin	yitsʼin	N;PSS4SAC
+hatsʼin	yitsʼin	N;PSS4;ARGAC3S
 hatsiʼ	shitsiʼ	N;PSS1S
-hatsiʼ	yitsiʼ	N;PSS4SAC
+hatsiʼ	yitsiʼ	N;PSS4;ARGAC3S
 heechééh	daheechaʼ	V;REAL;PFV/PRF;3;PL
 heechééh	daheechééh	V;REAL;IPFV/PROG;3;PL
 heechééh	dahéechééh	V;REAL;PROSP;3;PL
@@ -3164,7 +3164,7 @@ hééł	nihiyéél	N;PSS1D
 hééł	nihiyéél	N;PSS2D
 hééł	niyéél	N;PSS2S
 hééł	shiyéél	N;PSS1S
-hééł	yiyéél	N;PSS4SAC
+hééł	yiyéél	N;PSS4;ARGAC3S
 hilghaał	dahalghaał	V;REAL;IPFV/PROG;3;PL
 hilghaał	daheesghal	V;REAL;PFV/PRF;3;PL
 hilghaał	dahiilghaał	V;REAL;IPFV/PROG;1;PL
@@ -4134,7 +4134,7 @@ inchxǫ́ʼí	nihinchxǫ́ʼí	N;PSS1D
 inchxǫ́ʼí	nihinchxǫ́ʼí	N;PSS2D
 inchxǫ́ʼí	ninchxǫ́ʼí	N;PSS2S
 inchxǫ́ʼí	shinchxǫ́ʼí	N;PSS1S
-inchxǫ́ʼí	yinchxǫ́ʼí	N;PSS4SAC
+inchxǫ́ʼí	yinchxǫ́ʼí	N;PSS4;ARGAC3S
 iʼniłdih	idaʼniildih	V;REAL;PFV/PRF;1;PL
 iʼniłdih	idaʼniłdih	V;REAL;PFV/PRF;3;PL
 iʼniłdih	idaʼnołdih	V;REAL;PFV/PRF;2;PL
@@ -4213,8 +4213,8 @@ kéyah	nihikéyah	N;PSS1D
 kéyah	nihikéyah	N;PSS2D
 kéyah	nikéyah	N;PSS2S
 kéyah	shikéyah	N;PSS1S
-kéyah	yikéyah	N;PSS4SAC
-ké	yikeeʼ	N;PSS4SAC
+kéyah	yikéyah	N;PSS4;ARGAC3S
+ké	yikeeʼ	N;PSS4;ARGAC3S
 kʼiidilé	kʼidadidiilyééł	V;REAL;PROSP;1;PL
 kʼiidilé	kʼidadidoohłééł	V;REAL;PROSP;2;PL
 kʼiidilé	kʼidadiilyá	V;REAL;PFV/PRF;1;PL
@@ -4254,7 +4254,7 @@ kin	nihikin	N;PSS1D
 kin	nihikin	N;PSS2D
 kin	nikin	N;PSS2S
 kin	shikin	N;PSS1S
-kin	yikin	N;PSS4SAC
+kin	yikin	N;PSS4;ARGAC3S
 łeetsʼaaʼ	ałeetsʼaʼ	N;PSS0
 łeetsʼaaʼ	biłeetsʼaʼ	N;PSS3
 łeetsʼaaʼ	danihiłeetsʼaʼ	PSS1P
@@ -4264,7 +4264,7 @@ kin	yikin	N;PSS4SAC
 łeetsʼaaʼ	nihiłeetsʼaʼ	N;PSS2D
 łeetsʼaaʼ	niłeetsʼaʼ	N;PSS2S
 łeetsʼaaʼ	shiłeetsʼaʼ	N;PSS1S
-łeetsʼaaʼ	yiłeetsʼaʼ	N;PSS4SAC
+łeetsʼaaʼ	yiłeetsʼaʼ	N;PSS4;ARGAC3S
 łéʼéyázhí	aléʼéyázhí	N;PSS0
 łéʼéyázhí	biléʼéyázhí	N;PSS3
 łéʼéyázhí	danihiléʼéyázhí	PSS1P
@@ -4274,7 +4274,7 @@ kin	yikin	N;PSS4SAC
 łéʼéyázhí	nihiléʼéyázhí	N;PSS2D
 łéʼéyázhí	niléʼéyázhí	N;PSS2S
 łéʼéyázhí	shiléʼéyázhí	N;PSS1S
-łéʼéyázhí	yiléʼéyázhí	N;PSS4SAC
+łéʼéyázhí	yiléʼéyázhí	N;PSS4;ARGAC3S
 łichxííʼ	daalchxííʼ	V;REAL;PFV/PRF;3;PL
 łichxííʼ	dajilchxííʼ	V;REAL;PFV/PRF;4;PL
 łichxííʼ	dałiniichxííʼ	V;REAL;PFV/PRF;1;PL
@@ -4784,7 +4784,7 @@ naalté	nihinaalteʼ	N;PSS1D
 naalté	nihinaalteʼ	N;PSS2D
 naalté	ninaalteʼ	N;PSS2S
 naalté	shinaalteʼ	N;PSS1S
-naalté	yinaalteʼ	N;PSS4SAC
+naalté	yinaalteʼ	N;PSS4;ARGAC3S
 náʼáłtsááh	náʼáłtsááh	V;REAL;PFV/PRF;3;SG/DU/PL
 náʼáłtsááh	náʼástsááh	V;REAL;PFV/PRF;1;SG
 náʼáłtsááh	náʼiiltsááh	V;REAL;PFV/PRF;1;DU/PL
@@ -6376,7 +6376,7 @@ níłchʼi	nihiníłchʼi	N;PSS1D
 níłchʼi	nihiníłchʼi	N;PSS2D
 níłchʼi	niníłchʼi	N;PSS2S
 níłchʼi	shiníłchʼi	N;PSS1S
-níłchʼi	yiníłchʼi	N;PSS4SAC
+níłchʼi	yiníłchʼi	N;PSS4;ARGAC3S
 niłchon	dajíłchon	V;REAL;PFV/PRF;4;PL
 niłchon	daniilchon	V;REAL;PFV/PRF;1;PL
 niłchon	daniłchon	V;REAL;PFV/PRF;3;PL
@@ -6588,7 +6588,7 @@ saad	nihizaad	N;PSS1D
 saad	nihizaad	N;PSS2D
 saad	nizaad	N;PSS2S
 saad	shizaad	N;PSS1S
-saad	yizaad	N;PSS4SAC
+saad	yizaad	N;PSS4;ARGAC3S
 sáanii	azáanii	N;PSS0
 sáanii	bizáanii	N;PSS3
 sáanii	danihizáanii	PSS1P
@@ -6598,7 +6598,7 @@ sáanii	nihizáanii	N;PSS1D
 sáanii	nihizáanii	N;PSS2D
 sáanii	nizáanii	N;PSS2S
 sáanii	shizáanii	N;PSS1S
-sáanii	yizáanii	N;PSS4SAC
+sáanii	yizáanii	N;PSS4;ARGAC3S
 sęęs	azęęs	N;PSS0
 sęęs	bizęęs	N;PSS3
 sęęs	danihizęęs	PSS1P
@@ -6608,7 +6608,7 @@ sęęs	nihizęęs	N;PSS1D
 sęęs	nihizęęs	N;PSS2D
 sęęs	nizęęs	N;PSS2S
 sęęs	shizęęs	N;PSS1S
-sęęs	yizęęs	N;PSS4SAC
+sęęs	yizęęs	N;PSS4;ARGAC3S
 séí	azéí	N;PSS0
 séí	bizéí	N;PSS3
 séí	danihizéí	PSS1P
@@ -6618,7 +6618,7 @@ séí	nihizéí	N;PSS1D
 séí	nihizéí	N;PSS2D
 séí	nizéí	N;PSS2S
 séí	shizéí	N;PSS1S
-séí	yizéí	N;PSS4SAC
+séí	yizéí	N;PSS4;ARGAC3S
 shiʼáád	aʼáád	N;PSS0
 shiʼáád	biʼáád	N;PSS3
 shiʼáád	danihiʼáád	PSS1P
@@ -6628,7 +6628,7 @@ shiʼáád	niʼáád	N;PSS2S
 shiʼáád	nihiʼáád	N;PSS1D
 shiʼáád	nihiʼáád	N;PSS2D
 shiʼáád	shiʼáád	N;PSS1S
-shiʼáád	yiʼáád	N;PSS4SAC
+shiʼáád	yiʼáád	N;PSS4;ARGAC3S
 shijaaʼ	ajaaʼ	N;PSS0
 shijaaʼ	bijaaʼ	N;PSS3
 shijaaʼ	danihijaaʼ	PSS1P
@@ -6638,7 +6638,7 @@ shijaaʼ	nihijaaʼ	N;PSS1D
 shijaaʼ	nihijaaʼ	N;PSS2D
 shijaaʼ	nijaaʼ	N;PSS2S
 shijaaʼ	shijaaʼ	N;PSS1S
-shijaaʼ	yijaaʼ	N;PSS4SAC
+shijaaʼ	yijaaʼ	N;PSS4;ARGAC3S
 shikąʼ	akąʼ	N;PSS0
 shikąʼ	bikąʼ	N;PSS3
 shikąʼ	danihikąʼ	PSS1P
@@ -6648,7 +6648,7 @@ shikąʼ	nihikąʼ	N;PSS1D
 shikąʼ	nihikąʼ	N;PSS2D
 shikąʼ	nikąʼ	N;PSS2S
 shikąʼ	shikąʼ	N;PSS1S
-shikąʼ	yikąʼ	N;PSS4SAC
+shikąʼ	yikąʼ	N;PSS4;ARGAC3S
 shilah	alah	N;PSS0
 shilah	bilah	N;PSS3
 shilah	danihilah	PSS1P
@@ -6658,7 +6658,7 @@ shilah	nihilah	N;PSS1D
 shilah	nihilah	N;PSS2D
 shilah	nilah	N;PSS2S
 shilah	shilah	N;PSS1S
-shilah	yilah	N;PSS4SAC
+shilah	yilah	N;PSS4;ARGAC3S
 shíniʼ	ániʼ	N;PSS0
 shíniʼ	bíniʼ	N;PSS3
 shíniʼ	danihíniʼ	PSS1P
@@ -6668,7 +6668,7 @@ shíniʼ	nihíniʼ	N;PSS1D
 shíniʼ	nihíniʼ	N;PSS2D
 shíniʼ	níniʼ	N;PSS2S
 shíniʼ	shíniʼ	N;PSS1S
-shíniʼ	yíniʼ	N;PSS4SAC
+shíniʼ	yíniʼ	N;PSS4;ARGAC3S
 sikʼis	akʼis	N;PSS0
 sikʼis	bikʼis	N;PSS3
 sikʼis	danihikʼis	PSS1P
@@ -6678,7 +6678,7 @@ sikʼis	nihikʼis	N;PSS1D
 sikʼis	nihikʼis	N;PSS2D
 sikʼis	nikʼis	N;PSS2S
 sikʼis	sikʼis	N;PSS1S
-sikʼis	yikʼis	N;PSS4SAC
+sikʼis	yikʼis	N;PSS4;ARGAC3S
 siláo	asiláo	N;PSS0
 siláo	bisiláo	N;PSS3
 siláo	danihisiláo	PSS1P
@@ -6688,7 +6688,7 @@ siláo	nihisiláo	N;PSS1D
 siláo	nihisiláo	N;PSS2D
 siláo	nisiláo	N;PSS2S
 siláo	shisiláo	N;PSS1S
-siláo	yisiláo	N;PSS4SAC
+siláo	yisiláo	N;PSS4;ARGAC3S
 sin	ayiin	N;PSS0
 sin	biyiin	N;PSS3
 sin	danihiyiin	PSS1P
@@ -6698,7 +6698,7 @@ sin	nihiyiin	N;PSS1D
 sin	nihiyiin	N;PSS2D
 sin	niyiin	N;PSS2S
 sin	shiyiin	N;PSS1S
-sin	yiyiin	N;PSS4SAC
+sin	yiyiin	N;PSS4;ARGAC3S
 sizį́	daazį́	V;REAL;PFV/PRF;3;PL
 sizį́	dajizį́	V;REAL;PFV/PRF;4;PL
 sizį́	dasiidzį́	V;REAL;PFV/PRF;1;PL
@@ -6718,7 +6718,7 @@ sǫʼ	nihizǫʼ	N;PSS1D
 sǫʼ	nihizǫʼ	N;PSS2D
 sǫʼ	nizǫʼ	N;PSS2S
 sǫʼ	shizǫʼ	N;PSS1S
-sǫʼ	yizǫʼ	N;PSS4SAC
+sǫʼ	yizǫʼ	N;PSS4;ARGAC3S
 táʼádígis	táʼádadigis	V;REAL;PFV/PRF;3;PL
 táʼádígis	táʼádadiigis	V;REAL;PFV/PRF;1;PL
 táʼádígis	táʼádadohgis	V;REAL;PFV/PRF;2;PL
@@ -6758,7 +6758,7 @@ tłʼaajįʼééʼ	nihitłʼaajįʼééʼ	N;PSS1D
 tłʼaajįʼééʼ	nihitłʼaajįʼééʼ	N;PSS2D
 tłʼaajįʼééʼ	nitłʼaajįʼééʼ	N;PSS2S
 tłʼaajįʼééʼ	shitłʼaajįʼééʼ	N;PSS1S
-tłʼaajįʼééʼ	yitłʼaajįʼééʼ	N;PSS4SAC
+tłʼaajįʼééʼ	yitłʼaajįʼééʼ	N;PSS4;ARGAC3S
 tłʼaakał	atłʼaakał	N;PSS0
 tłʼaakał	bitłʼaakał	N;PSS3
 tłʼaakał	danihitłʼaakał	PSS1P
@@ -6768,7 +6768,7 @@ tłʼaakał	nihitłʼaakał	N;PSS1D
 tłʼaakał	nihitłʼaakał	N;PSS2D
 tłʼaakał	nitłʼaakał	N;PSS2S
 tłʼaakał	shitłʼaakał	N;PSS1S
-tłʼaakał	yitłʼaakał	N;PSS4SAC
+tłʼaakał	yitłʼaakał	N;PSS4;ARGAC3S
 tó	atoʼ	N;PSS0
 tó	bitoʼ	N;PSS3
 tó	danihitoʼ	PSS1P
@@ -6778,7 +6778,7 @@ tó	nihitoʼ	N;PSS1D
 tó	nihitoʼ	N;PSS2D
 tó	nitoʼ	N;PSS2S
 tó	shitoʼ	N;PSS1S
-tó	yitoʼ	N;PSS4SAC
+tó	yitoʼ	N;PSS4;ARGAC3S
 tsiiyéél	atsiiyéél	N;PSS0
 tsiiyéél	bitsiiyéél	N;PSS3
 tsiiyéél	danihitsiiyéél	PSS1P
@@ -6788,7 +6788,7 @@ tsiiyéél	nihitsiiyéél	N;PSS1D
 tsiiyéél	nihitsiiyéél	N;PSS2D
 tsiiyéél	nitsiiyéél	N;PSS2S
 tsiiyéél	sitsiiyéél	N;PSS1S
-tsiiyéél	yitsiiyéél	N;PSS4SAC
+tsiiyéél	yitsiiyéél	N;PSS4;ARGAC3S
 wolyé	dajoolyé	V;REAL;IPFV/PROG;4;PL
 wolyé	dajoosyeʼ	V;REAL;PFV/PRF;4;PL
 wolyé	daolyé	V;REAL;IPFV/PROG;3;PL
@@ -6848,7 +6848,7 @@ yaaʼ	nihiyaʼ	N;PSS1D
 yaaʼ	nihiyaʼ	N;PSS2D
 yaaʼ	niyaʼ	N;PSS2S
 yaaʼ	shiyaʼ	N;PSS1S
-yaaʼ	yiyaʼ	N;PSS4SAC
+yaaʼ	yiyaʼ	N;PSS4;ARGAC3S
 yeełtʼé	bidajíłtʼé	V;REAL;PFV/PRF;4;PL
 yeełtʼé	bidaniiltʼé	V;REAL;PFV/PRF;1;PL
 yeełtʼé	bidanołtʼé	V;REAL;PFV/PRF;2;PL
@@ -10869,7 +10869,7 @@ yistłé	nihistłeeʼ	N;PSS1D
 yistłé	nihistłeeʼ	N;PSS2D
 yistłé	nistłeeʼ	N;PSS2S
 yistłé	shistłeeʼ	N;PSS1S
-yistłé	yistłeeʼ	N;PSS4SAC
+yistłé	yistłeeʼ	N;PSS4;ARGAC3S
 yitaał	daahtaał	V;REAL;IPFV/PROG;2;PL
 yitaał	daataał	V;REAL;IPFV/PROG;3;PL
 yitaał	daaztáál	V;REAL;PFV/PRF;3;PL
