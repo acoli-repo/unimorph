@@ -10,4 +10,5 @@ Note that this is an exploratory fork and supposed to feed back into a future ve
  - gml/ (Middle Low German@ACoLi)
  - goh/ (Old High German@ACoLi)
  - kat/ (Georgian@Unimorph, commented by LiODi)
+ - klr/ (Khilang@Unimorph, revised by LiODi)
  - osx/ (Old Saxon@ACoLi)
