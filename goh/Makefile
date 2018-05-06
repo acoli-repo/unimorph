@@ -92,7 +92,7 @@ clean:
 	wget -c https://raw.githubusercontent.com/acoli-repo/LLODifier/master/elan/elan2llod.xsl -O ../tools/elan2llod.xsl
 	
 ../tools/conll-rdf/run.sh: | ../tools
-	mkdir ../tools/conll-rdf >&/dev/null;
+	mkdir ../tools/conll-rdf
 	wget -c https://github.com/acoli-repo/conll-rdf/archive/master.zip -O ../tools/conll-rdf/master.zip
 	unzip ../tools/conll-rdf/master.zip -d ../tools/conll-rdf/
 	mv ../tools/conll-rdf/conll-rdf-master/* ../tools/conll-rdf/
@@ -102,5 +102,5 @@ clean:
 	../tools/conll-rdf/compile.sh
 	
 ../tools/apache-jena-3.6.0: | ../tools
-	wget -c http://ftp.fau.de/apache/jena/binaries/apache-jena-3.6.0.zip -O ../tools/apache-jena.zip;
+	wget -c http://archive.apache.org/dist/jena/binaries/apache-jena-3.6.0.zip -O ../tools/apache-jena.zip;
 	unzip ../tools/apache-jena.zip -d ../tools/
