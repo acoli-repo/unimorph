@@ -5,15 +5,17 @@ This repository contains UniMorph data for several languages which are investiga
 
 Note that this is an exploratory fork and supposed to feed back into a future version of Unimorph.
 
-## Novel data sets (ACoLi)
+## Novel data sets (ACoLi/LiODi)
 
+ - kjj/ (Khinalug@LiODi)
+ 
  - gmh/ (Middle High German@ACoLi)
  - gml/ (Middle Low German@ACoLi)
  - goh/ (Old High German@ACoLi)
  - osx/ (Old Saxon@ACoLi)
 
 These data sets use conventional UniMorph annotations, but in opposition to conventional UniMorph data, we include source data and build scripts (Makefile). A technological innovation is that gmh, goh and osx use ontologies and SPARQL update for transforming the original annotations to UniMorph annotations. 
- 
+
 ## Revised UniMorph annotations for argument marking (LiODi)
 
 A critical assessment of the use of UniMorph ARG features, originally intended to express arguments of polyvalent verbs in head-marking languages.
