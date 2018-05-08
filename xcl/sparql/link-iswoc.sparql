@@ -30,11 +30,6 @@ INSERT {
 	}
 	FILTER(contains(?feats,?c))
 };
-#?x system:hasTagContaining ?c
-#?x skos:broader ?y um:hasLabel ?f.
-# :ADJ(ddd) 	system:hasTag	ADJ
-# :ADJ(ddd) 	skos:broader	um:ADJ um:hasLabel bla
-# Replace feats with 'bla' iff feats-contains-ADJ
 
 # 2.b (hasTagStartingWith)
 INSERT {

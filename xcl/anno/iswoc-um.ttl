@@ -40,27 +40,29 @@
 :Px 	skos:broader	um:PRO	.
 :V- 	skos:broader	um:V	.
 
-:CASEa 	skos:broader	um:ACC	.
-:CASEb 	skos:broader	um:ABL	.
-:CASEd 	skos:broader	um:DAT	.
-:CASEg 	skos:broader	um:GEN	.
-:CASEi 	skos:broader	um:INS	.
-:CASEI 	skos:broader	um:IN	.
-:CASEn 	skos:broader	um:NOM	.
-:CASEv 	skos:broader	um:VOC	.
-:MOODi 	skos:broader	um:IND	.
-:MOODm 	skos:broader	um:IMP	.
-:MOODn 	skos:broader	um:NFIN	.
-:MOODp 	skos:broader	um:V.PTCP .
-:MOODs 	skos:broader	um:SBJV	.
-:NUMBp 	skos:broader	um:PL	.
-:NUMBs 	skos:broader	um:SG	.
-:PERS1 	skos:broader	um:1	.
-:PERS2 	skos:broader	um:2	.
-:PERS3 	skos:broader	um:3	.
-:TENSa 	skos:broader	um:PFV	.
-:TENSi 	skos:broader	um:IPFV	.
-:TENSp 	skos:broader	um:PRS .
-:VOICa 	skos:broader	um:ACT .
-:VOICp 	skos:broader	um:PASS .
+# CC: original was :CASEa, etc., but must be :case_a, see iswoc.owl
+
+:case_a 	skos:broader	um:ACC	.
+:case_b 	skos:broader	um:ABL	.
+:case_d 	skos:broader	um:DAT	.
+:case_g 	skos:broader	um:GEN	.
+:case_i 	skos:broader	um:INS	.
+:casei_ 	skos:broader	um:IN	.  # CC: is here a typo?  
+:case_n 	skos:broader	um:NOM	.
+:case_v 	skos:broader	um:VOC	.
+:mood_i 	skos:broader	um:IND	.
+:mood_m 	skos:broader	um:IMP	.
+:mood_n 	skos:broader	um:NFIN	.
+:mood_p 	skos:broader	um:V.PTCP .
+:mood_s 	skos:broader	um:SBJV	.
+:number_p 	skos:broader	um:PL	.
+:number_s 	skos:broader	um:SG	.
+:person_1 	skos:broader	um:1	.
+:person_2 	skos:broader	um:2	.
+:person_3 	skos:broader	um:3	.
+:tense_a 	skos:broader	um:PFV	.
+:tense_i 	skos:broader	um:IPFV	.
+:tense_p 	skos:broader	um:PRS .
+:voice_a 	skos:broader	um:ACT .
+:voice_p 	skos:broader	um:PASS .
 
