@@ -47,7 +47,7 @@
 :case_d 	skos:broader	um:DAT	.
 :case_g 	skos:broader	um:GEN	.
 :case_i 	skos:broader	um:INS	.
-:casei_ 	skos:broader	um:IN	.  # CC: is here a typo?  
+:case_l 	skos:broader	um:IN	.
 :case_n 	skos:broader	um:NOM	.
 :case_v 	skos:broader	um:VOC	.
 :mood_i 	skos:broader	um:IND	.
