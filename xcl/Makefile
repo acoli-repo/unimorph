@@ -19,8 +19,8 @@ all: xcl
 # (5) link to unimorph (continue after errors)
 xcl: ../tools/conll-rdf/run.sh
 	-sort -u src/armenian_dict.csv | \
-	sed s/'$$'/'\n\n'/g | \
-	../tools/conll-rdf/run.sh CoNLLStreamExtractor http://ignore.me/ LEMMA WORD POS POS_COARSE FEATS | \
+	sed -e s/'$$'/'\n\n'/g -e s/';'/'\t'/g | \
+	../tools/conll-rdf/run.sh CoNLLStreamExtractor http://ignore.me/ IGN IGN LEMMA WORD POS POS_COARSE FEATS | \
 	../tools/conll-rdf/run.sh CoNLLRDFUpdater \
 		-custom -model http://purl.org/olia/owl/experimental/unimorph/unimorph.owl http://purl.org/olia/unimorph.owl \
 		-custom -model http://purl.org/olia/owl/experimental/iswoc.owl http://purl.org/olia/unimorph.owl \
@@ -32,8 +32,8 @@ xcl: ../tools/conll-rdf/run.sh
 # same as xcl, but no file created
 debug: ../tools/conll-rdf/run.sh
 	-sort -u src/armenian_dict.csv | \
-	sed s/'$$'/'\n\n'/g | \
-	../tools/conll-rdf/run.sh CoNLLStreamExtractor http://ignore.me/ LEMMA WORD POS POS_COARSE FEATS | \
+	sed -e s/'$$'/'\n\n'/g -e s/';'/'\t'/g | \
+	../tools/conll-rdf/run.sh CoNLLStreamExtractor http://ignore.me/ IGN IGN LEMMA WORD POS POS_COARSE FEATS | \
 	../tools/conll-rdf/run.sh CoNLLRDFUpdater \
 		-custom -model http://purl.org/olia/owl/experimental/unimorph/unimorph.owl http://purl.org/olia/unimorph.owl \
 		-custom -model http://purl.org/olia/owl/experimental/iswoc.owl http://purl.org/olia/unimorph.owl \
