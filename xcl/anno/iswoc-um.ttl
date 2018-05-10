@@ -3,7 +3,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix um: <http://purl.org/olia/unimorph.owl#> .
+@prefix um: <http://purl.org/olia/unimorph.owl#> .  
+	#accessible under: http://www.acoli.informatik.uni-frankfurt.de/resources/olia/owl/experimental/unimorph/unimorph.owl #
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <iswoc-um.ttl> a owl:Ontology;
@@ -29,7 +30,7 @@
 :C- 	skos:broader	um:CONJ	.
 :I- 	skos:broader	um:INTJ	.
 :Nb 	skos:broader	um:N	.
-:Ne	skos:broader	um:PROPN .
+:Ne		skos:broader	um:PROPN .
 :Pc 	skos:broader	um:PRO	.
 :Pd 	skos:broader	um:PRO	.
 :Pi 	skos:broader	um:PRO	.
@@ -57,12 +58,11 @@
 :mood_s 	skos:broader	um:SBJV	.
 :number_p 	skos:broader	um:PL	.
 :number_s 	skos:broader	um:SG	.
-:person_1 	skos:broader	um:1	.
-:person_2 	skos:broader	um:2	.
-:person_3 	skos:broader	um:3	.
+:person_1 	skos:broader	um:firstPerson	.
+:person_2 	skos:broader	um:secondPerson	.
+:person_3 	skos:broader	um:thirdPerson	.
 :tense_a 	skos:broader	um:PFV	.
 :tense_i 	skos:broader	um:IPFV	.
 :tense_p 	skos:broader	um:PRS .
 :voice_a 	skos:broader	um:ACT .
 :voice_p 	skos:broader	um:PASS .
-
