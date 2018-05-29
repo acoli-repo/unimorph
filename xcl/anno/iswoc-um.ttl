@@ -29,8 +29,11 @@
 :Du 	skos:broader	um:ADV	.
 :C- 	skos:broader	um:CONJ	.
 :I- 	skos:broader	um:INTJ	.
+:G-		skos:broader	um:CONJ	.
+:Ma		skos:broader	um:NUM	.
+:Mo		skos:broader	um:NUM	.
 :Nb 	skos:broader	um:N	.
-:Ne		skos:broader	um:PROPN .
+:Ne		skos:broader	um:PROPN	.
 :Pc 	skos:broader	um:PRO	.
 :Pd 	skos:broader	um:PRO	.
 :Pi 	skos:broader	um:PRO	.
@@ -39,7 +42,11 @@
 :Pr 	skos:broader	um:PRO	.
 :Ps 	skos:broader	um:PRO	.
 :Px 	skos:broader	um:PRO	.
+:R-		skos:broader	um:ADP	.
 :V- 	skos:broader	um:V	.
+#HS: missing: iswoc/proiel infinitive marker - N; foreign word - F; quantifier - Py
+
+
 
 # CC: original was :CASEa, etc., but must be :case_a, see iswoc.owl
 
